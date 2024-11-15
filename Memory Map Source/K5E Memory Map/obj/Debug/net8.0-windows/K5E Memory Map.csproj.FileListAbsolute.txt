@@ -1,0 +1,525 @@
+E:\AAARemote\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.exe
+E:\AAARemote\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.deps.json
+E:\AAARemote\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.runtimeconfig.json
+E:\AAARemote\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.dll
+E:\AAARemote\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.pdb
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\MainWindow.g.cs
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\DisplayMenu.g.cs
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\FullGraph.g.cs
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MainMenu.g.cs
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MemDisplay.g.cs
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Node.g.cs
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\NodeDetails.g.cs
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\ProcessingState.g.cs
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SmallGraph.g.cs
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\TagButtons.g.cs
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\App.g.cs
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map_MarkupCompile.cache
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map_MarkupCompile.lref
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\MainWindow.baml
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\DisplayMenu.baml
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\FullGraph.baml
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MainMenu.baml
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MemDisplay.baml
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Node.baml
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\NodeDetails.baml
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\ProcessingState.baml
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SmallGraph.baml
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\TagButtons.baml
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.g.resources
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.GeneratedMSBuildEditorConfig.editorconfig
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.AssemblyInfoInputs.cache
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.AssemblyInfo.cs
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.csproj.CoreCompileInputs.cache
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.dll
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\refint\K5E Memory Map.dll
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.pdb
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.genruntimeconfig.cache
+E:\AAARemote\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\ref\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.exe
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.deps.json
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.runtimeconfig.json
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.pdb
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\Microsoft.Msagl.dll
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\Microsoft.Msagl.Drawing.dll
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\Microsoft.Msagl.GraphViewerGdi.dll
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.csproj.AssemblyReference.cache
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\MainWindow.g.cs
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Analysis.g.cs
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\DisplayMenu.g.cs
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\FullGraph.g.cs
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MainMenu.g.cs
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MemDisplay.g.cs
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Merge.g.cs
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Node.g.cs
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\NodeDetails.g.cs
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Practice.g.cs
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\ProcessingState.g.cs
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SaveMenu.g.cs
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SelectedDetails.g.cs
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SmallGraph.g.cs
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\TagButtons.g.cs
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\App.g.cs
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map_MarkupCompile.cache
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map_MarkupCompile.lref
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\MainWindow.baml
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Analysis.baml
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\DisplayMenu.baml
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\FullGraph.baml
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MainMenu.baml
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MemDisplay.baml
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Merge.baml
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Node.baml
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\NodeDetails.baml
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Practice.baml
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\ProcessingState.baml
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SaveMenu.baml
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SelectedDetails.baml
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SmallGraph.baml
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\TagButtons.baml
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.g.resources
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.GeneratedMSBuildEditorConfig.editorconfig
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.AssemblyInfoInputs.cache
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.AssemblyInfo.cs
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.csproj.CoreCompileInputs.cache
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memo.9403F3C3.Up2Date
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\refint\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.pdb
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.genruntimeconfig.cache
+E:\B - SFA\K5 Memory Maps\v2\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\ref\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.exe
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.deps.json
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.runtimeconfig.json
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.pdb
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\Microsoft.Msagl.dll
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\Microsoft.Msagl.Drawing.dll
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\Microsoft.Msagl.GraphViewerGdi.dll
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.csproj.AssemblyReference.cache
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\MainWindow.g.cs
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Analysis.g.cs
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\DisplayMenu.g.cs
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\FullGraph.g.cs
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MainMenu.g.cs
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MemDisplay.g.cs
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Merge.g.cs
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Node.g.cs
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\NodeDetails.g.cs
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Practice.g.cs
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\ProcessingState.g.cs
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SaveMenu.g.cs
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SelectedDetails.g.cs
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SmallGraph.g.cs
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\TagButtons.g.cs
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\App.g.cs
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map_MarkupCompile.cache
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map_MarkupCompile.lref
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\MainWindow.baml
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Analysis.baml
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\DisplayMenu.baml
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\FullGraph.baml
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MainMenu.baml
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MemDisplay.baml
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Merge.baml
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Node.baml
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\NodeDetails.baml
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Practice.baml
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\ProcessingState.baml
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SaveMenu.baml
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SelectedDetails.baml
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SmallGraph.baml
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\TagButtons.baml
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.g.resources
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.GeneratedMSBuildEditorConfig.editorconfig
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.AssemblyInfoInputs.cache
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.AssemblyInfo.cs
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.csproj.CoreCompileInputs.cache
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memo.9403F3C3.Up2Date
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\refint\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.pdb
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.genruntimeconfig.cache
+E:\B - SFA\K5 Memory Maps\v3\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\ref\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.csproj.AssemblyReference.cache
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\MainWindow.g.cs
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Analysis.g.cs
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\DisplayMenu.g.cs
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\FullGraph.g.cs
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MainMenu.g.cs
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MemDisplay.g.cs
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Merge.g.cs
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Node.g.cs
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\NodeDetails.g.cs
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Practice.g.cs
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\ProcessingState.g.cs
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SaveMenu.g.cs
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SelectedDetails.g.cs
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SmallGraph.g.cs
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\TagButtons.g.cs
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\App.g.cs
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map_MarkupCompile.cache
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map_MarkupCompile.lref
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\refint\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.pdb
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.exe
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.deps.json
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.runtimeconfig.json
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.pdb
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\Microsoft.Msagl.dll
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\Microsoft.Msagl.Drawing.dll
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\Microsoft.Msagl.GraphViewerGdi.dll
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\MainWindow.baml
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Analysis.baml
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\DisplayMenu.baml
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\FullGraph.baml
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MainMenu.baml
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MemDisplay.baml
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Merge.baml
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Node.baml
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\NodeDetails.baml
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Practice.baml
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\ProcessingState.baml
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SaveMenu.baml
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SelectedDetails.baml
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SmallGraph.baml
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\TagButtons.baml
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.g.resources
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.GeneratedMSBuildEditorConfig.editorconfig
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.AssemblyInfoInputs.cache
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.AssemblyInfo.cs
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.csproj.CoreCompileInputs.cache
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memo.9403F3C3.Up2Date
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.genruntimeconfig.cache
+E:\B - SFA\K5 Memory Maps\v4\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\ref\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.exe
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.deps.json
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.runtimeconfig.json
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.pdb
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\Microsoft.Msagl.dll
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\Microsoft.Msagl.Drawing.dll
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\Microsoft.Msagl.GraphViewerGdi.dll
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.csproj.AssemblyReference.cache
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\MainWindow.g.cs
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Analysis.g.cs
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\DisplayMenu.g.cs
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\FullGraph.g.cs
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MainMenu.g.cs
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MemDisplay.g.cs
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Merge.g.cs
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Node.g.cs
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\NodeDetails.g.cs
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Practice.g.cs
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\ProcessingState.g.cs
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SaveMenu.g.cs
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SelectedDetails.g.cs
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SmallGraph.g.cs
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\TagButtons.g.cs
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\App.g.cs
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map_MarkupCompile.cache
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map_MarkupCompile.lref
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\MainWindow.baml
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Analysis.baml
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\DisplayMenu.baml
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\FullGraph.baml
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MainMenu.baml
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MemDisplay.baml
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Merge.baml
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Node.baml
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\NodeDetails.baml
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Practice.baml
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\ProcessingState.baml
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SaveMenu.baml
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SelectedDetails.baml
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SmallGraph.baml
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\TagButtons.baml
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.g.resources
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.GeneratedMSBuildEditorConfig.editorconfig
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.AssemblyInfoInputs.cache
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.AssemblyInfo.cs
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.csproj.CoreCompileInputs.cache
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memo.9403F3C3.Up2Date
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\refint\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.pdb
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.genruntimeconfig.cache
+E:\B - SFA\K5 Memory Maps\v5\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\ref\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.exe
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.deps.json
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.runtimeconfig.json
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.pdb
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\Microsoft.Msagl.dll
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\Microsoft.Msagl.Drawing.dll
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\Microsoft.Msagl.GraphViewerGdi.dll
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.csproj.AssemblyReference.cache
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\MainWindow.g.cs
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Analysis.g.cs
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\DisplayMenu.g.cs
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\FullGraph.g.cs
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MainMenu.g.cs
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MemDisplay.g.cs
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Merge.g.cs
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Node.g.cs
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\NodeDetails.g.cs
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Practice.g.cs
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\ProcessingState.g.cs
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SaveMenu.g.cs
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SelectedDetails.g.cs
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SmallGraph.g.cs
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\TagButtons.g.cs
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\App.g.cs
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map_MarkupCompile.cache
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map_MarkupCompile.lref
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\MainWindow.baml
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Analysis.baml
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\DisplayMenu.baml
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\FullGraph.baml
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MainMenu.baml
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MemDisplay.baml
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Merge.baml
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Node.baml
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\NodeDetails.baml
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Practice.baml
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\ProcessingState.baml
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SaveMenu.baml
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SelectedDetails.baml
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SmallGraph.baml
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\TagButtons.baml
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.g.resources
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.GeneratedMSBuildEditorConfig.editorconfig
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.AssemblyInfoInputs.cache
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.AssemblyInfo.cs
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.csproj.CoreCompileInputs.cache
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memo.9403F3C3.Up2Date
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\refint\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.pdb
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.genruntimeconfig.cache
+E:\B - SFA\K5 Memory Maps\v6\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\ref\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.exe
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.deps.json
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.runtimeconfig.json
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.pdb
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\Microsoft.Msagl.dll
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\Microsoft.Msagl.Drawing.dll
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\Microsoft.Msagl.GraphViewerGdi.dll
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.csproj.AssemblyReference.cache
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\MainWindow.g.cs
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Analysis.g.cs
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\DisplayMenu.g.cs
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\FullGraph.g.cs
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MainMenu.g.cs
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MemDisplay.g.cs
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Merge.g.cs
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Node.g.cs
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\NodeDetails.g.cs
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Practice.g.cs
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\ProcessingState.g.cs
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SaveMenu.g.cs
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SelectedDetails.g.cs
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SmallGraph.g.cs
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\TagButtons.g.cs
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\App.g.cs
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map_MarkupCompile.cache
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map_MarkupCompile.lref
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\MainWindow.baml
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Analysis.baml
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\DisplayMenu.baml
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\FullGraph.baml
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MainMenu.baml
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MemDisplay.baml
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Merge.baml
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Node.baml
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\NodeDetails.baml
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Practice.baml
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\ProcessingState.baml
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SaveMenu.baml
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SelectedDetails.baml
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SmallGraph.baml
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\TagButtons.baml
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.g.resources
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.GeneratedMSBuildEditorConfig.editorconfig
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.AssemblyInfoInputs.cache
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.AssemblyInfo.cs
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.csproj.CoreCompileInputs.cache
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memo.9403F3C3.Up2Date
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\refint\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.pdb
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.genruntimeconfig.cache
+E:\B - SFA\K5 Memory Maps\v7\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\ref\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.exe
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.deps.json
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.runtimeconfig.json
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.pdb
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\Microsoft.Msagl.dll
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\Microsoft.Msagl.Drawing.dll
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\Microsoft.Msagl.GraphViewerGdi.dll
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.csproj.AssemblyReference.cache
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\MainWindow.g.cs
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Analysis.g.cs
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\DisplayMenu.g.cs
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\FullGraph.g.cs
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MainMenu.g.cs
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MemDisplay.g.cs
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Merge.g.cs
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Node.g.cs
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\NodeDetails.g.cs
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Practice.g.cs
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\ProcessingState.g.cs
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SaveMenu.g.cs
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SelectedDetails.g.cs
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SmallGraph.g.cs
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\TagButtons.g.cs
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\App.g.cs
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map_MarkupCompile.cache
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map_MarkupCompile.lref
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\MainWindow.baml
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Analysis.baml
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\DisplayMenu.baml
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\FullGraph.baml
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MainMenu.baml
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MemDisplay.baml
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Merge.baml
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Node.baml
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\NodeDetails.baml
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Practice.baml
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\ProcessingState.baml
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SaveMenu.baml
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SelectedDetails.baml
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SmallGraph.baml
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\TagButtons.baml
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.g.resources
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.GeneratedMSBuildEditorConfig.editorconfig
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.AssemblyInfoInputs.cache
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.AssemblyInfo.cs
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.csproj.CoreCompileInputs.cache
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memo.9403F3C3.Up2Date
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\refint\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.pdb
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.genruntimeconfig.cache
+E:\B - SFA\K5 Memory Maps\v8\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\ref\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.exe
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.deps.json
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.runtimeconfig.json
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.pdb
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\Microsoft.Msagl.dll
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\Microsoft.Msagl.Drawing.dll
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\Microsoft.Msagl.GraphViewerGdi.dll
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.csproj.AssemblyReference.cache
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\MainWindow.g.cs
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Analysis.g.cs
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\DisplayMenu.g.cs
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\FullGraph.g.cs
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MainMenu.g.cs
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MemDisplay.g.cs
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Merge.g.cs
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Node.g.cs
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\NodeDetails.g.cs
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Practice.g.cs
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\ProcessingState.g.cs
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SaveMenu.g.cs
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SelectedDetails.g.cs
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SmallGraph.g.cs
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\TagButtons.g.cs
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\App.g.cs
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map_MarkupCompile.cache
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map_MarkupCompile.lref
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\MainWindow.baml
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Analysis.baml
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\DisplayMenu.baml
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\FullGraph.baml
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MainMenu.baml
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MemDisplay.baml
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Merge.baml
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Node.baml
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\NodeDetails.baml
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Practice.baml
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\ProcessingState.baml
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SaveMenu.baml
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SelectedDetails.baml
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SmallGraph.baml
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\TagButtons.baml
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.g.resources
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.GeneratedMSBuildEditorConfig.editorconfig
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.AssemblyInfoInputs.cache
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.AssemblyInfo.cs
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.csproj.CoreCompileInputs.cache
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memo.9403F3C3.Up2Date
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\refint\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.pdb
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.genruntimeconfig.cache
+E:\B - SFA\K5 Memory Maps\v9\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\ref\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.exe
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.deps.json
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.runtimeconfig.json
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\K5E Memory Map.pdb
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\Microsoft.Msagl.dll
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\Microsoft.Msagl.Drawing.dll
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\bin\Debug\net8.0-windows\Microsoft.Msagl.GraphViewerGdi.dll
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.csproj.AssemblyReference.cache
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\MainWindow.g.cs
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Analysis.g.cs
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\DisplayMenu.g.cs
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\FullGraph.g.cs
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MainMenu.g.cs
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MemDisplay.g.cs
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Merge.g.cs
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Node.g.cs
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\NodeDetails.g.cs
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Practice.g.cs
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\ProcessingState.g.cs
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SaveMenu.g.cs
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SelectedDetails.g.cs
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SmallGraph.g.cs
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\TagButtons.g.cs
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\App.g.cs
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map_MarkupCompile.cache
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map_MarkupCompile.lref
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\MainWindow.baml
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Analysis.baml
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\DisplayMenu.baml
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\FullGraph.baml
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MainMenu.baml
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\MemDisplay.baml
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Merge.baml
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Node.baml
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\NodeDetails.baml
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\Practice.baml
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\ProcessingState.baml
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SaveMenu.baml
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SelectedDetails.baml
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\SmallGraph.baml
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\UIModule\TagButtons.baml
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.g.resources
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.GeneratedMSBuildEditorConfig.editorconfig
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.AssemblyInfoInputs.cache
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.AssemblyInfo.cs
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.csproj.CoreCompileInputs.cache
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memo.9403F3C3.Up2Date
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\refint\K5E Memory Map.dll
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.pdb
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\K5E Memory Map.genruntimeconfig.cache
+E:\B - SFA\K5 Memory Maps\v10\K5E Memory Map\K5E Memory Map\obj\Debug\net8.0-windows\ref\K5E Memory Map.dll

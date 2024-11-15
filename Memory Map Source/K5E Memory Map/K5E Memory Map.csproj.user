@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="UIModule\Analysis.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UIModule\DisplayMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UIModule\FullGraph.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UIModule\MainMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UIModule\MemDisplay.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UIModule\Merge.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UIModule\Node.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UIModule\NodeDetails.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UIModule\Practice.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UIModule\ProcessingState.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UIModule\SaveMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UIModule\SelectedDetails.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UIModule\SmallGraph.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UIModule\TagButtons.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UIModule\Analysis.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UIModule\DisplayMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UIModule\FullGraph.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UIModule\MainMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UIModule\MemDisplay.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UIModule\Merge.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UIModule\Node.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UIModule\NodeDetails.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UIModule\Practice.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UIModule\ProcessingState.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UIModule\SaveMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UIModule\SelectedDetails.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UIModule\SmallGraph.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UIModule\TagButtons.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

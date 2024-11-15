@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\B - SFA\\K5 Memory Maps\\v4\\K5E Memory Map\\K5E Memory Map\\K5E Memory Map.csproj": {}
+  },
+  "projects": {
+    "E:\\B - SFA\\K5 Memory Maps\\v4\\K5E Memory Map\\K5E Memory Map\\K5E Memory Map.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\B - SFA\\K5 Memory Maps\\v4\\K5E Memory Map\\K5E Memory Map\\K5E Memory Map.csproj",
+        "projectName": "K5E Memory Map",
+        "projectPath": "E:\\B - SFA\\K5 Memory Maps\\v4\\K5E Memory Map\\K5E Memory Map\\K5E Memory Map.csproj",
+        "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
+        "outputPath": "E:\\B - SFA\\K5 Memory Maps\\v4\\K5E Memory Map\\K5E Memory Map\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.Msagl": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.Msagl.Drawing": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.Msagl.GraphViewerGDI": {
+              "target": "Package",
+              "version": "[1.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

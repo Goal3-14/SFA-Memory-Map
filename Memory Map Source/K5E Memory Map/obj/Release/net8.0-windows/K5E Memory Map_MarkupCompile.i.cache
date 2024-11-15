@@ -1,0 +1,20 @@
+﻿K5E Memory Map
+1.0.0.0
+
+winexe
+C#
+.cs
+E:\B - SFA\K5 Memory Maps\v1.0\K5E Memory Map Source\K5E Memory Map\obj\Release\net8.0-windows\
+K5E_Memory_Map
+none
+false
+TRACE;RELEASE;NET;NET8_0;NETCOREAPP
+E:\B - SFA\K5 Memory Maps\v1.0\K5E Memory Map Source\K5E Memory Map\App.xaml
+15-1795305447
+
+25412050878
+2101056148869
+MainWindow.xaml;UIModule\Analysis.xaml;UIModule\DisplayMenu.xaml;UIModule\FullGraph.xaml;UIModule\MainMenu.xaml;UIModule\MemDisplay.xaml;UIModule\Merge.xaml;UIModule\Node.xaml;UIModule\NodeDetails.xaml;UIModule\Practice.xaml;UIModule\ProcessingState.xaml;UIModule\SaveMenu.xaml;UIModule\SelectedDetails.xaml;UIModule\SmallGraph.xaml;UIModule\TagButtons.xaml;
+
+False
+

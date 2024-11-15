@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="K5E_Memory_Map.UIModule.SaveMenu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:K5E_Memory_Map.UIModule"
+             mc:Ignorable="d" 
+             d:DesignHeight="374" d:DesignWidth="667">
+    <Grid Background="Gray">
+        <Button Content="New Root"   Width="100" Height="40" Margin="205,18,362,316" Click="NewRoot"/>
+        <Button Content="New Tree"   Width="100" Height="40" Margin="205,68,362,266" Click="NewTree"/>
+        <StackPanel Margin="23,180,523,45">
+            <TextBlock Text="Load File" FontSize="30" Width="290"/>
+            <Button Content="Browse" Click="LoadFile"/>
+            <TextBlock Text="Loaded File:"/>
+            <TextBlock Text="Nodes:"/>
+            <TextBlock Text="Root:"/>
+            <TextBlock Text="States:"/>
+        </StackPanel>
+
+
+        <StackPanel Margin="23,18,523,207">
+            <TextBlock Text="Save File" FontSize="30" Width="290"/>
+            <TextBox Name ="SaveText"/>
+            <Button Content="Save" Click="SaveFile"/>
+            <TextBlock Text="Loaded File:"/>
+            <TextBlock Text="Nodes:"/>
+            <TextBlock Text="Root:"/>
+            <TextBlock Text=""/>
+        </StackPanel>
+    </Grid>
+</UserControl>

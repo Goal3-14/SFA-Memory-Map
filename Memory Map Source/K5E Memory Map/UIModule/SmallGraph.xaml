@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="K5E_Memory_Map.UIModule.SmallGraph"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:K5E_Memory_Map.UIModule"
+             mc:Ignorable="d" 
+             d:DesignHeight="374" d:DesignWidth="667">
+    <Grid Name ="Grid" Background="Transparent">
+        <WindowsFormsHost Name="WindowsHost" Visibility="Hidden" Panel.ZIndex="0" AllowDrop="False"/>
+
+        <!--Height="374" Width="667"-->
+
+        <ScrollViewer x:Name="SScrollViewer" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Background="Transparent">
+            <Canvas Name ="MyCanvas" Background="Transparent"/>
+        </ScrollViewer>
+
+ 
+    </Grid>
+
+</UserControl>

@@ -1,0 +1,46 @@
+﻿<UserControl x:Class="K5E_Memory_Map.UIModule.DisplayMenu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:K5E_Memory_Map.UIModule"
+             mc:Ignorable="d" 
+             d:DesignHeight="374" d:DesignWidth="150">
+    <Grid Background="LightGray">
+        <TextBlock VerticalAlignment="Top" Text="Display Options" Padding="5,0,0,0" FontSize="20"/>
+
+
+        <StackPanel Margin="1,30,0,0">
+            <CheckBox Name="Text" Content="Text" IsChecked="{Binding IsOption1Checked}" FontSize="15" Checked="TextCheck" Unchecked="TextUn"/>
+            <CheckBox Name="Tag" Content="Tag" IsChecked="{Binding IsOption2Checked}" FontSize="15" Checked="TagCheck" Unchecked="TagUn"/>
+            <CheckBox Name ="Mem" Content="Mem" IsChecked="{Binding IsOption3Checked}" FontSize="15" Checked="MemCheck" Unchecked="MemUn"/>
+            <CheckBox Name="Colour" Content="Colour" IsChecked="{Binding IsOption4Checked}" FontSize="15" Checked="ColCheck" Unchecked="ColUn"/>
+            <CheckBox Name="Stated" Content="Stated" IsChecked="{Binding IsOption4Checked}" FontSize="15" Checked="StatedCheck" Unchecked="StatedUn"/>
+            <TextBlock Text="Memory Length:" FontSize="15"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Margin="1,150,0,0">
+            <RadioButton Tag ="4" Content="4" IsChecked="{Binding IsOption1Selected}" GroupName="MemLen" FontSize="15" Checked="SubMemCheck"/>
+            <RadioButton Name ="DefSub" Tag ="8" Content="8" IsChecked="{Binding IsOption2Selected}" GroupName="MemLen" FontSize="15" Checked="SubMemCheck"/>
+            <RadioButton Tag ="16" Content="16" IsChecked="{Binding IsOption3Selected}" GroupName="MemLen" FontSize="15" Checked="SubMemCheck"/>
+            <RadioButton Tag ="32" Content="32" IsChecked="{Binding IsOption4Selected}" GroupName="MemLen" FontSize="15" Checked="SubMemCheck"/>
+        </StackPanel>
+
+        
+
+        <StackPanel Orientation="Horizontal" Margin="1,175,0,0">
+            <TextBlock Text="Zoom " FontSize="15" Margin="0,-4,0,0"/>
+            <RadioButton IsChecked="{Binding IsOption1Selected}" GroupName="Zoom" FontSize="15"/>
+            <RadioButton IsChecked="{Binding IsOption2Selected}" GroupName="Zoom" FontSize="15"/>
+            <RadioButton IsChecked="{Binding IsOption3Selected}" GroupName="Zoom" FontSize="15"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" Margin="1,195,0,0">
+            <CheckBox Name="AltGraph" Content="Alt Graph" IsChecked="{Binding IsOption1Checked}" FontSize="15" Checked="MSAGLGraph" Unchecked="NormalGraph"/>
+            <CheckBox Name="Focus" IsChecked="{Binding IsFocusChecked}" Content="Auto Focus Current Mem Value"  FontSize="15" Checked="SetFocus" Unchecked="SetUnFocus"/>
+            <Button Content="Recentre Current Mem" Click="CentreFull"  Height ="30" Width ="130" Margin="-16,0,0,0"/>
+            <Button Content="Reset Zoom" Click="ResetZoom"  Height ="30" Width ="130" Margin="-16,5,0,0"/>
+        </StackPanel>
+        
+    </Grid>
+</UserControl>
