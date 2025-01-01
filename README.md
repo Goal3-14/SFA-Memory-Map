@@ -1,4 +1,4 @@
-To keep track of sequences and branches of memory values for the game Star Fox Adventures. To be used with https://github.com/Goal3-14/K5E-Memory-Viewer which is a modified version of [zcanann's memory heap visualiser](https://github.com/zcanann/K5E) required to actually access the memory and send it to the mapper.
+To keep track of sequences and branches of memory values for the game Star Fox Adventures. To be used with https://github.com/Goal3-14/K5E-Memory-Viewer/releases/tag/v2.0-US which is a modified version of [zcanann's memory heap visualiser](https://github.com/zcanann/K5E) required to actually access the memory and send it to the mapper.
 
 
 
