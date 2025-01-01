@@ -29,6 +29,7 @@ namespace K5E_Memory_Map.UIModule
         }
         public SmallGraph _SmallGraph;
         public FullGraph _FullGraph;
+        public SelectedDetails _SelectedDetails;
 
         private string _menuchoice = "0";
         public string MenuChoice
@@ -42,7 +43,15 @@ namespace K5E_Memory_Map.UIModule
                 if (_menuchoice != value)
                 {
                     _menuchoice = value; OnPropertyChanged(nameof(MenuChoice));
-                    Debug.WriteLine(_menuchoice.ToString());
+                    //Debug.WriteLine(_menuchoice.ToString());
+                    if (_menuchoice == "4")
+                    {
+                        ShowPrac();
+                    }
+                    else
+                    {
+                        HidePrac();
+                    }
                 }
             }
         }
@@ -126,7 +135,7 @@ namespace K5E_Memory_Map.UIModule
 
             if (sender is RadioButton button)
             {
-                Debug.WriteLine(button.Tag);
+                //Debug.WriteLine(button.Tag);
                 _SmallGraph.SubMem = Convert.ToInt32(button.Tag);
                 _FullGraph.SubMem = Convert.ToInt32(button.Tag);
             }
@@ -162,5 +171,54 @@ namespace K5E_Memory_Map.UIModule
         {
             _FullGraph.ResetZoom();
         }
+
+
+
+        private void ShowPrac()
+        {
+            PracButt.Visibility = Visibility.Visible;
+        }
+
+        private void HidePrac()
+        {
+            PracButt.Visibility= Visibility.Collapsed;
+        }
+
+
+        private void PracGood(object sender, RoutedEventArgs e)
+        {
+            _SelectedDetails.PracGood();
+        }
+
+        private void PracBad(object sender, RoutedEventArgs e)
+        {
+            _SelectedDetails.PracBad();
+        }
+
+        private void PracNeutral(object sender, RoutedEventArgs e)
+        {
+            _SelectedDetails.PracNeutral();
+        }
+
+        private void UpGood(object sender, RoutedEventArgs e)
+        {
+            _SelectedDetails.UpGood();
+        }
+
+        private void DownBad(object sender, RoutedEventArgs e)
+        {
+            _SelectedDetails.DownBad();
+        }
+
+        private void PracClear(object sender, RoutedEventArgs e)
+        {
+            _SelectedDetails._MainWindow.PracClear();
+        }
+
+        private void GoRoot(object sender, RoutedEventArgs e)
+        {
+            _FullGraph.CentreRoot();
+        }
+
     }
 }

@@ -22,6 +22,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 using System.IO.MemoryMappedFiles;
+using static System.Net.WebRequestMethods;
 
 namespace K5E_Memory_Map.UIModule
 {
@@ -68,6 +69,7 @@ namespace K5E_Memory_Map.UIModule
 
                     //Add Stated Property
                     string fileExtension = "*.sav";
+                    int States1 = 0;
                     try
                     {
                         // Get all files with the specified extension in the folder
@@ -82,6 +84,7 @@ namespace K5E_Memory_Map.UIModule
                             if (loadedNodeHash.TryGetValue(fileName, out TreeNode foundObject))
                             {
                                foundObject.Stated = true;
+                               States1++;
                             }
                         }
                     }
@@ -90,7 +93,8 @@ namespace K5E_Memory_Map.UIModule
                         Console.WriteLine($"An error occurred: {ex.Message}");
                     }
 
-
+                    _MainWindow.FFullGraph.NodeHash = loadedNodeHash;
+                    _MainWindow.UpdateGraphs();
 
                     _mainLoop.LoadNodeHash = loadedNodeHash;
                     //_MainWindow.NodeHash = loadedNodeHash;
@@ -101,6 +105,17 @@ namespace K5E_Memory_Map.UIModule
                     // Use loadedNodeHash as needed, e.g., update the UI or internal data structures
                     Debug.WriteLine("Graph data loaded successfully.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
 
+                    
+                    
+
+                    TreeNode Start = loadedNodeHash.First().Value;
+                    string RootMem1 = ParentCheck(Start);
+                    _MainWindow.FFullGraph.Root = RootMem1;
+
+                    FileName1.Text = "Loaded File: " + System.IO.Path.GetFileNameWithoutExtension(openFileDialog.FileName);
+                    NodeCount1.Text = "Nodes: " + loadedNodeHash.Count;
+                    Root1.Text = "Root: " + RootMem1;
+                    NumStates1.Text = "Save States: " + States1.ToString();
                     //_MainWindow.FFullGraph.StartGraph(loadedNodeHash);
                 }
                 catch (Exception ex)
@@ -111,6 +126,17 @@ namespace K5E_Memory_Map.UIModule
 
         }
 
+        private string ParentCheck(TreeNode Node)
+        {
+            if (Node.Parents.Count == 0)
+            {
+                return Node.Mem;
+            }
+            else
+            {
+                return (ParentCheck(Node.Parents.First()));
+            }
+        }
 
         private void SaveFile(object sender, RoutedEventArgs e)
         {
@@ -188,6 +214,7 @@ namespace K5E_Memory_Map.UIModule
                 var NewNode = new TreeNode(Mem, _mainLoop.NodeHash, null);
                 _MainWindow.CurrentNode = NewNode;
                 _MainWindow.NodeHash = _mainLoop.NodeHash;
+                _MainWindow.FFullGraph.Root = Mem;
                 _MainWindow.UpdateCurrent();
                 _MainWindow.UpdateGraphs();
             }
@@ -217,7 +244,7 @@ namespace K5E_Memory_Map.UIModule
             }
             catch (IOException ex)
             {
-                Console.WriteLine("Could not open memory-mapped file for MemText: " + ex.Message);
+                //Console.WriteLine("Could not open memory-mapped file for MemText: " + ex.Message);
                 return null;
             }
 

@@ -7,6 +7,28 @@
              mc:Ignorable="d" 
              d:DesignHeight="80" d:DesignWidth="250">
     <Grid Background="LightGray">
-        <TextBlock Text=" Fox     Mount       ESW/Other" />
+        <TextBlock Text="        Fox                Mount             ESW" />
+
+        <StackPanel Orientation="Vertical" Margin="5,18,0,0">
+            <TextBlock Text="X|" />
+            <TextBlock Text="Y|" />
+            <TextBlock Text="Z|" />
+        </StackPanel>
+        <StackPanel Orientation="Vertical" Margin="18,18,0,0">
+            <TextBlock Text="{Binding FoxX, StringFormat = ' {0}'}" />
+            <TextBlock Text="{Binding FoxY, StringFormat = ' {0}'}" />
+            <TextBlock Text="{Binding FoxZ, StringFormat = ' {0}'}" />
+        </StackPanel>
+        <StackPanel Orientation="Vertical" Margin="90,18,0,0">
+            <TextBlock Text="{Binding MountX, StringFormat = ' {0}'}" />
+            <TextBlock Text="{Binding MountY, StringFormat = ' {0}'}" />
+            <TextBlock Text="{Binding MountZ, StringFormat = ' {0}'}" />
+        </StackPanel>
+        <StackPanel Orientation="Vertical" Margin="175,18,0,0">
+            <TextBlock Text="{Binding ESWX, StringFormat = ' {0}'}" />
+            <TextBlock Text="{Binding ESWY, StringFormat = ' {0}'}" />
+            <TextBlock Text="{Binding ESWZ, StringFormat = ' {0}'}" />
+        </StackPanel>
+        <Rectangle Name="ESWIndicator" Margin="0,0,0,0" Width="250" Height="15" Fill="Green" VerticalAlignment="Bottom" Visibility="Hidden"/>
     </Grid>
 </UserControl>

@@ -5,25 +5,25 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:K5E_Memory_Map.UIModule"
              mc:Ignorable="d" 
-             d:DesignHeight="80" d:DesignWidth="507">
-    
-    
+             d:DesignHeight="80" d:DesignWidth="556">
+
+
     <Grid Background="LightCyan">
         <TextBlock Text="Current Node " VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1,0,0,0" FontSize="12"/>
         <TextBlock Text="{Binding Hash, StringFormat = 'Hash: {0}'}" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1,15,0,0" FontSize="12"/>
         <TextBlock Text="{Binding NodeTag, StringFormat = 'Tag: {0}'}" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="00,30,0,0" FontSize="12"/>
-        <TextBlock Text="{Binding Stated, StringFormat = 'State: {0}'}" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="305,5,0,0" FontSize="12"/>
+        <TextBlock Text="{Binding Stated, StringFormat = 'State: {0}'}" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="385,5,0,0" FontSize="12"/>
         <TextBlock Text="{Binding NodeText, StringFormat = 'Details: {0}'}" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="1,45,0,0" FontSize="12"/>
-        <TextBox Name ="TextInput" Height="17" Width="320" HorizontalAlignment="Left" Margin="2,60,0,0"/>
-        <Button Height="17" Width="40" HorizontalAlignment="Left" Margin="321,60,0,0" Content="Save" FontSize="11" Click="SaveText"/>
-        <Button Height="17" Width="70" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="364,4.5,0,0" Content="Save State" FontSize="11" Click="Save_State"/>
-        <Button Height="17" Width="70" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="364,23.5,0,0" Content="Add Under" FontSize="11" Click="AddUnder"/>
-        <Button Height="17" Width="70" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="364,42.5,0,0" Content="" FontSize="11" Click="LoadLast"/>
-        <Button Height="17" Width="70" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="364,61.5,0,0" Content="Wait Result" FontSize="11" Click="WaitResult"/>
-        
-        
-        
+        <TextBox Name ="TextInput" Height="17" Width="420" HorizontalAlignment="Left" Margin="2,62,0,1"/>
+        <Button Height="17" Width="40" HorizontalAlignment="Left" Margin="422,62,0,1" Content="Save" FontSize="11" Click="SaveText"/>
+        <Button Height="18" Width="70" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="466,4,0,0" Content="Save State" FontSize="11" Click="Save_State"/>
+        <Button Height="16" Width="70" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="466,24,0,0" Content="Add Under" FontSize="11" Click="AddUnder"/>
+        <Button Height="18" Width="70" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="466,42,0,0" Content="Load Last" FontSize="11" Click="LoadLast"/>
+        <Button Height="16" Width="70" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="466,62,0,0" Content="Wait Result" FontSize="11" Click="WaitResult"/>
+
+
+
     </Grid>
-    
-    
+
+
 </UserControl>

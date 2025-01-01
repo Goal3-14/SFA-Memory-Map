@@ -1,0 +1,266 @@
+{
+  "95C99029EE2F5684DADC658F79FF51BA": {
+    "Mem": "95C99029EE2F5684DADC658F79FF51BA",
+    "ParentIds": [],
+    "ChildIds": [
+      "9F8BE0F0C68745D4E0F1C1E61E010FF6",
+      "537BE247FC3BD0F54911399D44B0E856",
+      "15477ED49ABC682322FD3CF46D23A558"
+    ],
+    "Tag": 11,
+    "Text": "345fff",
+    "TagText": "Swim Start",
+    "Colour": "Cyan",
+    "MountCoords": [],
+    "PracPath": null
+  },
+  "9F8BE0F0C68745D4E0F1C1E61E010FF6": {
+    "Mem": "9F8BE0F0C68745D4E0F1C1E61E010FF6",
+    "ParentIds": [
+      "95C99029EE2F5684DADC658F79FF51BA"
+    ],
+    "ChildIds": [],
+    "Tag": 15,
+    "Text": "safafgh",
+    "TagText": "Reload Map",
+    "Colour": "Magenta",
+    "MountCoords": [],
+    "PracPath": null
+  },
+  "537BE247FC3BD0F54911399D44B0E856": {
+    "Mem": "537BE247FC3BD0F54911399D44B0E856",
+    "ParentIds": [
+      "95C99029EE2F5684DADC658F79FF51BA"
+    ],
+    "ChildIds": [
+      "2244AFA68B84314DFA67DCFEDBFEB5A6"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": [],
+    "PracPath": null
+  },
+  "2244AFA68B84314DFA67DCFEDBFEB5A6": {
+    "Mem": "2244AFA68B84314DFA67DCFEDBFEB5A6",
+    "ParentIds": [
+      "537BE247FC3BD0F54911399D44B0E856"
+    ],
+    "ChildIds": [
+      "8D804D6050C38A8F429BC152D9ECF3D1"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": [],
+    "PracPath": false
+  },
+  "8D804D6050C38A8F429BC152D9ECF3D1": {
+    "Mem": "8D804D6050C38A8F429BC152D9ECF3D1",
+    "ParentIds": [
+      "2244AFA68B84314DFA67DCFEDBFEB5A6"
+    ],
+    "ChildIds": [
+      "BB78F2FD6DFA479909A034FC878474B2"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": [],
+    "PracPath": null
+  },
+  "BB78F2FD6DFA479909A034FC878474B2": {
+    "Mem": "BB78F2FD6DFA479909A034FC878474B2",
+    "ParentIds": [
+      "8D804D6050C38A8F429BC152D9ECF3D1"
+    ],
+    "ChildIds": [
+      "6651243D1A6CD46221FB41F72BB1B216"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": [],
+    "PracPath": null
+  },
+  "6651243D1A6CD46221FB41F72BB1B216": {
+    "Mem": "6651243D1A6CD46221FB41F72BB1B216",
+    "ParentIds": [
+      "BB78F2FD6DFA479909A034FC878474B2"
+    ],
+    "ChildIds": [
+      "E29D5886E69F7680399DE0476CB6A74D"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": [],
+    "PracPath": null
+  },
+  "E29D5886E69F7680399DE0476CB6A74D": {
+    "Mem": "E29D5886E69F7680399DE0476CB6A74D",
+    "ParentIds": [
+      "6651243D1A6CD46221FB41F72BB1B216"
+    ],
+    "ChildIds": [
+      "713A7C335C1C080ABCFA417E56466A9E"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": [],
+    "PracPath": null
+  },
+  "713A7C335C1C080ABCFA417E56466A9E": {
+    "Mem": "713A7C335C1C080ABCFA417E56466A9E",
+    "ParentIds": [
+      "E29D5886E69F7680399DE0476CB6A74D"
+    ],
+    "ChildIds": [
+      "47B0A6D9B99066575318F1AE759FF663"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": [],
+    "PracPath": null
+  },
+  "47B0A6D9B99066575318F1AE759FF663": {
+    "Mem": "47B0A6D9B99066575318F1AE759FF663",
+    "ParentIds": [
+      "713A7C335C1C080ABCFA417E56466A9E"
+    ],
+    "ChildIds": [],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": [],
+    "PracPath": null
+  },
+  "15477ED49ABC682322FD3CF46D23A558": {
+    "Mem": "15477ED49ABC682322FD3CF46D23A558",
+    "ParentIds": [
+      "95C99029EE2F5684DADC658F79FF51BA"
+    ],
+    "ChildIds": [
+      "A694D332A2293E378A4A64BC219F8C92"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": [],
+    "PracPath": null
+  },
+  "A694D332A2293E378A4A64BC219F8C92": {
+    "Mem": "A694D332A2293E378A4A64BC219F8C92",
+    "ParentIds": [
+      "15477ED49ABC682322FD3CF46D23A558"
+    ],
+    "ChildIds": [
+      "17832AC58570454EB2F7E211CF9BE508"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": [],
+    "PracPath": null
+  },
+  "17832AC58570454EB2F7E211CF9BE508": {
+    "Mem": "17832AC58570454EB2F7E211CF9BE508",
+    "ParentIds": [
+      "A694D332A2293E378A4A64BC219F8C92"
+    ],
+    "ChildIds": [
+      "487BF8B41DB8E0617EDE91241B9CCC0A"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": [],
+    "PracPath": null
+  },
+  "487BF8B41DB8E0617EDE91241B9CCC0A": {
+    "Mem": "487BF8B41DB8E0617EDE91241B9CCC0A",
+    "ParentIds": [
+      "17832AC58570454EB2F7E211CF9BE508"
+    ],
+    "ChildIds": [
+      "C843CF5CA7A0427380EAF6C561CB4F56"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": [],
+    "PracPath": null
+  },
+  "C843CF5CA7A0427380EAF6C561CB4F56": {
+    "Mem": "C843CF5CA7A0427380EAF6C561CB4F56",
+    "ParentIds": [
+      "487BF8B41DB8E0617EDE91241B9CCC0A"
+    ],
+    "ChildIds": [
+      "0263462955ECE5705ADC7B06BADA5BA3"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": [],
+    "PracPath": null
+  },
+  "0263462955ECE5705ADC7B06BADA5BA3": {
+    "Mem": "0263462955ECE5705ADC7B06BADA5BA3",
+    "ParentIds": [
+      "C843CF5CA7A0427380EAF6C561CB4F56"
+    ],
+    "ChildIds": [
+      "F46E919E28F94D1A5E81B1C7C062948D"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": [],
+    "PracPath": null
+  },
+  "F46E919E28F94D1A5E81B1C7C062948D": {
+    "Mem": "F46E919E28F94D1A5E81B1C7C062948D",
+    "ParentIds": [
+      "0263462955ECE5705ADC7B06BADA5BA3"
+    ],
+    "ChildIds": [
+      "8789E5F6F2B720606FE9BFDEC762057D"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": [],
+    "PracPath": null
+  },
+  "8789E5F6F2B720606FE9BFDEC762057D": {
+    "Mem": "8789E5F6F2B720606FE9BFDEC762057D",
+    "ParentIds": [
+      "F46E919E28F94D1A5E81B1C7C062948D"
+    ],
+    "ChildIds": [],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": [],
+    "PracPath": null
+  }
+}

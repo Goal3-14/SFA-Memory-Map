@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:K5E_Memory_Map" xmlns:userControls="clr-namespace:K5E_Memory_Map.UIModule"
         mc:Ignorable="d"
-        Title="SFA Memory Map" Height="650" Width="1017"
+        Title="SFA Memory Map" Height="700" Width="1017"
         WindowState="Normal"
         SizeToContent="Manual"
         Name="MMainWindow">
@@ -79,13 +79,28 @@
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <userControls:ProcessingState x:Name="ProcessingState" Grid.Row="2"/>
-            <userControls:MemDisplay />
+            <userControls:ProcessingState x:Name="ProcessingState" Grid.Row="2" />
+            <userControls:MemDisplay x:Name="MMemDisplay" />
             <Border BorderBrush ="Black" BorderThickness="0.5" Padding="0"/>
             <Border Grid.Row ="1" BorderBrush ="Black" BorderThickness="0.5" Padding="0"/>
             <TextBlock Name ="TB_Hash" Grid.Row="1" Text="{Binding Hash, StringFormat = 'Heap: {0}'}" Padding="0,2,0,0"/>
             <TextBlock Name ="TB_Frame" Grid.Row="1" Text="{Binding Frame, StringFormat = 'Frame: {0}'}" Padding="0,19,0,0"/>
             <Border Grid.Row ="2" BorderBrush ="Black" BorderThickness="0.5" Padding="0"/>
+            
+            <Button Name ="PauseButton" Height="40" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width ="40" Margin="0,0,0,0" Grid.Row="2" Panel.ZIndex="1" Click="PauseToggle" >
+                <Grid>
+                    <Rectangle HorizontalAlignment="Right" Width ="8" Height="20" Margin="-13,0,0,0" Grid.Row="2" Panel.ZIndex="2" Fill="DarkGray"/>
+                    <Rectangle HorizontalAlignment="Right" Width ="8" Height="20" Margin="0,0,13,0" Grid.Row="2" Panel.ZIndex="2" Fill="DarkGray"/>
+                </Grid>
+            </Button>
+
+            <Button Name ="PlayButton" Height="40" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width ="40" Margin="0,0,0,0" Grid.Row="2" Panel.ZIndex="1" Click="PauseToggle" Visibility="Hidden">
+                <Grid>
+                    <!-- Play symbol as a triangle -->
+                    <Path Data="M12,10 L28,20 L12,30 Z" Fill="Black" Margin ="-8,-8,0,0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                </Grid>
+            </Button>
+            
         </Grid>
 
     </Grid>

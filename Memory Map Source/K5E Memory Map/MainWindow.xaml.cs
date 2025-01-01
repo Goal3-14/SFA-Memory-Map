@@ -52,17 +52,24 @@ namespace K5E_Memory_Map
 
         public void UpdateCurrent()
         {
-            NNodeDetails.CurrentNode = CurrentNode;
+            if (_currentnode != null)
+            {
+                NNodeDetails.CurrentNode = CurrentNode;
 
-            SSmallGraph.NodeHash = NodeHash;
-            SSmallGraph.CurrentNode = CurrentNode;
+                SSmallGraph.NodeHash = NodeHash;
+                SSmallGraph.CurrentNode = CurrentNode;
 
-            FFullGraph.NodeHash = NodeHash;
-            FFullGraph.CurrentNode = CurrentNode;
+                FFullGraph.NodeHash = NodeHash;
+                FFullGraph.CurrentNode = CurrentNode;
 
-            TTagButtons.CurrentNode = CurrentNode;
+                TTagButtons.CurrentNode = CurrentNode;
 
-            SSaveMenu.NodeHash = NodeHash;
+                SSaveMenu.NodeHash = NodeHash;
+            }
+            else
+            {
+                UpdateGraphs();
+            }
         }
 
 
@@ -194,7 +201,15 @@ namespace K5E_Memory_Map
             {
                 control.Visibility = Visibility.Collapsed;
             }
-            Controls[Convert.ToInt32(MenuChoice)].Visibility = Visibility.Visible;
+            if (Choice == "4")
+            {
+                Controls[1].Visibility = Visibility.Visible;
+            }
+            else
+            {
+                Controls[Convert.ToInt32(MenuChoice)].Visibility = Visibility.Visible;
+            }
+            UpdateGraphs();
 
         }
 
@@ -227,11 +242,14 @@ namespace K5E_Memory_Map
             TTagButtons._MainWindow = this;
             DDisplayMenu._SmallGraph = SSmallGraph;
             DDisplayMenu._FullGraph = FFullGraph;
+            DDisplayMenu._SelectedDetails = SSelectedDetails;
             SSaveMenu._MainWindow = this;
             NNodeDetails._MainWindow = this;
             SSelectedDetails._MainWindow = this;
             SSmallGraph._MainWindow = this;
             FFullGraph._MainWindow = this;
+            
+            
 
             DDisplayMenu.Mem.IsChecked = true;
             DDisplayMenu.Text.IsChecked = true;
@@ -259,6 +277,40 @@ namespace K5E_Memory_Map
             app.MainLoop?.Stop(); // Ensure you have a property to access MainLoop
         }
 
+        public void GetMemDisplay(InfoLoop _InfoLoop)
+        {
+            _InfoLoop._MemDisplay = MMemDisplay;
+        }
 
+        private void PauseToggle(object sender, RoutedEventArgs e)
+        {
+            if (MenuChoice != "4")
+            {
+                if (Paused)
+                {
+                    Paused = false;
+                    Process = "1";
+                    PauseButton.Visibility = Visibility.Visible;
+                    PlayButton.Visibility = Visibility.Collapsed;
+                }
+                else
+                {
+                    Process = "3";
+                    Paused = true;
+                    PlayButton.Visibility = Visibility.Visible;
+                    PauseButton.Visibility = Visibility.Collapsed;
+                }
+            }
+        }
+
+        public void PracClear()
+        {
+            foreach (TreeNode Node in NodeHash.Values)
+            {
+                Node.PracPath = null;
+            }
+            UpdateCurrent();
+            UpdateGraphs();
+        }
     }
 }

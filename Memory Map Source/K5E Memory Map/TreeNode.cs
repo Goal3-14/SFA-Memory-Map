@@ -92,7 +92,7 @@ namespace K5E_Memory_Map
         public string? TagText { get; set; } = null;
         public List<float[]> MountCoords { get; set; } = new ();
         public bool Stated = false;
-        public bool PracPath = false;
+        public bool? PracPath = null;
         public string Colour = "White";
 
 

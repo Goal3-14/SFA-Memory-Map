@@ -8,13 +8,13 @@
              d:DesignHeight="374" d:DesignWidth="100">
     <Grid Background="LightGray">
         <TextBlock Width="100" Height="30" Text="SFA Memory Map" VerticalAlignment="Top" Margin="3,0,0,0"/>
-        <TextBlock Width="100" Height="30" Text="V1.0" VerticalAlignment="Top" Margin="38,15,0,0"/>
+        <TextBlock Width="100" Height="30" Text="V1.3" VerticalAlignment="Top" Margin="38,15,0,0"/>
         
-        <Button Width="100" Height ="40" Content="Main" FontSize="16" VerticalAlignment="Top" Margin="0,30,0,0" Click="MenuButton" Tag ="0"/>
-        <Button Width="100" Height ="40" Content="Full Graph" FontSize="16" VerticalAlignment="Top" Margin="0,70,0,0" Click="MenuButton" Tag ="1"/>
-        <Button Width="100" Height ="40" Content="Save/Load" FontSize="16" VerticalAlignment="Top" Margin="0,110,0,0" Click="MenuButton" Tag ="2"/>
-        <Button Width="100" Height ="40" Content="" FontSize="16" VerticalAlignment="Top" Margin="0,150,0,0" Click="MenuButton" Tag ="3"/>
-        <Button Width="100" Height ="40" Content="" FontSize="16" VerticalAlignment="Top" Margin="0,190,0,0" Click="MenuButton" Tag ="4"/>
-        <Button Width="100" Height ="40" Content="" FontSize="16" VerticalAlignment="Top" Margin="0,230,0,0" Click="MenuButton" Tag ="5"/>
+        <Button Name ="MMain" Width="100" Height ="40" Content="Main" FontSize="16" VerticalAlignment="Top" Margin="0,30,0,0" Click="MenuButton" Tag ="0"/>
+        <Button Name ="FFull" Width="100" Height ="40" Content="Full Graph" FontSize="16" VerticalAlignment="Top" Margin="0,70,0,0" Click="MenuButton" Tag ="1"/>
+        <Button Name ="SSave" Width="100" Height ="40" Content="Save/Load" FontSize="16" VerticalAlignment="Top" Margin="0,110,0,0" Click="MenuButton" Tag ="2" Background="DarkGray"/>
+        <Button Name ="AAnalysis" Width="100" Height ="40" Content="Analysis" FontSize="16" VerticalAlignment="Top" Margin="0,150,0,0" Click="MenuButton" Tag ="3"/>
+        <Button Name ="PPractice" Width="100" Height ="40" Content="Practice" FontSize="16" VerticalAlignment="Top" Margin="0,190,0,0" Click="MenuButton" Tag ="4"/>
+        <Button Name ="MMerge" Width="100" Height ="40" Content="Merge" FontSize="16" VerticalAlignment="Top" Margin="0,230,0,0" Click="MenuButton" Tag ="5"/>
     </Grid>
 </UserControl>

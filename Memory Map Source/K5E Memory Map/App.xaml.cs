@@ -12,6 +12,8 @@ namespace K5E_Memory_Map
         public MainLoop? MainLoop { get; private set; } // Property to access MainLoop
         private MainWindow? _mainWindow;
 
+        public InfoLoop? InfoLoop { get; private set; } // Property to access MainLoop
+
         protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
@@ -19,12 +21,19 @@ namespace K5E_Memory_Map
             _mainWindow.Show(); // Show the main window
             MainLoop = new MainLoop(_mainWindow);
             Task.Run(() => MainLoop.Run(null));
+
+            //_MemDisplay = new MemDisplay();
+            //_MemDisplay.Show(); // Show the main window
+            InfoLoop = new InfoLoop(_mainWindow);
+            Task.Run(() => InfoLoop.Run());
+
             Debug.WriteLine("affafg");
         }
 
         protected override void OnExit(ExitEventArgs e)
         {
             MainLoop?.Stop(); // Stop the main loop on exit
+            InfoLoop?.Stop();
             base.OnExit(e);
         }
     }

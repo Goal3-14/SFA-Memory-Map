@@ -85,6 +85,7 @@ namespace K5E_Memory_Map.UIModule
                 }
             }
         }
+
         private int _submem = 16;
         public int SubMem
         {
@@ -98,6 +99,7 @@ namespace K5E_Memory_Map.UIModule
                 }
             }
         }
+
         private bool? _showtag;
         public bool? ShowTag
         {
@@ -111,6 +113,7 @@ namespace K5E_Memory_Map.UIModule
                 }
             }
         }
+
         private bool? _showtext;
         public bool? ShowText
         {
@@ -124,6 +127,7 @@ namespace K5E_Memory_Map.UIModule
                 }
             }
         }
+
         private bool? _showstate;
         public bool? ShowState
         {
@@ -137,6 +141,7 @@ namespace K5E_Memory_Map.UIModule
                 }
             }
         }
+
         private bool? _showcol;
         public bool? ShowCol
         {
@@ -644,7 +649,7 @@ namespace K5E_Memory_Map.UIModule
             if (sender is Button button)
             {
                 NodeHash.TryGetValue(button.Tag as string, out TreeNode SelectedNode);
-                Debug.WriteLine(CurrentNode.Mem);
+                //Debug.WriteLine(CurrentNode.Mem);
                 _MainWindow.SelectedNode = SelectedNode;
             }
         }

@@ -178,7 +178,7 @@ namespace K5E_Memory_Map.UIModule
                     CurrentNode.Stated = true;
                     _MainWindow.UpdateGraphs();
 
-                    Debug.WriteLine($"File copied from {sourceFilePath} to {destinationFilePath} successfully.");
+                    //Debug.WriteLine($"File copied from {sourceFilePath} to {destinationFilePath} successfully.");
                 }
                 
             }
@@ -192,9 +192,12 @@ namespace K5E_Memory_Map.UIModule
 
         private void SaveText(object sender, RoutedEventArgs e)
         {
-            CurrentNode.Text = TextInput.Text;
-            TextInput.Text = "";
-            _MainWindow.UpdateGraphs();
+            if (CurrentNode != null)
+            {
+                CurrentNode.Text = TextInput.Text;
+                TextInput.Text = "";
+                _MainWindow.UpdateGraphs();
+            }
         }
 
         private void LoadLast(object sender, RoutedEventArgs e)

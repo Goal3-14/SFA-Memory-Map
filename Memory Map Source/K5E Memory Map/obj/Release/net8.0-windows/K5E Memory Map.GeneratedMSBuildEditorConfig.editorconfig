@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = K5E_Memory_Map
-build_property.ProjectDir = E:\B - SFA\K5 Memory Maps\v1.0\K5E Memory Map Source\K5E Memory Map\
+build_property.ProjectDir = E:\B - SFA\K5 Memory Maps\v1.3\Memory Map Source\K5E Memory Map\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

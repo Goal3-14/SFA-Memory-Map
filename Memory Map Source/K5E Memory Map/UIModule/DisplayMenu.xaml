@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:K5E_Memory_Map.UIModule"
              mc:Ignorable="d" 
-             d:DesignHeight="374" d:DesignWidth="150">
+             d:DesignHeight="500" d:DesignWidth="150">
     <Grid Background="LightGray">
         <TextBlock VerticalAlignment="Top" Text="Display Options" Padding="5,0,0,0" FontSize="20"/>
 
@@ -28,18 +28,28 @@
 
         
 
-        <StackPanel Orientation="Horizontal" Margin="1,175,0,0">
+        <StackPanel Orientation="Horizontal" Margin="1,175,0,0" Visibility="Hidden">
             <TextBlock Text="Zoom " FontSize="15" Margin="0,-4,0,0"/>
             <RadioButton IsChecked="{Binding IsOption1Selected}" GroupName="Zoom" FontSize="15"/>
             <RadioButton IsChecked="{Binding IsOption2Selected}" GroupName="Zoom" FontSize="15"/>
             <RadioButton IsChecked="{Binding IsOption3Selected}" GroupName="Zoom" FontSize="15"/>
         </StackPanel>
 
-        <StackPanel Orientation="Vertical" Margin="1,195,0,0">
+        <StackPanel Orientation="Vertical" Margin="1,170,0,0">
             <CheckBox Name="AltGraph" Content="Alt Graph" IsChecked="{Binding IsOption1Checked}" FontSize="15" Checked="MSAGLGraph" Unchecked="NormalGraph"/>
             <CheckBox Name="Focus" IsChecked="{Binding IsFocusChecked}" Content="Auto Focus Current Mem Value"  FontSize="15" Checked="SetFocus" Unchecked="SetUnFocus"/>
-            <Button Content="Recentre Current Mem" Click="CentreFull"  Height ="30" Width ="130" Margin="-16,0,0,0"/>
-            <Button Content="Reset Zoom" Click="ResetZoom"  Height ="30" Width ="130" Margin="-16,5,0,0"/>
+            <Button Content="Go Current Mem" Click="CentreFull"  Height ="25" Width ="145" Margin="-2,0,0,0"/>
+            <Button Content="Go Root" Click="GoRoot"  Height ="25" Width ="145" Margin="-2,5,0,0"/>
+            <Button Content="Reset Zoom" Click="ResetZoom"  Height ="25" Width ="145" Margin="-2,5,0,0"/>
+        </StackPanel>
+
+        <StackPanel Name ="PracButt" Orientation="Vertical" Margin="1,317,0,0" Visibility="Collapsed">
+            <Button Content ="Selected to Top Good" Height="25" Width ="145" Margin="-2,5,0,0" Background="LightGreen" Click="UpGood"/>
+            <Button Content ="Good" Height="25" Width ="145" Margin="-2,5,0,0" Background="LightGreen" Click="PracGood" />
+            <Button Content ="Bad" Height="25" Width ="145" Margin="-2,5,0,0" Background="Tomato" Click="PracBad"/>
+            <Button Content ="Selected Down Bad" Height="25" Width ="145" Margin="-2,5,0,0" Background="Tomato" Click="DownBad"/>
+            <Button Content ="Neutral/Clear" Height="25" Width ="145" Margin="-2,5,0,0" Background="PaleTurquoise" Click="PracNeutral"/>
+            <Button Content ="Clear All" Height="25" Width ="145" Margin="-2,5,0,0" Background="PaleTurquoise" Click="PracClear"/>
         </StackPanel>
         
     </Grid>

@@ -279,14 +279,20 @@ namespace K5E_Memory_Map.UIModule
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if (sender is Button button)
+            if (CurrentNode != null)
             {
-                
-                var (row, col) = ((int, int))button.Tag;
-                //MessageBox.Show($"{TagData[TagLayout[GraphType,row,col],2]}");
-                CurrentNode.AddTag(TagLayout[GraphType, row, col]);
-                _MainWindow.UpdateCurrent();
-                _MainWindow.Process = "1";
+                if (sender is Button button)
+                {
+
+                    var (row, col) = ((int, int))button.Tag;
+                    //MessageBox.Show($"{TagData[TagLayout[GraphType,row,col],2]}");
+                    CurrentNode.AddTag(TagLayout[GraphType, row, col]);
+                    _MainWindow.UpdateCurrent();
+                    if (_MainWindow.Process == "4")
+                    {
+                        _MainWindow.Process = "1";
+                    }
+                }
             }
         }
 

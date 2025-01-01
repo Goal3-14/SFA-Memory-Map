@@ -110,11 +110,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\B - SFA\\K5 Memory Maps\\v1.0\\K5E Memory Map Source\\K5E Memory Map\\K5E Memory Map.csproj",
+      "projectUniqueName": "E:\\B - SFA\\K5 Memory Maps\\v1.3\\Memory Map Source\\K5E Memory Map\\K5E Memory Map.csproj",
       "projectName": "K5E Memory Map",
-      "projectPath": "E:\\B - SFA\\K5 Memory Maps\\v1.0\\K5E Memory Map Source\\K5E Memory Map\\K5E Memory Map.csproj",
+      "projectPath": "E:\\B - SFA\\K5 Memory Maps\\v1.3\\Memory Map Source\\K5E Memory Map\\K5E Memory Map.csproj",
       "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
-      "outputPath": "E:\\B - SFA\\K5 Memory Maps\\v1.0\\K5E Memory Map Source\\K5E Memory Map\\obj\\",
+      "outputPath": "E:\\B - SFA\\K5 Memory Maps\\v1.3\\Memory Map Source\\K5E Memory Map\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config",

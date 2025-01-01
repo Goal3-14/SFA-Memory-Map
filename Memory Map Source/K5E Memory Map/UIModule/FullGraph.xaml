@@ -11,7 +11,7 @@
 
         <!--Height="374" Width="667"-->
 
-        <ScrollViewer x:Name="SScrollViewer" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Background="Transparent">
+        <ScrollViewer x:Name="SScrollViewer" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Background="WhiteSmoke">
             <Canvas Name ="MyCanvas" Background="Transparent"  MouseWheel="Canvas_MouseWheel"/>
         </ScrollViewer>
 

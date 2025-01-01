@@ -137,13 +137,22 @@ namespace K5E_Memory_Map.UIModule
         {
             if (Hash != null)
             {
-                if (CurrentNode.Mem != _MainWindow.CurrentNode.Mem)
+                if (_MainWindow.CurrentNode != null) { 
+                    if (CurrentNode.Mem != _MainWindow.CurrentNode.Mem)
+                    {
+                      CurrentNode.DelNode(_MainWindow.NodeHash);
+                      _MainWindow.UpdateGraphs();
+                      ClearNode();
+                    }
+                }
+                else
                 {
                     CurrentNode.DelNode(_MainWindow.NodeHash);
                     _MainWindow.UpdateGraphs();
                     ClearNode();
                 }
             }
+        
         }
 
         private void DelBelow(object sender, RoutedEventArgs e)
@@ -228,5 +237,129 @@ namespace K5E_Memory_Map.UIModule
 
             }
         }
+
+
+
+        bool Storing = false;
+        private TreeNode? StoredNode = null;
+
+        public void DelEdge(object sender, RoutedEventArgs e)
+        {
+            if (Hash != null)
+            {
+                
+                    if (Storing == true)
+                    {
+                        if (StoredNode.Parents.Contains(CurrentNode))
+                        {
+                            StoredNode.RemParent(CurrentNode);
+                            CurrentNode.RemChild(StoredNode);
+                        }
+                        if (StoredNode.Children.Contains(CurrentNode))
+                        {
+                            StoredNode.RemChild(CurrentNode);
+                            CurrentNode.RemParent(StoredNode);
+                        }
+                        Storing = false;
+                        EdgeButton.Background = Brushes.Transparent;
+                        _MainWindow.UpdateGraphs();
+                    }
+
+                    else
+                    {
+                        StoredNode = CurrentNode;
+                        Storing = true;
+                        EdgeButton.Background = Brushes.Red;
+
+                    }
+                
+                
+            }
+            else
+            {
+                Storing = false;
+                EdgeButton.Background = Brushes.Transparent;
+            }
+        }
+
+        private void MarkGoodUp(TreeNode Current)
+        {
+            Current.PracPath = true;
+            if (Current.Parents.Count == 0)
+            {
+
+            }
+            else
+            {
+                MarkGoodUp(Current.Parents[0]);
+            }
+        }
+
+        public void UpGood()
+        {
+            if (Hash != null)
+            {
+                MarkGoodUp(CurrentNode);
+                _MainWindow.UpdateCurrent();
+                _MainWindow.UpdateGraphs();
+            }
+        }
+
+        private void MarkBadDown(TreeNode Current, string Text)
+        {
+            Current.PracPath = false;
+            Current.Text = Text;
+            if (Current.Children.Count == 0)
+            {
+
+            }
+            else
+            {
+                MarkBadDown(Current.Children[0], Current.Text);
+            }
+        }
+        public void DownBad()
+        {
+            if (Hash != null)
+            {
+                MarkBadDown(CurrentNode, CurrentNode.Text);
+                
+                _MainWindow.UpdateCurrent();
+                _MainWindow.UpdateGraphs();
+            }
+        }
+
+        public void PracGood()
+        {
+            if (Hash != null)
+            {
+                CurrentNode.PracPath = true;
+                _MainWindow.UpdateCurrent();
+                _MainWindow.UpdateGraphs();
+            }
+        }
+
+        public void PracBad()
+        {
+            if (Hash != null)
+            {
+                CurrentNode.PracPath = false;
+                _MainWindow.UpdateCurrent();
+                _MainWindow.UpdateGraphs();
+            }
+        }
+
+        public void PracNeutral()
+        {
+            if (Hash != null)
+            {
+                CurrentNode.PracPath = null;
+                _MainWindow.UpdateCurrent();
+                _MainWindow.UpdateGraphs();
+            }
+        }
+
+        
+
     }
 }

@@ -1,0 +1,1610 @@
+{
+  "92EC2AED75CF08AB63B05D25FD1D7BC7": {
+    "Mem": "92EC2AED75CF08AB63B05D25FD1D7BC7",
+    "ParentIds": [],
+    "ChildIds": [
+      "7F20065DFE43EB0B27B2F18D32EBE7B3",
+      "70197791A3A08BDF583740E145B375AC"
+    ],
+    "Tag": 10,
+    "Text": null,
+    "TagText": "Load Save/End CS",
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "7F20065DFE43EB0B27B2F18D32EBE7B3": {
+    "Mem": "7F20065DFE43EB0B27B2F18D32EBE7B3",
+    "ParentIds": [
+      "92EC2AED75CF08AB63B05D25FD1D7BC7"
+    ],
+    "ChildIds": [
+      "70197791A3A08BDF583740E145B375AC"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "70197791A3A08BDF583740E145B375AC": {
+    "Mem": "70197791A3A08BDF583740E145B375AC",
+    "ParentIds": [
+      "7F20065DFE43EB0B27B2F18D32EBE7B3",
+      "92EC2AED75CF08AB63B05D25FD1D7BC7"
+    ],
+    "ChildIds": [
+      "3AE2FB8B1495EA7101DEC6AB17BBC352"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "3AE2FB8B1495EA7101DEC6AB17BBC352": {
+    "Mem": "3AE2FB8B1495EA7101DEC6AB17BBC352",
+    "ParentIds": [
+      "70197791A3A08BDF583740E145B375AC"
+    ],
+    "ChildIds": [
+      "44C03BA8F5E4DACB66C91BD95F9B5C5A"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "44C03BA8F5E4DACB66C91BD95F9B5C5A": {
+    "Mem": "44C03BA8F5E4DACB66C91BD95F9B5C5A",
+    "ParentIds": [
+      "3AE2FB8B1495EA7101DEC6AB17BBC352"
+    ],
+    "ChildIds": [
+      "5FAA93AAB9F3C9F49CF8D8CC3484741F",
+      "BD638CE05E44B74D707E0ED2D5D9A841"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "5FAA93AAB9F3C9F49CF8D8CC3484741F": {
+    "Mem": "5FAA93AAB9F3C9F49CF8D8CC3484741F",
+    "ParentIds": [
+      "44C03BA8F5E4DACB66C91BD95F9B5C5A"
+    ],
+    "ChildIds": [
+      "BD638CE05E44B74D707E0ED2D5D9A841"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "BD638CE05E44B74D707E0ED2D5D9A841": {
+    "Mem": "BD638CE05E44B74D707E0ED2D5D9A841",
+    "ParentIds": [
+      "5FAA93AAB9F3C9F49CF8D8CC3484741F",
+      "44C03BA8F5E4DACB66C91BD95F9B5C5A"
+    ],
+    "ChildIds": [
+      "D9C35F86BB83E93742EC64455A6215D8"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "D9C35F86BB83E93742EC64455A6215D8": {
+    "Mem": "D9C35F86BB83E93742EC64455A6215D8",
+    "ParentIds": [
+      "BD638CE05E44B74D707E0ED2D5D9A841"
+    ],
+    "ChildIds": [
+      "409720883E3D7218CF41099C793D1231",
+      "94AAF3D3F0D286E400899D202D3E7FD5"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "409720883E3D7218CF41099C793D1231": {
+    "Mem": "409720883E3D7218CF41099C793D1231",
+    "ParentIds": [
+      "D9C35F86BB83E93742EC64455A6215D8",
+      "94AAF3D3F0D286E400899D202D3E7FD5"
+    ],
+    "ChildIds": [
+      "0B902299B8714FC46658C831DBA785E7",
+      "1C098B17C77830A5150C81E697206713",
+      "9854D9FAB3BA1BD7E74FFEC2B209E172"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "0B902299B8714FC46658C831DBA785E7": {
+    "Mem": "0B902299B8714FC46658C831DBA785E7",
+    "ParentIds": [
+      "409720883E3D7218CF41099C793D1231"
+    ],
+    "ChildIds": [
+      "1C098B17C77830A5150C81E697206713"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "1C098B17C77830A5150C81E697206713": {
+    "Mem": "1C098B17C77830A5150C81E697206713",
+    "ParentIds": [
+      "0B902299B8714FC46658C831DBA785E7",
+      "9854D9FAB3BA1BD7E74FFEC2B209E172",
+      "409720883E3D7218CF41099C793D1231"
+    ],
+    "ChildIds": [
+      "9AB4A889A84274B9A2B1B208CCBF597D",
+      "6B1019D9D0F564CFE42EECB21EDDD274"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "9AB4A889A84274B9A2B1B208CCBF597D": {
+    "Mem": "9AB4A889A84274B9A2B1B208CCBF597D",
+    "ParentIds": [
+      "1C098B17C77830A5150C81E697206713"
+    ],
+    "ChildIds": [
+      "3118D7F627B1D1AA9EA7AFF960918FEB"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "3118D7F627B1D1AA9EA7AFF960918FEB": {
+    "Mem": "3118D7F627B1D1AA9EA7AFF960918FEB",
+    "ParentIds": [
+      "9AB4A889A84274B9A2B1B208CCBF597D"
+    ],
+    "ChildIds": [
+      "9F567AC188F631B23BFE1E538ED8C913"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "9854D9FAB3BA1BD7E74FFEC2B209E172": {
+    "Mem": "9854D9FAB3BA1BD7E74FFEC2B209E172",
+    "ParentIds": [
+      "409720883E3D7218CF41099C793D1231"
+    ],
+    "ChildIds": [
+      "1C098B17C77830A5150C81E697206713"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "9F567AC188F631B23BFE1E538ED8C913": {
+    "Mem": "9F567AC188F631B23BFE1E538ED8C913",
+    "ParentIds": [
+      "3118D7F627B1D1AA9EA7AFF960918FEB"
+    ],
+    "ChildIds": [
+      "0D334AFC1BF60DFCAD4CEE8FAC25D88B"
+    ],
+    "Tag": 6,
+    "Text": null,
+    "TagText": "Gate Clip",
+    "Colour": "SandyBrown",
+    "MountCoords": []
+  },
+  "0D334AFC1BF60DFCAD4CEE8FAC25D88B": {
+    "Mem": "0D334AFC1BF60DFCAD4CEE8FAC25D88B",
+    "ParentIds": [
+      "9F567AC188F631B23BFE1E538ED8C913"
+    ],
+    "ChildIds": [
+      "3DA24FFD6B8927D0F5376E8BD30F8F15",
+      "9197D81EA557D6453CF0FF185D89E97A",
+      "04E495EBC0D6DF8897DC4CF5AE0B1756"
+    ],
+    "Tag": 6,
+    "Text": null,
+    "TagText": "Gate Clip",
+    "Colour": "SandyBrown",
+    "MountCoords": []
+  },
+  "3DA24FFD6B8927D0F5376E8BD30F8F15": {
+    "Mem": "3DA24FFD6B8927D0F5376E8BD30F8F15",
+    "ParentIds": [
+      "0D334AFC1BF60DFCAD4CEE8FAC25D88B",
+      "5B36CCF9CFF0FF2124B989F379D3EB94",
+      "BEAFF392CAD799F0926721D97267DD7D"
+    ],
+    "ChildIds": [
+      "CBB242DB25D65E124FEBD1D2592FA493",
+      "976E67043DEF37A3BC4C12E3CD8C0D97",
+      "5855A89B91303C8A871B3F1B6B01BE72",
+      "04E495EBC0D6DF8897DC4CF5AE0B1756",
+      "C01AE9E5E63B0A011B2CDD5A1ADB18F8"
+    ],
+    "Tag": 6,
+    "Text": null,
+    "TagText": "Gate Clip",
+    "Colour": "SandyBrown",
+    "MountCoords": []
+  },
+  "CBB242DB25D65E124FEBD1D2592FA493": {
+    "Mem": "CBB242DB25D65E124FEBD1D2592FA493",
+    "ParentIds": [
+      "3DA24FFD6B8927D0F5376E8BD30F8F15",
+      "5855A89B91303C8A871B3F1B6B01BE72"
+    ],
+    "ChildIds": [
+      "BEAFF392CAD799F0926721D97267DD7D",
+      "5841F527BE7EDF3B6254D88B300FBD0F"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "BEAFF392CAD799F0926721D97267DD7D": {
+    "Mem": "BEAFF392CAD799F0926721D97267DD7D",
+    "ParentIds": [
+      "CBB242DB25D65E124FEBD1D2592FA493",
+      "976E67043DEF37A3BC4C12E3CD8C0D97",
+      "5841F527BE7EDF3B6254D88B300FBD0F"
+    ],
+    "ChildIds": [
+      "3DA24FFD6B8927D0F5376E8BD30F8F15",
+      "0347CF7738FFA9208416B7C503718C78",
+      "D87340ABD583FAD5F05256AD88BE3C68",
+      "1D3A6090EB0981B83EEA73C03F9F1099",
+      "B186563964A127FD81552BD9D5969086",
+      "1BC609783CD25B520D283C1D57CEBFCF"
+    ],
+    "Tag": null,
+    "Text": "Keep targetting to right a it then walk direct no target",
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "0347CF7738FFA9208416B7C503718C78": {
+    "Mem": "0347CF7738FFA9208416B7C503718C78",
+    "ParentIds": [
+      "BEAFF392CAD799F0926721D97267DD7D"
+    ],
+    "ChildIds": [
+      "D87340ABD583FAD5F05256AD88BE3C68",
+      "1D3A6090EB0981B83EEA73C03F9F1099",
+      "75F254A505231AA8A85E8DF89905DB06",
+      "B186563964A127FD81552BD9D5969086"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "D87340ABD583FAD5F05256AD88BE3C68": {
+    "Mem": "D87340ABD583FAD5F05256AD88BE3C68",
+    "ParentIds": [
+      "0347CF7738FFA9208416B7C503718C78",
+      "1D3A6090EB0981B83EEA73C03F9F1099",
+      "75F254A505231AA8A85E8DF89905DB06",
+      "BEAFF392CAD799F0926721D97267DD7D"
+    ],
+    "ChildIds": [
+      "EB76E001DCEF3C0ECCB0718E62C33AED",
+      "2FFDDB1AE153A6358D4309474E8689F6"
+    ],
+    "Tag": null,
+    "Text": "shield 180",
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "EB76E001DCEF3C0ECCB0718E62C33AED": {
+    "Mem": "EB76E001DCEF3C0ECCB0718E62C33AED",
+    "ParentIds": [
+      "D87340ABD583FAD5F05256AD88BE3C68",
+      "2FFDDB1AE153A6358D4309474E8689F6"
+    ],
+    "ChildIds": [
+      "0CB194CE49937F2C94E69A2DF7FCBAE8",
+      "0A09475FBC156E08837815A830538975",
+      "B2EC3DC62C8B4F78CFFBE3A47029274C"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "0CB194CE49937F2C94E69A2DF7FCBAE8": {
+    "Mem": "0CB194CE49937F2C94E69A2DF7FCBAE8",
+    "ParentIds": [
+      "EB76E001DCEF3C0ECCB0718E62C33AED"
+    ],
+    "ChildIds": [
+      "0A09475FBC156E08837815A830538975"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "0A09475FBC156E08837815A830538975": {
+    "Mem": "0A09475FBC156E08837815A830538975",
+    "ParentIds": [
+      "0CB194CE49937F2C94E69A2DF7FCBAE8",
+      "EB76E001DCEF3C0ECCB0718E62C33AED"
+    ],
+    "ChildIds": [
+      "A463DA9C1755AD56B84378A204A6CA65",
+      "4F9AB90D726ED85673EB5DEAF28AC7A8"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "A463DA9C1755AD56B84378A204A6CA65": {
+    "Mem": "A463DA9C1755AD56B84378A204A6CA65",
+    "ParentIds": [
+      "0A09475FBC156E08837815A830538975"
+    ],
+    "ChildIds": [
+      "4F9AB90D726ED85673EB5DEAF28AC7A8"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "4F9AB90D726ED85673EB5DEAF28AC7A8": {
+    "Mem": "4F9AB90D726ED85673EB5DEAF28AC7A8",
+    "ParentIds": [
+      "A463DA9C1755AD56B84378A204A6CA65",
+      "0A09475FBC156E08837815A830538975"
+    ],
+    "ChildIds": [
+      "50846393831086C35FC27F7916322BD9"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "50846393831086C35FC27F7916322BD9": {
+    "Mem": "50846393831086C35FC27F7916322BD9",
+    "ParentIds": [
+      "4F9AB90D726ED85673EB5DEAF28AC7A8",
+      "0F564026F9B1E6B553656F602A6F4E42"
+    ],
+    "ChildIds": [
+      "0F564026F9B1E6B553656F602A6F4E42"
+    ],
+    "Tag": 7,
+    "Text": null,
+    "TagText": "Seam Drop",
+    "Colour": "SandyBrown",
+    "MountCoords": []
+  },
+  "1D3A6090EB0981B83EEA73C03F9F1099": {
+    "Mem": "1D3A6090EB0981B83EEA73C03F9F1099",
+    "ParentIds": [
+      "0347CF7738FFA9208416B7C503718C78",
+      "BEAFF392CAD799F0926721D97267DD7D"
+    ],
+    "ChildIds": [
+      "D87340ABD583FAD5F05256AD88BE3C68"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "2FFDDB1AE153A6358D4309474E8689F6": {
+    "Mem": "2FFDDB1AE153A6358D4309474E8689F6",
+    "ParentIds": [
+      "D87340ABD583FAD5F05256AD88BE3C68"
+    ],
+    "ChildIds": [
+      "EB76E001DCEF3C0ECCB0718E62C33AED"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "75F254A505231AA8A85E8DF89905DB06": {
+    "Mem": "75F254A505231AA8A85E8DF89905DB06",
+    "ParentIds": [
+      "0347CF7738FFA9208416B7C503718C78"
+    ],
+    "ChildIds": [
+      "D87340ABD583FAD5F05256AD88BE3C68"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "976E67043DEF37A3BC4C12E3CD8C0D97": {
+    "Mem": "976E67043DEF37A3BC4C12E3CD8C0D97",
+    "ParentIds": [
+      "3DA24FFD6B8927D0F5376E8BD30F8F15"
+    ],
+    "ChildIds": [
+      "BEAFF392CAD799F0926721D97267DD7D"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "5855A89B91303C8A871B3F1B6B01BE72": {
+    "Mem": "5855A89B91303C8A871B3F1B6B01BE72",
+    "ParentIds": [
+      "3DA24FFD6B8927D0F5376E8BD30F8F15"
+    ],
+    "ChildIds": [
+      "CBB242DB25D65E124FEBD1D2592FA493"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "0F564026F9B1E6B553656F602A6F4E42": {
+    "Mem": "0F564026F9B1E6B553656F602A6F4E42",
+    "ParentIds": [
+      "50846393831086C35FC27F7916322BD9"
+    ],
+    "ChildIds": [
+      "50846393831086C35FC27F7916322BD9",
+      "ADA697B6F017042D6DE4FA182B956EBA",
+      "D1902C3F2F029804E05229A13435C53B"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "ADA697B6F017042D6DE4FA182B956EBA": {
+    "Mem": "ADA697B6F017042D6DE4FA182B956EBA",
+    "ParentIds": [
+      "0F564026F9B1E6B553656F602A6F4E42"
+    ],
+    "ChildIds": [
+      "856DB7C9FD33ABA04C16B23074B131E6",
+      "D1902C3F2F029804E05229A13435C53B"
+    ],
+    "Tag": 8,
+    "Text": "Fast",
+    "TagText": "Seam Land",
+    "Colour": "SandyBrown",
+    "MountCoords": []
+  },
+  "856DB7C9FD33ABA04C16B23074B131E6": {
+    "Mem": "856DB7C9FD33ABA04C16B23074B131E6",
+    "ParentIds": [
+      "ADA697B6F017042D6DE4FA182B956EBA"
+    ],
+    "ChildIds": [],
+    "Tag": 1,
+    "Text": "Before drop into cave",
+    "TagText": "Bike",
+    "Colour": "LightBlue",
+    "MountCoords": []
+  },
+  "B2EC3DC62C8B4F78CFFBE3A47029274C": {
+    "Mem": "B2EC3DC62C8B4F78CFFBE3A47029274C",
+    "ParentIds": [
+      "EB76E001DCEF3C0ECCB0718E62C33AED"
+    ],
+    "ChildIds": [
+      "DED12F0888FF6D4DC00D0F279241DA39"
+    ],
+    "Tag": null,
+    "Text": "Fail 180",
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "DED12F0888FF6D4DC00D0F279241DA39": {
+    "Mem": "DED12F0888FF6D4DC00D0F279241DA39",
+    "ParentIds": [
+      "B2EC3DC62C8B4F78CFFBE3A47029274C"
+    ],
+    "ChildIds": [
+      "865E0DCD91D9D9469C953A8BAA4EACB0"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "865E0DCD91D9D9469C953A8BAA4EACB0": {
+    "Mem": "865E0DCD91D9D9469C953A8BAA4EACB0",
+    "ParentIds": [
+      "DED12F0888FF6D4DC00D0F279241DA39"
+    ],
+    "ChildIds": [
+      "4BD8C82FD041D6250962565C112F2A55"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "4BD8C82FD041D6250962565C112F2A55": {
+    "Mem": "4BD8C82FD041D6250962565C112F2A55",
+    "ParentIds": [
+      "865E0DCD91D9D9469C953A8BAA4EACB0"
+    ],
+    "ChildIds": [],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "94AAF3D3F0D286E400899D202D3E7FD5": {
+    "Mem": "94AAF3D3F0D286E400899D202D3E7FD5",
+    "ParentIds": [
+      "D9C35F86BB83E93742EC64455A6215D8"
+    ],
+    "ChildIds": [
+      "409720883E3D7218CF41099C793D1231"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "6B1019D9D0F564CFE42EECB21EDDD274": {
+    "Mem": "6B1019D9D0F564CFE42EECB21EDDD274",
+    "ParentIds": [
+      "1C098B17C77830A5150C81E697206713"
+    ],
+    "ChildIds": [
+      "A12DA5DA5F68B33346964919BBF8565D"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "A12DA5DA5F68B33346964919BBF8565D": {
+    "Mem": "A12DA5DA5F68B33346964919BBF8565D",
+    "ParentIds": [
+      "6B1019D9D0F564CFE42EECB21EDDD274"
+    ],
+    "ChildIds": [],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "9197D81EA557D6453CF0FF185D89E97A": {
+    "Mem": "9197D81EA557D6453CF0FF185D89E97A",
+    "ParentIds": [
+      "0D334AFC1BF60DFCAD4CEE8FAC25D88B"
+    ],
+    "ChildIds": [
+      "1E1F8567E4A5A747CE093AF5C4E918A0"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "1E1F8567E4A5A747CE093AF5C4E918A0": {
+    "Mem": "1E1F8567E4A5A747CE093AF5C4E918A0",
+    "ParentIds": [
+      "9197D81EA557D6453CF0FF185D89E97A"
+    ],
+    "ChildIds": [
+      "5B36CCF9CFF0FF2124B989F379D3EB94"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "5B36CCF9CFF0FF2124B989F379D3EB94": {
+    "Mem": "5B36CCF9CFF0FF2124B989F379D3EB94",
+    "ParentIds": [
+      "1E1F8567E4A5A747CE093AF5C4E918A0"
+    ],
+    "ChildIds": [
+      "3DA24FFD6B8927D0F5376E8BD30F8F15"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "B186563964A127FD81552BD9D5969086": {
+    "Mem": "B186563964A127FD81552BD9D5969086",
+    "ParentIds": [
+      "BEAFF392CAD799F0926721D97267DD7D",
+      "0347CF7738FFA9208416B7C503718C78"
+    ],
+    "ChildIds": [
+      "EE24A376F371957EE8844B6354A5AF40"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "EE24A376F371957EE8844B6354A5AF40": {
+    "Mem": "EE24A376F371957EE8844B6354A5AF40",
+    "ParentIds": [
+      "B186563964A127FD81552BD9D5969086"
+    ],
+    "ChildIds": [
+      "3832B32A1BB9557BAD8E6FCF7749622E",
+      "46A6E921F564044598F0E2C2CB202080"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "3832B32A1BB9557BAD8E6FCF7749622E": {
+    "Mem": "3832B32A1BB9557BAD8E6FCF7749622E",
+    "ParentIds": [
+      "EE24A376F371957EE8844B6354A5AF40"
+    ],
+    "ChildIds": [
+      "DF55880B701C082CB5EF7B6D3FED37D8"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "DF55880B701C082CB5EF7B6D3FED37D8": {
+    "Mem": "DF55880B701C082CB5EF7B6D3FED37D8",
+    "ParentIds": [
+      "3832B32A1BB9557BAD8E6FCF7749622E"
+    ],
+    "ChildIds": [],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "46A6E921F564044598F0E2C2CB202080": {
+    "Mem": "46A6E921F564044598F0E2C2CB202080",
+    "ParentIds": [
+      "EE24A376F371957EE8844B6354A5AF40"
+    ],
+    "ChildIds": [
+      "C8DC706968908989E9ED0EE5FA0F3000"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "C8DC706968908989E9ED0EE5FA0F3000": {
+    "Mem": "C8DC706968908989E9ED0EE5FA0F3000",
+    "ParentIds": [
+      "46A6E921F564044598F0E2C2CB202080"
+    ],
+    "ChildIds": [
+      "5CE5B77479887AE04131619DF0B6B19A"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "5CE5B77479887AE04131619DF0B6B19A": {
+    "Mem": "5CE5B77479887AE04131619DF0B6B19A",
+    "ParentIds": [
+      "C8DC706968908989E9ED0EE5FA0F3000"
+    ],
+    "ChildIds": [],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "04E495EBC0D6DF8897DC4CF5AE0B1756": {
+    "Mem": "04E495EBC0D6DF8897DC4CF5AE0B1756",
+    "ParentIds": [
+      "3DA24FFD6B8927D0F5376E8BD30F8F15",
+      "0D334AFC1BF60DFCAD4CEE8FAC25D88B"
+    ],
+    "ChildIds": [
+      "811B97A435A1CB61FC0A721435F8F698",
+      "E47FAB9A1BCDEC5CC0B8D5063C65052C"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "811B97A435A1CB61FC0A721435F8F698": {
+    "Mem": "811B97A435A1CB61FC0A721435F8F698",
+    "ParentIds": [
+      "04E495EBC0D6DF8897DC4CF5AE0B1756",
+      "E47FAB9A1BCDEC5CC0B8D5063C65052C",
+      "9141750498DE57CD50666DC9C95631CF"
+    ],
+    "ChildIds": [
+      "99E2A838F22E1A9B08645BDB0ADBCF57",
+      "4307ACAF017CA86053B10C8CDED9C181",
+      "220D98AFDE7C3D2D0D37E644E3BFBCA1",
+      "ED690E0DA66F84F07565C46A36A66E6F",
+      "7A61CC1AD04BBADC6A10FC34AA67F9AA",
+      "7DF82188E0DC3AF84FFDE1FDF6E919C1",
+      "ED92981782FA8AC6CD4EAAB673F7D616"
+    ],
+    "Tag": null,
+    "Text": "Direct from clip to corner",
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "5841F527BE7EDF3B6254D88B300FBD0F": {
+    "Mem": "5841F527BE7EDF3B6254D88B300FBD0F",
+    "ParentIds": [
+      "CBB242DB25D65E124FEBD1D2592FA493"
+    ],
+    "ChildIds": [
+      "BEAFF392CAD799F0926721D97267DD7D"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "C01AE9E5E63B0A011B2CDD5A1ADB18F8": {
+    "Mem": "C01AE9E5E63B0A011B2CDD5A1ADB18F8",
+    "ParentIds": [
+      "3DA24FFD6B8927D0F5376E8BD30F8F15"
+    ],
+    "ChildIds": [],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "99E2A838F22E1A9B08645BDB0ADBCF57": {
+    "Mem": "99E2A838F22E1A9B08645BDB0ADBCF57",
+    "ParentIds": [
+      "811B97A435A1CB61FC0A721435F8F698",
+      "4307ACAF017CA86053B10C8CDED9C181"
+    ],
+    "ChildIds": [
+      "46D3D8F7C277E717DF607FEFDEFD6BC6",
+      "5B0ECC809927F4EA1B7638E93D55D6B4"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "46D3D8F7C277E717DF607FEFDEFD6BC6": {
+    "Mem": "46D3D8F7C277E717DF607FEFDEFD6BC6",
+    "ParentIds": [
+      "99E2A838F22E1A9B08645BDB0ADBCF57",
+      "5B0ECC809927F4EA1B7638E93D55D6B4"
+    ],
+    "ChildIds": [
+      "C317940A5D0BE1C32B1228CCD33BD9AA"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "4307ACAF017CA86053B10C8CDED9C181": {
+    "Mem": "4307ACAF017CA86053B10C8CDED9C181",
+    "ParentIds": [
+      "811B97A435A1CB61FC0A721435F8F698"
+    ],
+    "ChildIds": [
+      "99E2A838F22E1A9B08645BDB0ADBCF57",
+      "220D98AFDE7C3D2D0D37E644E3BFBCA1"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "220D98AFDE7C3D2D0D37E644E3BFBCA1": {
+    "Mem": "220D98AFDE7C3D2D0D37E644E3BFBCA1",
+    "ParentIds": [
+      "4307ACAF017CA86053B10C8CDED9C181",
+      "811B97A435A1CB61FC0A721435F8F698",
+      "ED690E0DA66F84F07565C46A36A66E6F",
+      "7A61CC1AD04BBADC6A10FC34AA67F9AA",
+      "7DF82188E0DC3AF84FFDE1FDF6E919C1"
+    ],
+    "ChildIds": [
+      "1FFBF64A83034B208A3722100E2CBFC4",
+      "4CCBBEA7A389129BD28A75C44A5C8B4F",
+      "8A236814641256FAF294A101595352C2"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "1FFBF64A83034B208A3722100E2CBFC4": {
+    "Mem": "1FFBF64A83034B208A3722100E2CBFC4",
+    "ParentIds": [
+      "220D98AFDE7C3D2D0D37E644E3BFBCA1",
+      "4CCBBEA7A389129BD28A75C44A5C8B4F",
+      "8A236814641256FAF294A101595352C2"
+    ],
+    "ChildIds": [
+      "FED2ED1D857EC2737C4D3ECD9A3983C2",
+      "DC1BD793CB133C3511108FB2781C4E84",
+      "390F17DF972044A43162D616F0C3270D",
+      "E987649FE44837C0A38DEC0309D29EC0",
+      "814F76696EBC0A7981C53BC227BA302E"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "FED2ED1D857EC2737C4D3ECD9A3983C2": {
+    "Mem": "FED2ED1D857EC2737C4D3ECD9A3983C2",
+    "ParentIds": [
+      "1FFBF64A83034B208A3722100E2CBFC4",
+      "390F17DF972044A43162D616F0C3270D",
+      "E987649FE44837C0A38DEC0309D29EC0"
+    ],
+    "ChildIds": [
+      "DC1BD793CB133C3511108FB2781C4E84",
+      "DEA9F694B5656F2921CD744B81A7BE9A",
+      "E987649FE44837C0A38DEC0309D29EC0",
+      "10ECCC3844D44BBF8BE3C7509350E8B9"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "DC1BD793CB133C3511108FB2781C4E84": {
+    "Mem": "DC1BD793CB133C3511108FB2781C4E84",
+    "ParentIds": [
+      "FED2ED1D857EC2737C4D3ECD9A3983C2",
+      "10ECCC3844D44BBF8BE3C7509350E8B9",
+      "1FFBF64A83034B208A3722100E2CBFC4"
+    ],
+    "ChildIds": [
+      "9EC561E948422AF9D00689B537555678",
+      "761990F1E71990D954A89CB8EE5C606E"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "E47FAB9A1BCDEC5CC0B8D5063C65052C": {
+    "Mem": "E47FAB9A1BCDEC5CC0B8D5063C65052C",
+    "ParentIds": [
+      "04E495EBC0D6DF8897DC4CF5AE0B1756"
+    ],
+    "ChildIds": [
+      "811B97A435A1CB61FC0A721435F8F698"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "C317940A5D0BE1C32B1228CCD33BD9AA": {
+    "Mem": "C317940A5D0BE1C32B1228CCD33BD9AA",
+    "ParentIds": [
+      "46D3D8F7C277E717DF607FEFDEFD6BC6"
+    ],
+    "ChildIds": [
+      "55EDBA8F5E2A54269C0AB09E6710EAE2"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "DEA9F694B5656F2921CD744B81A7BE9A": {
+    "Mem": "DEA9F694B5656F2921CD744B81A7BE9A",
+    "ParentIds": [
+      "FED2ED1D857EC2737C4D3ECD9A3983C2"
+    ],
+    "ChildIds": [],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "390F17DF972044A43162D616F0C3270D": {
+    "Mem": "390F17DF972044A43162D616F0C3270D",
+    "ParentIds": [
+      "1FFBF64A83034B208A3722100E2CBFC4"
+    ],
+    "ChildIds": [
+      "FED2ED1D857EC2737C4D3ECD9A3983C2"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "9EC561E948422AF9D00689B537555678": {
+    "Mem": "9EC561E948422AF9D00689B537555678",
+    "ParentIds": [
+      "DC1BD793CB133C3511108FB2781C4E84"
+    ],
+    "ChildIds": [
+      "761990F1E71990D954A89CB8EE5C606E"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "5B0ECC809927F4EA1B7638E93D55D6B4": {
+    "Mem": "5B0ECC809927F4EA1B7638E93D55D6B4",
+    "ParentIds": [
+      "99E2A838F22E1A9B08645BDB0ADBCF57"
+    ],
+    "ChildIds": [
+      "46D3D8F7C277E717DF607FEFDEFD6BC6"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "55EDBA8F5E2A54269C0AB09E6710EAE2": {
+    "Mem": "55EDBA8F5E2A54269C0AB09E6710EAE2",
+    "ParentIds": [
+      "C317940A5D0BE1C32B1228CCD33BD9AA"
+    ],
+    "ChildIds": [
+      "725E34CB32C9B04E1F2AB260E208E4C0"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "725E34CB32C9B04E1F2AB260E208E4C0": {
+    "Mem": "725E34CB32C9B04E1F2AB260E208E4C0",
+    "ParentIds": [
+      "55EDBA8F5E2A54269C0AB09E6710EAE2"
+    ],
+    "ChildIds": [],
+    "Tag": 7,
+    "Text": "ignore",
+    "TagText": "Seam Drop",
+    "Colour": "SandyBrown",
+    "MountCoords": []
+  },
+  "ED690E0DA66F84F07565C46A36A66E6F": {
+    "Mem": "ED690E0DA66F84F07565C46A36A66E6F",
+    "ParentIds": [
+      "811B97A435A1CB61FC0A721435F8F698"
+    ],
+    "ChildIds": [
+      "220D98AFDE7C3D2D0D37E644E3BFBCA1",
+      "7DF82188E0DC3AF84FFDE1FDF6E919C1"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "7A61CC1AD04BBADC6A10FC34AA67F9AA": {
+    "Mem": "7A61CC1AD04BBADC6A10FC34AA67F9AA",
+    "ParentIds": [
+      "811B97A435A1CB61FC0A721435F8F698"
+    ],
+    "ChildIds": [
+      "220D98AFDE7C3D2D0D37E644E3BFBCA1"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "7DF82188E0DC3AF84FFDE1FDF6E919C1": {
+    "Mem": "7DF82188E0DC3AF84FFDE1FDF6E919C1",
+    "ParentIds": [
+      "811B97A435A1CB61FC0A721435F8F698",
+      "ED690E0DA66F84F07565C46A36A66E6F"
+    ],
+    "ChildIds": [
+      "220D98AFDE7C3D2D0D37E644E3BFBCA1",
+      "9141750498DE57CD50666DC9C95631CF"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "4CCBBEA7A389129BD28A75C44A5C8B4F": {
+    "Mem": "4CCBBEA7A389129BD28A75C44A5C8B4F",
+    "ParentIds": [
+      "220D98AFDE7C3D2D0D37E644E3BFBCA1"
+    ],
+    "ChildIds": [
+      "1FFBF64A83034B208A3722100E2CBFC4"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "E987649FE44837C0A38DEC0309D29EC0": {
+    "Mem": "E987649FE44837C0A38DEC0309D29EC0",
+    "ParentIds": [
+      "1FFBF64A83034B208A3722100E2CBFC4",
+      "FED2ED1D857EC2737C4D3ECD9A3983C2"
+    ],
+    "ChildIds": [
+      "FED2ED1D857EC2737C4D3ECD9A3983C2"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "9141750498DE57CD50666DC9C95631CF": {
+    "Mem": "9141750498DE57CD50666DC9C95631CF",
+    "ParentIds": [
+      "7DF82188E0DC3AF84FFDE1FDF6E919C1"
+    ],
+    "ChildIds": [
+      "811B97A435A1CB61FC0A721435F8F698"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "10ECCC3844D44BBF8BE3C7509350E8B9": {
+    "Mem": "10ECCC3844D44BBF8BE3C7509350E8B9",
+    "ParentIds": [
+      "FED2ED1D857EC2737C4D3ECD9A3983C2"
+    ],
+    "ChildIds": [
+      "DC1BD793CB133C3511108FB2781C4E84"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "1BC609783CD25B520D283C1D57CEBFCF": {
+    "Mem": "1BC609783CD25B520D283C1D57CEBFCF",
+    "ParentIds": [
+      "BEAFF392CAD799F0926721D97267DD7D"
+    ],
+    "ChildIds": [
+      "F1C66D83A79026B3E186FC1BDFBEE354"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "F1C66D83A79026B3E186FC1BDFBEE354": {
+    "Mem": "F1C66D83A79026B3E186FC1BDFBEE354",
+    "ParentIds": [
+      "1BC609783CD25B520D283C1D57CEBFCF"
+    ],
+    "ChildIds": [
+      "248C8A0E94EF6677B50B865093465E35"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "248C8A0E94EF6677B50B865093465E35": {
+    "Mem": "248C8A0E94EF6677B50B865093465E35",
+    "ParentIds": [
+      "F1C66D83A79026B3E186FC1BDFBEE354"
+    ],
+    "ChildIds": [
+      "3B57B7E41B95B82BF6147044EA3E8627"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "3B57B7E41B95B82BF6147044EA3E8627": {
+    "Mem": "3B57B7E41B95B82BF6147044EA3E8627",
+    "ParentIds": [
+      "248C8A0E94EF6677B50B865093465E35"
+    ],
+    "ChildIds": [
+      "736FD092F9875B0FAE41E578DE4581B9"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "736FD092F9875B0FAE41E578DE4581B9": {
+    "Mem": "736FD092F9875B0FAE41E578DE4581B9",
+    "ParentIds": [
+      "3B57B7E41B95B82BF6147044EA3E8627"
+    ],
+    "ChildIds": [],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "8A236814641256FAF294A101595352C2": {
+    "Mem": "8A236814641256FAF294A101595352C2",
+    "ParentIds": [
+      "220D98AFDE7C3D2D0D37E644E3BFBCA1"
+    ],
+    "ChildIds": [
+      "1FFBF64A83034B208A3722100E2CBFC4"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "761990F1E71990D954A89CB8EE5C606E": {
+    "Mem": "761990F1E71990D954A89CB8EE5C606E",
+    "ParentIds": [
+      "9EC561E948422AF9D00689B537555678",
+      "DC1BD793CB133C3511108FB2781C4E84",
+      "CC487E7412547CD86B4BB39DBD56690A",
+      "806BFB778296BFCCD183DE9B05D22670"
+    ],
+    "ChildIds": [
+      "9829F3F591B908D2920759A8DAADB819",
+      "F1DB4F945EFB5556C7B3F2F9B445734C",
+      "53ABC34FF241BEBF707379B70FAB47EC"
+    ],
+    "Tag": 7,
+    "Text": "3-1",
+    "TagText": "Seam Drop",
+    "Colour": "SandyBrown",
+    "MountCoords": []
+  },
+  "ED92981782FA8AC6CD4EAAB673F7D616": {
+    "Mem": "ED92981782FA8AC6CD4EAAB673F7D616",
+    "ParentIds": [
+      "811B97A435A1CB61FC0A721435F8F698"
+    ],
+    "ChildIds": [
+      "1B8F585879D4C1C6E78D295A7ED6B13E"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "1B8F585879D4C1C6E78D295A7ED6B13E": {
+    "Mem": "1B8F585879D4C1C6E78D295A7ED6B13E",
+    "ParentIds": [
+      "ED92981782FA8AC6CD4EAAB673F7D616"
+    ],
+    "ChildIds": [
+      "1CE8B00BE42F197A47785DB5204C1EAB"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "1CE8B00BE42F197A47785DB5204C1EAB": {
+    "Mem": "1CE8B00BE42F197A47785DB5204C1EAB",
+    "ParentIds": [
+      "1B8F585879D4C1C6E78D295A7ED6B13E"
+    ],
+    "ChildIds": [
+      "1AEE6EC716AE546D57CECACAA4475891"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "1AEE6EC716AE546D57CECACAA4475891": {
+    "Mem": "1AEE6EC716AE546D57CECACAA4475891",
+    "ParentIds": [
+      "1CE8B00BE42F197A47785DB5204C1EAB"
+    ],
+    "ChildIds": [
+      "B7CC778E3DB2E4A1DCA73EC9B96D8C95"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "B7CC778E3DB2E4A1DCA73EC9B96D8C95": {
+    "Mem": "B7CC778E3DB2E4A1DCA73EC9B96D8C95",
+    "ParentIds": [
+      "1AEE6EC716AE546D57CECACAA4475891"
+    ],
+    "ChildIds": [],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "814F76696EBC0A7981C53BC227BA302E": {
+    "Mem": "814F76696EBC0A7981C53BC227BA302E",
+    "ParentIds": [
+      "1FFBF64A83034B208A3722100E2CBFC4"
+    ],
+    "ChildIds": [],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "9829F3F591B908D2920759A8DAADB819": {
+    "Mem": "9829F3F591B908D2920759A8DAADB819",
+    "ParentIds": [
+      "761990F1E71990D954A89CB8EE5C606E"
+    ],
+    "ChildIds": [
+      "806BFB778296BFCCD183DE9B05D22670",
+      "1D340278D82BE7CC5FAEDF2CDC73F6F0",
+      "94B70204CFBAB5713B9A9E330AF3737E"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "806BFB778296BFCCD183DE9B05D22670": {
+    "Mem": "806BFB778296BFCCD183DE9B05D22670",
+    "ParentIds": [
+      "9829F3F591B908D2920759A8DAADB819",
+      "1D340278D82BE7CC5FAEDF2CDC73F6F0"
+    ],
+    "ChildIds": [
+      "761990F1E71990D954A89CB8EE5C606E",
+      "A847D9FDFF401247FDEAC80663A2358B"
+    ],
+    "Tag": null,
+    "Text": "fast",
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "A847D9FDFF401247FDEAC80663A2358B": {
+    "Mem": "A847D9FDFF401247FDEAC80663A2358B",
+    "ParentIds": [
+      "806BFB778296BFCCD183DE9B05D22670"
+    ],
+    "ChildIds": [
+      "C0DD9A54363A011059BF6C3D6ED7DE18"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "C0DD9A54363A011059BF6C3D6ED7DE18": {
+    "Mem": "C0DD9A54363A011059BF6C3D6ED7DE18",
+    "ParentIds": [
+      "A847D9FDFF401247FDEAC80663A2358B"
+    ],
+    "ChildIds": [
+      "06D5E168C5258517F76F54289E8D8BFF"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "06D5E168C5258517F76F54289E8D8BFF": {
+    "Mem": "06D5E168C5258517F76F54289E8D8BFF",
+    "ParentIds": [
+      "C0DD9A54363A011059BF6C3D6ED7DE18"
+    ],
+    "ChildIds": [],
+    "Tag": 1,
+    "Text": null,
+    "TagText": "Bike",
+    "Colour": "LightBlue",
+    "MountCoords": []
+  },
+  "1D340278D82BE7CC5FAEDF2CDC73F6F0": {
+    "Mem": "1D340278D82BE7CC5FAEDF2CDC73F6F0",
+    "ParentIds": [
+      "9829F3F591B908D2920759A8DAADB819"
+    ],
+    "ChildIds": [
+      "806BFB778296BFCCD183DE9B05D22670"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "F1DB4F945EFB5556C7B3F2F9B445734C": {
+    "Mem": "F1DB4F945EFB5556C7B3F2F9B445734C",
+    "ParentIds": [
+      "761990F1E71990D954A89CB8EE5C606E"
+    ],
+    "ChildIds": [],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "53ABC34FF241BEBF707379B70FAB47EC": {
+    "Mem": "53ABC34FF241BEBF707379B70FAB47EC",
+    "ParentIds": [
+      "761990F1E71990D954A89CB8EE5C606E"
+    ],
+    "ChildIds": [
+      "CC487E7412547CD86B4BB39DBD56690A"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "CC487E7412547CD86B4BB39DBD56690A": {
+    "Mem": "CC487E7412547CD86B4BB39DBD56690A",
+    "ParentIds": [
+      "53ABC34FF241BEBF707379B70FAB47EC"
+    ],
+    "ChildIds": [
+      "761990F1E71990D954A89CB8EE5C606E"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "94B70204CFBAB5713B9A9E330AF3737E": {
+    "Mem": "94B70204CFBAB5713B9A9E330AF3737E",
+    "ParentIds": [
+      "9829F3F591B908D2920759A8DAADB819"
+    ],
+    "ChildIds": [
+      "D8766D0BF5F34D892A47B1484B6A8AF6",
+      "9809D85373304458DAF5C736A948ED2D",
+      "3956663BA039A4A73E4A1B1D44F4E855"
+    ],
+    "Tag": null,
+    "Text": "slow",
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "D8766D0BF5F34D892A47B1484B6A8AF6": {
+    "Mem": "D8766D0BF5F34D892A47B1484B6A8AF6",
+    "ParentIds": [
+      "94B70204CFBAB5713B9A9E330AF3737E",
+      "9809D85373304458DAF5C736A948ED2D",
+      "3956663BA039A4A73E4A1B1D44F4E855"
+    ],
+    "ChildIds": [
+      "3C0113583A2C95938FBC5BE70254AE82"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "3C0113583A2C95938FBC5BE70254AE82": {
+    "Mem": "3C0113583A2C95938FBC5BE70254AE82",
+    "ParentIds": [
+      "D8766D0BF5F34D892A47B1484B6A8AF6"
+    ],
+    "ChildIds": [
+      "AC8505FABFA6C6BCB319390E5BA05B1A"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "9809D85373304458DAF5C736A948ED2D": {
+    "Mem": "9809D85373304458DAF5C736A948ED2D",
+    "ParentIds": [
+      "94B70204CFBAB5713B9A9E330AF3737E"
+    ],
+    "ChildIds": [
+      "D8766D0BF5F34D892A47B1484B6A8AF6"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "3956663BA039A4A73E4A1B1D44F4E855": {
+    "Mem": "3956663BA039A4A73E4A1B1D44F4E855",
+    "ParentIds": [
+      "94B70204CFBAB5713B9A9E330AF3737E"
+    ],
+    "ChildIds": [
+      "D8766D0BF5F34D892A47B1484B6A8AF6"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "AC8505FABFA6C6BCB319390E5BA05B1A": {
+    "Mem": "AC8505FABFA6C6BCB319390E5BA05B1A",
+    "ParentIds": [
+      "3C0113583A2C95938FBC5BE70254AE82"
+    ],
+    "ChildIds": [],
+    "Tag": 1,
+    "Text": null,
+    "TagText": "Bike",
+    "Colour": "LightBlue",
+    "MountCoords": []
+  },
+  "D1902C3F2F029804E05229A13435C53B": {
+    "Mem": "D1902C3F2F029804E05229A13435C53B",
+    "ParentIds": [
+      "0F564026F9B1E6B553656F602A6F4E42",
+      "ADA697B6F017042D6DE4FA182B956EBA"
+    ],
+    "ChildIds": [
+      "62AEB8C10424EEFEE3C46A31B1FA6EE4"
+    ],
+    "Tag": 29,
+    "Text": "",
+    "TagText": "",
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "62AEB8C10424EEFEE3C46A31B1FA6EE4": {
+    "Mem": "62AEB8C10424EEFEE3C46A31B1FA6EE4",
+    "ParentIds": [
+      "D1902C3F2F029804E05229A13435C53B"
+    ],
+    "ChildIds": [
+      "E44A0E4CC557C20C6AD85D53371C527A"
+    ],
+    "Tag": 8,
+    "Text": "Slow",
+    "TagText": "Seam Land",
+    "Colour": "SandyBrown",
+    "MountCoords": []
+  },
+  "E44A0E4CC557C20C6AD85D53371C527A": {
+    "Mem": "E44A0E4CC557C20C6AD85D53371C527A",
+    "ParentIds": [
+      "62AEB8C10424EEFEE3C46A31B1FA6EE4"
+    ],
+    "ChildIds": [
+      "09ABD0B3785790B58B6DE806BA900E60"
+    ],
+    "Tag": null,
+    "Text": null,
+    "TagText": null,
+    "Colour": "White",
+    "MountCoords": []
+  },
+  "09ABD0B3785790B58B6DE806BA900E60": {
+    "Mem": "09ABD0B3785790B58B6DE806BA900E60",
+    "ParentIds": [
+      "E44A0E4CC557C20C6AD85D53371C527A"
+    ],
+    "ChildIds": [],
+    "Tag": 1,
+    "Text": null,
+    "TagText": "Bike",
+    "Colour": "LightBlue",
+    "MountCoords": []
+  }
+}

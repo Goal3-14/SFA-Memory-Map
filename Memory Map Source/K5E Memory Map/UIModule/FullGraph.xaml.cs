@@ -35,6 +35,10 @@ namespace K5E_Memory_Map.UIModule
         private List<TreeNode> Childs;
         private TreeNode[,] Layout;
 
+        public string Root;
+        double RootX;
+        double RootY;
+
         private TreeNode _currentnode;
         public TreeNode CurrentNode
         {
@@ -73,6 +77,7 @@ namespace K5E_Memory_Map.UIModule
                 }
             }
         }
+
         private int _submem = 16;
         public int SubMem
         {
@@ -86,6 +91,7 @@ namespace K5E_Memory_Map.UIModule
                 }
             }
         }
+
         private bool? _showtag;
         public bool? ShowTag
         {
@@ -99,6 +105,7 @@ namespace K5E_Memory_Map.UIModule
                 }
             }
         }
+
         private bool? _showtext;
         public bool? ShowText
         {
@@ -112,6 +119,7 @@ namespace K5E_Memory_Map.UIModule
                 }
             }
         }
+
         private bool? _showstate;
         public bool? ShowState
         {
@@ -125,6 +133,7 @@ namespace K5E_Memory_Map.UIModule
                 }
             }
         }
+
         private bool? _showcol;
         public bool? ShowCol
         {
@@ -146,6 +155,7 @@ namespace K5E_Memory_Map.UIModule
         private TreeNode NodeBuf;
         private string StrBuf;
 
+        System.Windows.Media.Brush brush;
 
         double CentreX;
         double CentreY;
@@ -204,6 +214,8 @@ namespace K5E_Memory_Map.UIModule
             var graph = new Microsoft.Msagl.Drawing.Graph();
 
             ClearGraph();
+
+
             // Iterate over the nodes and create graph edges
             foreach (var nodeEntry in nodeHash.Values)
             {
@@ -249,6 +261,14 @@ namespace K5E_Memory_Map.UIModule
 
             }
 
+
+
+
+
+
+
+            //Set Node Coords and Calculate displayed Text
+
             Microsoft.Msagl.GraphViewerGdi.GraphRenderer renderer
             = new Microsoft.Msagl.GraphViewerGdi.GraphRenderer
             (graph);
@@ -287,7 +307,7 @@ namespace K5E_Memory_Map.UIModule
                     {
                         StrBuf = $"{StrBuf}{NodeBuf.Text} \n";
                     }
-                    
+
 
 
                 }
@@ -297,6 +317,11 @@ namespace K5E_Memory_Map.UIModule
 
 
 
+
+
+
+
+                //SaveStated Grey Box
                 if (ShowState == true)
                 {
                     if (NodeBuf.Stated == true)
@@ -311,7 +336,7 @@ namespace K5E_Memory_Map.UIModule
                         Rectangle SRect = new Rectangle
                         {
 
-                            Width = 170,               // Set an appropriate width
+                            Width = 170,
                             Height = 70,
                             Tag = NodeBuf.Mem,
 
@@ -321,11 +346,11 @@ namespace K5E_Memory_Map.UIModule
                             SRect.Fill = SBrush;
                         }
 
-                        
+
 
                         // Set the button's position
-                        Canvas.SetLeft(SRect, x+10);
-                        Canvas.SetBottom(SRect, y+10);
+                        Canvas.SetLeft(SRect, x + 10);
+                        Canvas.SetBottom(SRect, y + 10);
 
                         // Add the button to the Canvas
                         MyCanvas.Children.Add(SRect);
@@ -339,23 +364,39 @@ namespace K5E_Memory_Map.UIModule
 
 
 
-                
 
 
 
 
 
-
-
-
-                System.Windows.Media.Brush brush = (System.Windows.Media.Brush)typeof(System.Windows.Media.Brushes).GetProperty(NodeBuf.Colour)?.GetValue(null, null);
 
                 // Create a button for the node
+
+                if (_MainWindow.MenuChoice == "4") //If using Practice
+                {
+                    if (NodeBuf.PracPath == true)
+                    {
+                        brush = (System.Windows.Media.Brushes.LightGreen);
+                    }
+                    else if (NodeBuf.PracPath == false)
+                    {
+                        brush = (System.Windows.Media.Brushes.Tomato);
+                    }
+                    else
+                    {
+                        brush = (System.Windows.Media.Brushes.PaleTurquoise);
+                    }
+                }
+                else
+                {
+                    brush = (System.Windows.Media.Brush)typeof(System.Windows.Media.Brushes).GetProperty(NodeBuf.Colour)?.GetValue(null, null);
+                }
+                
                 Button nodeButton = new Button
                 {
                     Content = StrBuf, // Set the button content to the node label
 
-                    Width = 170,               // Set an appropriate width
+                    Width = 170,               
                     Height = 70,
                     Tag = NodeBuf.Mem,
 
@@ -380,33 +421,43 @@ namespace K5E_Memory_Map.UIModule
 
 
 
+                //Outline Current Node Blue
+                if (CurrentNode != null)
+                {
+                    if (NodeBuf.Mem == CurrentNode.Mem)
+                    {
+                        System.Windows.Shapes.Rectangle CurrentBorder = new System.Windows.Shapes.Rectangle
+                        {
+                            Width = 190,
+                            Height = 90,
+                            StrokeThickness = 3,
+                            Stroke = System.Windows.Media.Brushes.Blue
+                        };
+
+                        Canvas.SetLeft(CurrentBorder, x - 10);
+                        Canvas.SetBottom(CurrentBorder, y - 10);
+
+                        CentreX = x;
+                        CentreY = y;
+                        MyCanvas.Children.Add(CurrentBorder);
+                    }
+
+                }
                 
 
-                if (NodeBuf.Mem == CurrentNode.Mem)
+
+                //Get Root Coords
+
+                if (NodeBuf.Mem == Root)
                 {
-                    System.Windows.Shapes.Rectangle CurrentBorder = new System.Windows.Shapes.Rectangle
-                    {
-                        Width = 190,
-                        Height = 90,
-                        StrokeThickness = 3,
-                        Stroke = System.Windows.Media.Brushes.Blue
-                    };
-
-                    Canvas.SetLeft(CurrentBorder, x - 10);
-                    Canvas.SetBottom(CurrentBorder, y - 10);
-
-                    CentreX = x;
-                    CentreY = y;
-                    MyCanvas.Children.Add(CurrentBorder);
+                    RootX = x;
+                    RootY = y;
                 }
 
 
 
 
-
-
-
-
+                //Edges
 
                 foreach (var inEdge in node.InEdges)
                 {
@@ -434,8 +485,8 @@ namespace K5E_Memory_Map.UIModule
                     double endY = y - nodeButton.Height;                     // Y coordinate for the line end
 
                     // Create a line to connect the parent and child
-                    Debug.WriteLine(MyCanvas.ActualWidth);
-                    Debug.WriteLine(MyCanvas.ActualHeight);
+                    //Debug.WriteLine(MyCanvas.ActualWidth);
+                    //Debug.WriteLine(MyCanvas.ActualHeight);
                     //double StretchFactorX = MyCanvas.ActualWidth - 751;
                     double StretchFactorY = MyCanvas.ActualHeight - 451;
 
@@ -528,6 +579,7 @@ namespace K5E_Memory_Map.UIModule
             }
         }
 
+        //Think this is old one, but not sure
         private void Display()
         {
 
@@ -561,7 +613,7 @@ namespace K5E_Memory_Map.UIModule
 
 
 
-        }
+        } 
 
 
 
@@ -571,7 +623,7 @@ namespace K5E_Memory_Map.UIModule
             if (sender is Button button)
             {
                 NodeHash.TryGetValue(button.Tag as string, out TreeNode SelectedNode);
-                Debug.WriteLine(CurrentNode.Mem);
+                //Debug.WriteLine(CurrentNode.Mem);
                 _MainWindow.SelectedNode = SelectedNode;
             }
         }
@@ -609,19 +661,19 @@ namespace K5E_Memory_Map.UIModule
             {
                 isDragging = true;
 
-                Debug.WriteLine("");
-                Debug.WriteLine(e.GetPosition(SScrollViewer).X);
-                Debug.WriteLine(e.GetPosition(SScrollViewer).Y);
+                //Debug.WriteLine("");
+                //Debug.WriteLine(e.GetPosition(SScrollViewer).X);
+                //Debug.WriteLine(e.GetPosition(SScrollViewer).Y);
 
-                Debug.WriteLine(e.GetPosition(MyCanvas).X);
-                Debug.WriteLine(e.GetPosition(MyCanvas).Y);
+                //Debug.WriteLine(e.GetPosition(MyCanvas).X);
+                //Debug.WriteLine(e.GetPosition(MyCanvas).Y);
 
                 System.Windows.Point canvasPosition = MyCanvas.TranslatePoint(new System.Windows.Point(0, 0), SScrollViewer);
-                Debug.WriteLine(canvasPosition);
+                //Debug.WriteLine(canvasPosition);
                 canvasPosition.X += e.GetPosition(MyCanvas).X;
                 canvasPosition.Y += e.GetPosition(MyCanvas).Y;
-                Debug.WriteLine(canvasPosition);
-                Debug.WriteLine($"{tx} , {ty}");
+                //Debug.WriteLine(canvasPosition);
+                //Debug.WriteLine($"{tx} , {ty}");
 
                 lastMousePosition = e.GetPosition(SScrollViewer);
                 Mouse.Capture(SScrollViewer);
@@ -721,6 +773,12 @@ namespace K5E_Memory_Map.UIModule
             translateTransform.X -= EndPoss.X;
             translateTransform.Y -= EndPoss.Y;
 
+            if (Focus == true)
+            {
+                CentreTranslation();
+            }
+
+
             // Mark the event as handled to prevent the default scrolling behavior
             e.Handled = true;
 
@@ -732,6 +790,12 @@ namespace K5E_Memory_Map.UIModule
                 translateTransform.X = -CentreX +300;
                 translateTransform.Y = CentreY -180;
             
+        }
+
+        public void CentreRoot()
+        {
+            translateTransform.X = -RootX + 300;
+            translateTransform.Y = RootY - 180;
         }
 
         public void ResetZoom()
@@ -786,7 +850,7 @@ namespace K5E_Memory_Map.UIModule
                     {
                         graph.AddNode(parent.Mem); // Add parent node if it doesn't exist
                     }
-                    //graph.AddEdge(parent.Mem, nodeName); // Create edge from parent to child
+                    //graph.AddEdge(parent.Mem, nodeName); 
                 }
 
                 // Add edges to the children
@@ -796,7 +860,7 @@ namespace K5E_Memory_Map.UIModule
                     {
                         graph.AddNode(child.Mem); // Add child node if it doesn't exist
                     }
-                    graph.AddEdge(nodeName, child.Mem); // Create edge from child to parent
+                    graph.AddEdge(nodeName, child.Mem); 
                 }
 
 
@@ -959,8 +1023,8 @@ namespace K5E_Memory_Map.UIModule
                         double endY = y - nodeButton.Height;                     // Y coordinate for the line end
 
                         // Create a line to connect the parent and child
-                        Debug.WriteLine(MyCanvas.ActualWidth);
-                        Debug.WriteLine(MyCanvas.ActualHeight);
+                        //Debug.WriteLine(MyCanvas.ActualWidth);
+                        //Debug.WriteLine(MyCanvas.ActualHeight);
                         //double StretchFactorX = MyCanvas.ActualWidth - 751;
                         double StretchFactorY = MyCanvas.ActualHeight - 451;
 

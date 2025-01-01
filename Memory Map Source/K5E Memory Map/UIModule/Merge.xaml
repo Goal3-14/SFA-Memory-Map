@@ -6,7 +6,39 @@
              xmlns:local="clr-namespace:K5E_Memory_Map.UIModule"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid Background="Purple">
-            
+    
+    <Grid Background="Gray">
+
+
+        <StackPanel Margin="23,50,323,45" Width="500">
+            <TextBlock Text="Load File 1" FontSize="30" Width="290" HorizontalAlignment="Left"/>
+            <Button Content="Browse" Click="Load1" Height ="30" Width="250" HorizontalAlignment="Left"/>
+            <TextBlock Name ="FileName1" Text="Loaded File:"/>
+            <TextBlock Name ="NodeCount1" Text="Nodes:"/>
+            <TextBlock Name ="Root1" Text="Root:"/>
+            <TextBlock Name ="NumStates1" Text="States:"/>
+        </StackPanel>
+
+
+
+        <StackPanel Margin="23,210,323,45" Width="500">
+            <TextBlock Text="Load File 2" FontSize="30" Width="290" HorizontalAlignment="Left"/>
+            <Button Content="Browse" Click="Load2" Height ="30" Width="250" HorizontalAlignment="Left"/>
+            <TextBlock Name ="FileName2" Text="Loaded File:"/>
+            <TextBlock Name ="NodeCount2" Text="Nodes:"/>
+            <TextBlock Name ="Root2" Text="Root:"/>
+            <TextBlock Name ="NumStates2" Text="States:"/>
+        </StackPanel>
+
+        <StackPanel Margin="330,50,023,45" Width="500">
+            <TextBlock Text="Merge" FontSize="30" Width="290" HorizontalAlignment="Left"/>
+            <Button Content="Merge Trees (Doesn't Work Yet)" Click="MergeClick" Height ="30" Width="250" HorizontalAlignment="Left"/>
+            <TextBlock Name ="NodeCount3" Text="Nodes:"/>
+            <TextBlock Name ="Root3" Text="Root:"/>
+            <TextBlock Name ="NumStates3" Text="States:"/>
+            <Button Content="Save Merged Tree (Doesn't Work Yet)" Click="SaveFile" Height ="30" Width="250" HorizontalAlignment="Left"/>
+        </StackPanel>
+
+        <TextBlock Name="EError" Text ="" Margin="330,27,0,70" /> 
     </Grid>
 </UserControl>

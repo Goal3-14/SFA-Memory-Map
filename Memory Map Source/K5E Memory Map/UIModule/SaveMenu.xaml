@@ -12,10 +12,10 @@
         <StackPanel Margin="23,180,523,45">
             <TextBlock Text="Load File" FontSize="30" Width="290"/>
             <Button Content="Browse" Click="LoadFile"/>
-            <TextBlock Text="Loaded File:"/>
-            <TextBlock Text="Nodes:"/>
-            <TextBlock Text="Root:"/>
-            <TextBlock Text="States:"/>
+            <TextBlock Name ="FileName1" Text="Loaded File:"/>
+            <TextBlock Name ="NodeCount1" Text="Nodes:"/>
+            <TextBlock Name ="Root1" Text="Root:"/>
+            <TextBlock Name ="NumStates1" Text="States:"/>
         </StackPanel>
 
 

@@ -34,7 +34,7 @@ namespace K5E_Memory_Map
             
             nodeHash.Clear();
 
-            Debug.WriteLine("-- 1 --");
+            //Debug.WriteLine("-- 1 --");
 
             if (serializableNodes == null)
                 throw new Exception("Failed to deserialize nodes.");
@@ -44,14 +44,15 @@ namespace K5E_Memory_Map
             // First pass: create all nodes
             foreach (var entry in serializableNodes)
             {
-                Debug.WriteLine("-- 2 --");
+                //Debug.WriteLine("-- 2 --");
                 var node = new TreeNode(entry.Key, nodeHash, null)
                 {
                     Tag = entry.Value.Tag,
                     Text = entry.Value.Text,
                     TagText = entry.Value.TagText,
                     Colour = entry.Value.Colour,
-                    MountCoords = entry.Value.MountCoords
+                    MountCoords = entry.Value.MountCoords,
+                    PracPath = entry.Value.PracPath
                 };
 
 
@@ -84,6 +85,7 @@ namespace K5E_Memory_Map
             public string? TagText { get; set; }
             public string Colour { get; set; }
             public List<float[]> MountCoords { get; set; }
+            public bool? PracPath { get; set; }
 
             public SerializableTreeNode() { }
 
@@ -97,6 +99,7 @@ namespace K5E_Memory_Map
                 TagText = node.TagText;
                 Colour = node.Colour;
                 MountCoords = node.MountCoords;
+                PracPath = node.PracPath;
             }
         }
     }
