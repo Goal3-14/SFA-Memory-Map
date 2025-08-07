@@ -14,18 +14,25 @@ namespace K5E_Memory_Map
 
         public InfoLoop? InfoLoop { get; private set; } // Property to access MainLoop
 
+        public ScanLoop? ScanLoop { get; private set; } // Property to access MainLoop
+
         protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
             _mainWindow = new MainWindow();
             _mainWindow.Show(); // Show the main window
-            MainLoop = new MainLoop(_mainWindow);
+
+            ScanLoop = new ScanLoop();
+            Task.Run(() => ScanLoop.Start(_mainWindow));
+
+            MainLoop = new MainLoop(_mainWindow,ScanLoop.Queue);
             Task.Run(() => MainLoop.Run(null));
 
-            //_MemDisplay = new MemDisplay();
-            //_MemDisplay.Show(); // Show the main window
+            
             InfoLoop = new InfoLoop(_mainWindow);
             Task.Run(() => InfoLoop.Run());
+
+           
 
             Debug.WriteLine("affafg");
         }

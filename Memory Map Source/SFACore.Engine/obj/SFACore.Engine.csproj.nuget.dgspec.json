@@ -1,0 +1,402 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine\\SFACore.Engine.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Memory\\SFACore.Engine.Memory.csproj": {
+      "version": "2.3.1",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Memory\\SFACore.Engine.Memory.csproj",
+        "projectName": "SFACore.Engine.Memory",
+        "projectPath": "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Memory\\SFACore.Engine.Memory.csproj",
+        "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Memory\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Processes\\SFACore.Engine.Processes.csproj": {
+                "projectPath": "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Processes\\SFACore.Engine.Processes.csproj"
+              },
+              "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Utils\\SFACore.Engine.Common.csproj": {
+                "projectPath": "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Utils\\SFACore.Engine.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "MvvmLightStd10": {
+              "target": "Package",
+              "version": "[5.4.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Processes\\SFACore.Engine.Processes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Processes\\SFACore.Engine.Processes.csproj",
+        "projectName": "SFACore.Engine.Processes",
+        "projectPath": "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Processes\\SFACore.Engine.Processes.csproj",
+        "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Processes\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Utils\\SFACore.Engine.Common.csproj": {
+                "projectPath": "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Utils\\SFACore.Engine.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "MvvmLightStd10": {
+              "target": "Package",
+              "version": "[5.4.1.2, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Scanning\\SFACore.Engine.Scanning.csproj": {
+      "version": "2.3.1",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Scanning\\SFACore.Engine.Scanning.csproj",
+        "projectName": "SFACore.Engine.Scanning",
+        "projectPath": "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Scanning\\SFACore.Engine.Scanning.csproj",
+        "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Scanning\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Memory\\SFACore.Engine.Memory.csproj": {
+                "projectPath": "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Memory\\SFACore.Engine.Memory.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "MvvmLightStd10": {
+              "target": "Package",
+              "version": "[5.4.1.2, )"
+            },
+            "System.Memory": {
+              "target": "Package",
+              "version": "[4.5.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Utils\\SFACore.Engine.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Utils\\SFACore.Engine.Common.csproj",
+        "projectName": "SFACore.Engine.Common",
+        "projectPath": "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Utils\\SFACore.Engine.Common.csproj",
+        "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Utils\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "MvvmLightStd10": {
+              "target": "Package",
+              "version": "[5.4.1.2, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Numerics.Vectors": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine\\SFACore.Engine.csproj": {
+      "version": "2.3.1",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine\\SFACore.Engine.csproj",
+        "projectName": "SFACore.Engine",
+        "projectPath": "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine\\SFACore.Engine.csproj",
+        "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Memory\\SFACore.Engine.Memory.csproj": {
+                "projectPath": "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Memory\\SFACore.Engine.Memory.csproj"
+              },
+              "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Scanning\\SFACore.Engine.Scanning.csproj": {
+                "projectPath": "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Scanning\\SFACore.Engine.Scanning.csproj"
+              },
+              "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Utils\\SFACore.Engine.Common.csproj": {
+                "projectPath": "C:\\Users\\Jack\\Documents\\GitHub\\SFA-Memory-Map\\Memory Map Source\\SFACore.Engine.Utils\\SFACore.Engine.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "MvvmLightStd10": {
+              "target": "Package",
+              "version": "[5.4.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

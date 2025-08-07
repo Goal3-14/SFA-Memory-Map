@@ -277,7 +277,7 @@ namespace K5E_Memory_Map.UIModule
         }
         public MainWindow _MainWindow;
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Menu_RightClick(object sender, MouseButtonEventArgs e)
         {
             if (CurrentNode != null)
             {
@@ -306,7 +306,7 @@ namespace K5E_Memory_Map.UIModule
 
 
 
-        private void Menu_RightClick(object sender, MouseButtonEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
             Debug.WriteLine("jlsgjlsjgl");
             if (sender is Button button)

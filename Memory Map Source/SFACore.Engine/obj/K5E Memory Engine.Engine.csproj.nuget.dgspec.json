@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\B - SFA\\K5 Memory Maps\\v2.0\\K5E Memory Map\\SFACore.Engine\\K5E Memory Engine.Engine.csproj": {}
+  },
+  "projects": {
+    "E:\\B - SFA\\K5 Memory Maps\\v2.0\\K5E Memory Map\\SFACore.Engine\\K5E Memory Engine.Engine.csproj": {
+      "version": "2.3.1",
+      "restore": {
+        "projectUniqueName": "E:\\B - SFA\\K5 Memory Maps\\v2.0\\K5E Memory Map\\SFACore.Engine\\K5E Memory Engine.Engine.csproj",
+        "projectName": "K5E Memory Engine.Engine",
+        "projectPath": "E:\\B - SFA\\K5 Memory Maps\\v2.0\\K5E Memory Map\\SFACore.Engine\\K5E Memory Engine.Engine.csproj",
+        "packagesPath": "C:\\Users\\Goal\\.nuget\\packages\\",
+        "outputPath": "E:\\B - SFA\\K5 Memory Maps\\v2.0\\K5E Memory Map\\SFACore.Engine\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Goal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\B - SFA\\K5 Memory Maps\\v2.0\\K5E Memory Map\\SFACore.Engine.Memory\\SFACore.Engine.Memory.csproj": {
+                "projectPath": "E:\\B - SFA\\K5 Memory Maps\\v2.0\\K5E Memory Map\\SFACore.Engine.Memory\\SFACore.Engine.Memory.csproj"
+              },
+              "E:\\B - SFA\\K5 Memory Maps\\v2.0\\K5E Memory Map\\SFACore.Engine.Scanning\\SFACore.Engine.Scanning.csproj": {
+                "projectPath": "E:\\B - SFA\\K5 Memory Maps\\v2.0\\K5E Memory Map\\SFACore.Engine.Scanning\\SFACore.Engine.Scanning.csproj"
+              },
+              "E:\\B - SFA\\K5 Memory Maps\\v2.0\\K5E Memory Map\\SFACore.Engine.Utils\\SFACore.Engine.Common.csproj": {
+                "projectPath": "E:\\B - SFA\\K5 Memory Maps\\v2.0\\K5E Memory Map\\SFACore.Engine.Utils\\SFACore.Engine.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "MvvmLightStd10": {
+              "target": "Package",
+              "version": "[5.4.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -6,7 +6,17 @@
              xmlns:local="clr-namespace:K5E_Memory_Map.UIModule"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid Background="Pink">
-            
+    <Grid Background="Gray">
+        <TextBlock Text="Analysis" FontSize="30" Margin="23,18,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Button x:Name="Analyse" Content="Check Cycles" Width="80" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="23,64,0,0" Click="Clean_Click"/>
+
+        <StackPanel Margin="23,98,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <TextBlock Name ="NodeCount1" Text="Nodes:"/>
+            <TextBlock Name ="Root1" Text="Root:"/>
+            <TextBlock/>
+            <TextBlock Name="Cycles1" Text=""/>
+            <TextBlock Name="Cycles2title" Text="Removed Clear cycles" Visibility="Hidden"/>
+            <TextBlock Name="Cycles2"/>
+        </StackPanel>
     </Grid>
 </UserControl>

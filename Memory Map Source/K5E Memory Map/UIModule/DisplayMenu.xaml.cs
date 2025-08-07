@@ -220,5 +220,20 @@ namespace K5E_Memory_Map.UIModule
             _FullGraph.CentreRoot();
         }
 
+        private void ShowMountMap(object sender, RoutedEventArgs e)
+        {
+            _FullGraph._MainWindow.ShowMountMap = true;
+            _FullGraph._MainWindow.ChangeMountMap();
+        }
+
+        private void HideMountMap(object sender, RoutedEventArgs e)
+        {
+            _FullGraph._MainWindow.ShowMountMap = false;
+            _FullGraph._MainWindow.ChangeMountMap();
+        }
+
+
+
+
     }
 }

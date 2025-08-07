@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="K5E_Memory_Map.UIModule.MountMap"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:K5E_Memory_Map.UIModule"
+             mc:Ignorable="d" 
+             d:DesignHeight="250" d:DesignWidth="250">
+    <Grid>
+        <Image Source="/Images/IMCave.png" Width="250" Height="250"/>
+
+        <Canvas x:Name="OverlayCanvas" IsHitTestVisible="False">
+            <!-- Marker added dynamically -->
+        </Canvas>
+
+    </Grid>
+</UserControl>

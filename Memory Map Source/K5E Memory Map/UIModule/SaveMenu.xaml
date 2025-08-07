@@ -7,10 +7,12 @@
              mc:Ignorable="d" 
              d:DesignHeight="374" d:DesignWidth="667">
     <Grid Background="Gray">
-        <Button Content="New Root"   Width="100" Height="40" Margin="205,18,362,316" Click="NewRoot"/>
-        <Button Content="New Tree"   Width="100" Height="40" Margin="205,68,362,266" Click="NewTree"/>
-        <StackPanel Margin="23,180,523,45">
-            <TextBlock Text="Load File" FontSize="30" Width="290"/>
+        
+        <Button Content="New Root"   Width="100" Height="40" Margin="395,56,0,0" Click="NewRoot" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Button Content="New Tree"   Width="100" Height="40" Margin="395,108,0,0" Click="NewTree" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        
+        <StackPanel Margin="23,180,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <TextBlock Text="Load Map File" FontSize="30" Width="290"/>
             <Button Content="Browse" Click="LoadFile"/>
             <TextBlock Name ="FileName1" Text="Loaded File:"/>
             <TextBlock Name ="NodeCount1" Text="Nodes:"/>
@@ -19,14 +21,14 @@
         </StackPanel>
 
 
-        <StackPanel Margin="23,18,523,207">
-            <TextBlock Text="Save File" FontSize="30" Width="290"/>
-            <TextBox Name ="SaveText"/>
+        <StackPanel Margin="23,88,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <TextBlock Text="Save Map File" FontSize="30" Width="290"/>
             <Button Content="Save" Click="SaveFile"/>
-            <TextBlock Text="Loaded File:"/>
-            <TextBlock Text="Nodes:"/>
-            <TextBlock Text="Root:"/>
+            
             <TextBlock Text=""/>
         </StackPanel>
+
+        <Button Content="Set Dolphin StateSaves Folder Path" Click="StateFolder" Width="200" Height="40" Margin="23,18,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <TextBlock Text="Save states will be saved from and loaded to save state slot 10" Margin="23,58,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
     </Grid>
 </UserControl>

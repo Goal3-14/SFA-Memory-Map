@@ -1,42 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\B - SFA\\K5 Memory Maps\\v1.3\\Memory Map Source\\",
+  "WorkspaceRootPath": "E:\\B - SFA\\K5 Memory Maps\\v2.5\\K5E Memory Map\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55827215-D3D1-42BB-82F4-3E7F723436CC}|K5E Memory Map\\K5E Memory Map.csproj|e:\\b - sfa\\k5 memory maps\\v1.3\\memory map source\\k5e memory map\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{55827215-D3D1-42BB-82F4-3E7F723436CC}|K5E Memory Map\\K5E Memory Map.csproj|e:\\b - sfa\\k5 memory maps\\v2.5\\k5e memory map\\k5e memory map\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{55827215-D3D1-42BB-82F4-3E7F723436CC}|K5E Memory Map\\K5E Memory Map.csproj|solutionrelative:k5e memory map\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55827215-D3D1-42BB-82F4-3E7F723436CC}|K5E Memory Map\\K5E Memory Map.csproj|e:\\b - sfa\\k5 memory maps\\v1.3\\memory map source\\k5e memory map\\treenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55827215-D3D1-42BB-82F4-3E7F723436CC}|K5E Memory Map\\K5E Memory Map.csproj|solutionrelative:k5e memory map\\treenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55827215-D3D1-42BB-82F4-3E7F723436CC}|K5E Memory Map\\K5E Memory Map.csproj|e:\\b - sfa\\k5 memory maps\\v1.3\\memory map source\\k5e memory map\\mainloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55827215-D3D1-42BB-82F4-3E7F723436CC}|K5E Memory Map\\K5E Memory Map.csproj|solutionrelative:k5e memory map\\mainloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55827215-D3D1-42BB-82F4-3E7F723436CC}|K5E Memory Map\\K5E Memory Map.csproj|e:\\b - sfa\\k5 memory maps\\v1.3\\memory map source\\k5e memory map\\uimodule\\selecteddetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55827215-D3D1-42BB-82F4-3E7F723436CC}|K5E Memory Map\\K5E Memory Map.csproj|solutionrelative:k5e memory map\\uimodule\\selecteddetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55827215-D3D1-42BB-82F4-3E7F723436CC}|K5E Memory Map\\K5E Memory Map.csproj|e:\\b - sfa\\k5 memory maps\\v1.3\\memory map source\\k5e memory map\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55827215-D3D1-42BB-82F4-3E7F723436CC}|K5E Memory Map\\K5E Memory Map.csproj|solutionrelative:k5e memory map\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55827215-D3D1-42BB-82F4-3E7F723436CC}|K5E Memory Map\\K5E Memory Map.csproj|e:\\b - sfa\\k5 memory maps\\v1.3\\memory map source\\k5e memory map\\uimodule\\fullgraph.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55827215-D3D1-42BB-82F4-3E7F723436CC}|K5E Memory Map\\K5E Memory Map.csproj|solutionrelative:k5e memory map\\uimodule\\fullgraph.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55827215-D3D1-42BB-82F4-3E7F723436CC}|K5E Memory Map\\K5E Memory Map.csproj|e:\\b - sfa\\k5 memory maps\\v1.3\\memory map source\\k5e memory map\\uimodule\\nodedetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55827215-D3D1-42BB-82F4-3E7F723436CC}|K5E Memory Map\\K5E Memory Map.csproj|solutionrelative:k5e memory map\\uimodule\\nodedetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55827215-D3D1-42BB-82F4-3E7F723436CC}|K5E Memory Map\\K5E Memory Map.csproj|e:\\b - sfa\\k5 memory maps\\v1.3\\memory map source\\k5e memory map\\infoloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55827215-D3D1-42BB-82F4-3E7F723436CC}|K5E Memory Map\\K5E Memory Map.csproj|solutionrelative:k5e memory map\\infoloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55827215-D3D1-42BB-82F4-3E7F723436CC}|K5E Memory Map\\K5E Memory Map.csproj|e:\\b - sfa\\k5 memory maps\\v1.3\\memory map source\\k5e memory map\\uimodule\\fullgraph.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{55827215-D3D1-42BB-82F4-3E7F723436CC}|K5E Memory Map\\K5E Memory Map.csproj|solutionrelative:k5e memory map\\uimodule\\fullgraph.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{55827215-D3D1-42BB-82F4-3E7F723436CC}|K5E Memory Map\\K5E Memory Map.csproj|e:\\b - sfa\\k5 memory maps\\v2.5\\k5e memory map\\k5e memory map\\uimodule\\mainmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55827215-D3D1-42BB-82F4-3E7F723436CC}|K5E Memory Map\\K5E Memory Map.csproj|solutionrelative:k5e memory map\\uimodule\\mainmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,119 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SelectedDetails.xaml.cs",
-              "DocumentMoniker": "E:\\B - SFA\\K5 Memory Maps\\v1.3\\Memory Map Source\\K5E Memory Map\\UIModule\\SelectedDetails.xaml.cs",
-              "RelativeDocumentMoniker": "K5E Memory Map\\UIModule\\SelectedDetails.xaml.cs",
-              "ToolTip": "E:\\B - SFA\\K5 Memory Maps\\v1.3\\Memory Map Source\\K5E Memory Map\\UIModule\\SelectedDetails.xaml.cs",
-              "RelativeToolTip": "K5E Memory Map\\UIModule\\SelectedDetails.xaml.cs",
-              "ViewState": "AgIAADoBAAAAAAAAAAAqwFUBAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T18:17:19.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NodeDetails.xaml.cs",
-              "DocumentMoniker": "E:\\B - SFA\\K5 Memory Maps\\v1.3\\Memory Map Source\\K5E Memory Map\\UIModule\\NodeDetails.xaml.cs",
-              "RelativeDocumentMoniker": "K5E Memory Map\\UIModule\\NodeDetails.xaml.cs",
-              "ToolTip": "E:\\B - SFA\\K5 Memory Maps\\v1.3\\Memory Map Source\\K5E Memory Map\\UIModule\\NodeDetails.xaml.cs",
-              "RelativeToolTip": "K5E Memory Map\\UIModule\\NodeDetails.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAMIAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T18:39:40.001Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "InfoLoop.cs",
-              "DocumentMoniker": "E:\\B - SFA\\K5 Memory Maps\\v1.3\\Memory Map Source\\K5E Memory Map\\InfoLoop.cs",
-              "RelativeDocumentMoniker": "K5E Memory Map\\InfoLoop.cs",
-              "ToolTip": "E:\\B - SFA\\K5 Memory Maps\\v1.3\\Memory Map Source\\K5E Memory Map\\InfoLoop.cs",
-              "RelativeToolTip": "K5E Memory Map\\InfoLoop.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T16:56:09.313Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainLoop.cs",
-              "DocumentMoniker": "E:\\B - SFA\\K5 Memory Maps\\v1.3\\Memory Map Source\\K5E Memory Map\\MainLoop.cs",
-              "RelativeDocumentMoniker": "K5E Memory Map\\MainLoop.cs",
-              "ToolTip": "E:\\B - SFA\\K5 Memory Maps\\v1.3\\Memory Map Source\\K5E Memory Map\\MainLoop.cs",
-              "RelativeToolTip": "K5E Memory Map\\MainLoop.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T17:08:13.694Z",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\B - SFA\\K5 Memory Maps\\v2.5\\K5E Memory Map\\K5E Memory Map\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "K5E Memory Map\\MainWindow.xaml",
+              "ToolTip": "E:\\B - SFA\\K5 Memory Maps\\v2.5\\K5E Memory Map\\K5E Memory Map\\MainWindow.xaml",
+              "RelativeToolTip": "K5E Memory Map\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-04T17:20:11.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TreeNode.cs",
-              "DocumentMoniker": "E:\\B - SFA\\K5 Memory Maps\\v1.3\\Memory Map Source\\K5E Memory Map\\TreeNode.cs",
-              "RelativeDocumentMoniker": "K5E Memory Map\\TreeNode.cs",
-              "ToolTip": "E:\\B - SFA\\K5 Memory Maps\\v1.3\\Memory Map Source\\K5E Memory Map\\TreeNode.cs",
-              "RelativeToolTip": "K5E Memory Map\\TreeNode.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAxAAAAAAAAAA==",
+              "Title": "MainMenu.xaml.cs",
+              "DocumentMoniker": "E:\\B - SFA\\K5 Memory Maps\\v2.5\\K5E Memory Map\\K5E Memory Map\\UIModule\\MainMenu.xaml.cs",
+              "RelativeDocumentMoniker": "K5E Memory Map\\UIModule\\MainMenu.xaml.cs",
+              "ToolTip": "E:\\B - SFA\\K5 Memory Maps\\v2.5\\K5E Memory Map\\K5E Memory Map\\UIModule\\MainMenu.xaml.cs",
+              "RelativeToolTip": "K5E Memory Map\\UIModule\\MainMenu.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAG0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T22:46:07.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FullGraph.xaml",
-              "DocumentMoniker": "E:\\B - SFA\\K5 Memory Maps\\v1.3\\Memory Map Source\\K5E Memory Map\\UIModule\\FullGraph.xaml",
-              "RelativeDocumentMoniker": "K5E Memory Map\\UIModule\\FullGraph.xaml",
-              "ToolTip": "E:\\B - SFA\\K5 Memory Maps\\v1.3\\Memory Map Source\\K5E Memory Map\\UIModule\\FullGraph.xaml",
-              "RelativeToolTip": "K5E Memory Map\\UIModule\\FullGraph.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-31T04:17:40.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FullGraph.xaml.cs",
-              "DocumentMoniker": "E:\\B - SFA\\K5 Memory Maps\\v1.3\\Memory Map Source\\K5E Memory Map\\UIModule\\FullGraph.xaml.cs",
-              "RelativeDocumentMoniker": "K5E Memory Map\\UIModule\\FullGraph.xaml.cs",
-              "ToolTip": "E:\\B - SFA\\K5 Memory Maps\\v1.3\\Memory Map Source\\K5E Memory Map\\UIModule\\FullGraph.xaml.cs",
-              "RelativeToolTip": "K5E Memory Map\\UIModule\\FullGraph.xaml.cs",
-              "ViewState": "AgIAAOgAAAAAAAAAAAAAAL4BAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T04:04:26.497Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "E:\\B - SFA\\K5 Memory Maps\\v1.3\\Memory Map Source\\K5E Memory Map\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "K5E Memory Map\\MainWindow.xaml",
-              "ToolTip": "E:\\B - SFA\\K5 Memory Maps\\v1.3\\Memory Map Source\\K5E Memory Map\\MainWindow.xaml",
-              "RelativeToolTip": "K5E Memory Map\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-31T16:21:19.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "E:\\B - SFA\\K5 Memory Maps\\v1.3\\Memory Map Source\\K5E Memory Map\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "K5E Memory Map\\MainWindow.xaml.cs",
-              "ToolTip": "E:\\B - SFA\\K5 Memory Maps\\v1.3\\Memory Map Source\\K5E Memory Map\\MainWindow.xaml.cs",
-              "RelativeToolTip": "K5E Memory Map\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAAAEIAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T15:50:20.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-04T17:38:31.011Z"
             }
           ]
         }

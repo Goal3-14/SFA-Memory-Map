@@ -12,6 +12,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
+
 namespace K5E_Memory_Map
 {
 
@@ -21,7 +23,7 @@ namespace K5E_Memory_Map
 
         //public MainLoop? MainLoop { get; private set; }
 
-        private string? _hash; // Backing field for Hash property
+        private string? _hash;
         public string? Hash
         {
             get => _hash;
@@ -154,7 +156,20 @@ namespace K5E_Memory_Map
         public Boolean Paused = false;
         public int Menu = 1;
 
-        
+        private bool _attatched;
+        public bool Attatched
+        {
+            get => _attatched;
+            set
+            {
+                if (_attatched != value)
+                {
+                    _attatched = value;
+                    OnPropertyChanged(nameof(Attatched));
+                    MMainMenu.Attached = value;
+                }
+            }
+        }
 
         private Boolean TextToggle = true;
         private Boolean TagToggle = true;
@@ -168,7 +183,10 @@ namespace K5E_Memory_Map
 
         private UserControl[] Controls;
 
-        
+        public void SetRegion()
+        {
+
+        }
 
         private string _menuchoice = "2";
         public string MenuChoice
@@ -183,6 +201,7 @@ namespace K5E_Memory_Map
                 {
                     _menuchoice = value; OnPropertyChanged(nameof(MenuChoice));
                     ChangeGraph(_menuchoice);
+                    ChangeMountMap();
                 }
             }
         }
@@ -214,6 +233,29 @@ namespace K5E_Memory_Map
         }
 
 
+
+
+        public bool ShowMountMap = true;
+
+        public void ChangeMountMap()
+        {
+            if (_menuchoice == "4")
+            {
+                MMountMap.Visibility = Visibility.Hidden;
+            }
+            else
+            {
+                if (ShowMountMap)
+                {
+                    MMountMap.Visibility = Visibility.Visible;
+                }
+                else
+                {
+                    MMountMap.Visibility = Visibility.Hidden;
+                }    
+            }
+        }
+
         protected virtual void OnPropertyChanged(string propertyName)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
@@ -236,7 +278,13 @@ namespace K5E_Memory_Map
         public MainWindow()
         {
             InitializeComponent();
+            
+            
+
+            Attatched = false;
+
             DataContext = this;
+            MMemDisplay._mainwindow = this;
             MMainMenu._displaymenu = DDisplayMenu;
             MMainMenu._mainwindow = this;
             TTagButtons._MainWindow = this;
@@ -248,8 +296,8 @@ namespace K5E_Memory_Map
             SSelectedDetails._MainWindow = this;
             SSmallGraph._MainWindow = this;
             FFullGraph._MainWindow = this;
-            
-            
+            AAnalysis._MainWindow = this;
+            MMemDisplay._mountmap = MMountMap;
 
             DDisplayMenu.Mem.IsChecked = true;
             DDisplayMenu.Text.IsChecked = true;
@@ -258,6 +306,7 @@ namespace K5E_Memory_Map
             DDisplayMenu.Colour.IsChecked = true;
             DDisplayMenu.DefSub.IsChecked = true;
             DDisplayMenu.Focus.IsChecked = true;
+            DDisplayMenu.Map.IsChecked = true;
 
             Controls = new UserControl[] {
                 SSmallGraph,
@@ -265,7 +314,8 @@ namespace K5E_Memory_Map
                 SSaveMenu,
                 AAnalysis,
                 PPractice,
-                MMerge
+                MMerge,
+                HHelp
             };
 
         }
@@ -288,10 +338,13 @@ namespace K5E_Memory_Map
             {
                 if (Paused)
                 {
-                    Paused = false;
-                    Process = "1";
-                    PauseButton.Visibility = Visibility.Visible;
-                    PlayButton.Visibility = Visibility.Collapsed;
+                    if (Attatched)
+                    {
+                        Paused = false;
+                        Process = "1";
+                        PauseButton.Visibility = Visibility.Visible;
+                        PlayButton.Visibility = Visibility.Collapsed;
+                    }
                 }
                 else
                 {
@@ -302,6 +355,7 @@ namespace K5E_Memory_Map
                 }
             }
         }
+
 
         public void PracClear()
         {

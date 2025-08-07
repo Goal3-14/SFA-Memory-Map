@@ -1,4 +1,5 @@
-﻿using Microsoft.Msagl.GraphViewerGdi;
+﻿using Microsoft.Msagl.Drawing;
+using Microsoft.Msagl.GraphViewerGdi;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -52,7 +53,7 @@ namespace K5E_Memory_Map.UIModule
                     Parents = _currentnode.Parents;
                     Childs = _currentnode.Children;
                     //Debug.WriteLine(_currentnode.Mem);
-                    DisplayGraph(NodeHash);
+                    DisplayGraph(NodeHash, true);
                     //Display();
                 }
             }
@@ -73,7 +74,7 @@ namespace K5E_Memory_Map.UIModule
                 if (_showmem != value)
                 {
                     _showmem = value;
-                    DisplayGraph(NodeHash);
+                    DisplayGraph(NodeHash, false);
                 }
             }
         }
@@ -87,7 +88,7 @@ namespace K5E_Memory_Map.UIModule
                 if (_submem != value)
                 {
                     _submem = value;
-                    DisplayGraph(NodeHash);
+                    DisplayGraph(NodeHash, false);
                 }
             }
         }
@@ -101,7 +102,7 @@ namespace K5E_Memory_Map.UIModule
                 if (_showtag != value)
                 {
                     _showtag = value;
-                    DisplayGraph(NodeHash);
+                    DisplayGraph(NodeHash, false);
                 }
             }
         }
@@ -115,7 +116,7 @@ namespace K5E_Memory_Map.UIModule
                 if (_showtext != value)
                 {
                     _showtext = value;
-                    DisplayGraph(NodeHash);
+                    DisplayGraph(NodeHash, false);
                 }
             }
         }
@@ -129,7 +130,7 @@ namespace K5E_Memory_Map.UIModule
                 if (_showstate != value)
                 {
                     _showstate = value;
-                    DisplayGraph(NodeHash);
+                    DisplayGraph(NodeHash, false);
                 }
             }
         }
@@ -143,7 +144,7 @@ namespace K5E_Memory_Map.UIModule
                 if (_showcol != value)
                 {
                     _showcol = value;
-                    DisplayGraph(NodeHash);
+                    DisplayGraph(NodeHash, false);
                 }
             }
         }
@@ -208,7 +209,11 @@ namespace K5E_Memory_Map.UIModule
         }
 
 
-        public void DisplayGraph(Dictionary<string, TreeNode> nodeHash)
+        Microsoft.Msagl.Drawing.Graph CacheGraph;
+        Microsoft.Msagl.GraphViewerGdi.GraphRenderer CacheRenderer;
+
+
+        public void DisplayGraph(Dictionary<string, TreeNode> nodeHash, bool Layout)
         {
 
             var graph = new Microsoft.Msagl.Drawing.Graph();
@@ -216,63 +221,87 @@ namespace K5E_Memory_Map.UIModule
             ClearGraph();
 
 
-            // Iterate over the nodes and create graph edges
-            foreach (var nodeEntry in nodeHash.Values)
+            if (Layout == true)
             {
 
-                var nodeName = nodeEntry.Mem; // Access the member string of TreeNode
-
-                // Create a node with custom properties
-                var node = graph.AddNode(nodeName);
-                //node.LabelText = $"\n {nodeName} \n {nodeEntry.TagText}\n {nodeEntry.Text}"; // Add extra text
-                node.LabelText = $"{nodeName} \n \n \n";
-
-                //System.Drawing.Color color = System.Drawing.Color.FromName(nodeEntry.Colour);
-                //node.Attr.FillColor = new Microsoft.Msagl.Drawing.Color(color.A,color.R,color.G,color.B);
-                node.Attr.Shape = Microsoft.Msagl.Drawing.Shape.Box; // Set shape (choose from Circle, Square, Ellipse, etc.)
-
-
-
-                if (graph.FindNode(nodeName) == null)
+                // Iterate over the nodes and create graph edges
+                foreach (var nodeEntry in nodeHash.Values)
                 {
-                    graph.AddNode(nodeName); // Add the node if it doesn't exist
-                }
 
-                // Add edges to the parents
-                foreach (var parent in nodeEntry.Parents)
-                {
-                    if (graph.FindNode(parent.Mem) == null)
+                    var nodeName = nodeEntry.Mem; // Access the member string of TreeNode
+
+                    // Create a node with custom properties
+                    var node = graph.AddNode(nodeName);
+                    //node.LabelText = $"\n {nodeName} \n {nodeEntry.TagText}\n {nodeEntry.Text}"; // Add extra text
+                    node.LabelText = $"{nodeName} \n \n \n";
+
+                    //System.Drawing.Color color = System.Drawing.Color.FromName(nodeEntry.Colour);
+                    //node.Attr.FillColor = new Microsoft.Msagl.Drawing.Color(color.A,color.R,color.G,color.B);
+                    node.Attr.Shape = Microsoft.Msagl.Drawing.Shape.Box; // Set shape (choose from Circle, Square, Ellipse, etc.)
+
+
+
+                    if (graph.FindNode(nodeName) == null)
                     {
-                        graph.AddNode(parent.Mem); // Add parent node if it doesn't exist
+                        graph.AddNode(nodeName); // Add the node if it doesn't exist
                     }
-                    //graph.AddEdge(parent.Mem, nodeName); // Create edge from parent to child
-                }
 
-                // Add edges to the children
-                foreach (var child in nodeEntry.Children)
-                {
-                    if (graph.FindNode(child.Mem) == null)
+                    // Add edges to the parents
+                    foreach (var parent in nodeEntry.Parents)
                     {
-                        graph.AddNode(child.Mem); // Add child node if it doesn't exist
+                        if (graph.FindNode(parent.Mem) == null)
+                        {
+                            graph.AddNode(parent.Mem); // Add parent node if it doesn't exist
+                        }
+                        //graph.AddEdge(parent.Mem, nodeName); // Create edge from parent to child
                     }
-                    graph.AddEdge(nodeName, child.Mem); // Create edge from child to parent
+
+                    // Add edges to the children
+                    foreach (var child in nodeEntry.Children)
+                    {
+                        if (graph.FindNode(child.Mem) == null)
+                        {
+                            graph.AddNode(child.Mem); // Add child node if it doesn't exist
+                        }
+                        graph.AddEdge(nodeName, child.Mem); // Create edge from child to parent
+                    }
+
+
                 }
 
 
+
+
+
+
+
+                //Set Node Coords and Calculate displayed Text
+
+                Microsoft.Msagl.GraphViewerGdi.GraphRenderer renderer
+                = new Microsoft.Msagl.GraphViewerGdi.GraphRenderer(graph);
+
+
+
+
+
+                renderer.CalculateLayout();
+                CacheGraph = graph;
             }
+            else {
+                if (CacheGraph != null)
+                    {
+                    graph = CacheGraph;
+                    }
+                else
+                {
+                    return;
+                }
+
+                }
 
 
 
 
-
-
-
-            //Set Node Coords and Calculate displayed Text
-
-            Microsoft.Msagl.GraphViewerGdi.GraphRenderer renderer
-            = new Microsoft.Msagl.GraphViewerGdi.GraphRenderer
-            (graph);
-            renderer.CalculateLayout();
 
             foreach (var node in graph.Nodes)
             {
@@ -511,10 +540,10 @@ namespace K5E_Memory_Map.UIModule
             }
 
             // Assign the graph to the viewer
-            _GraphViewer.Graph = graph; // Set the graph to the GViewer
+            //_GraphViewer.Graph = graph; // Set the graph to the GViewer
             _GraphViewer.ZoomF = 0.4;
 
-            if (Focus == true)
+            if (Focus == true && _MainWindow.Process == "4")
             {
                 CentreTranslation();
             }
@@ -527,7 +556,7 @@ namespace K5E_Memory_Map.UIModule
 
         public void TriggerGraph()
         {
-            DisplayGraph(NodeHash);
+            DisplayGraph(NodeHash, true);
         }
 
 
@@ -1051,7 +1080,7 @@ namespace K5E_Memory_Map.UIModule
             }
 
             // Assign the graph to the viewer
-            _GraphViewer.Graph = graph; // Set the graph to the GViewer
+            //_GraphViewer.Graph = graph; // Set the graph to the GViewer
             _GraphViewer.ZoomF = 0.4;
 
             if (Focus == true)

@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = SFACore.Engine.Processes
+build_property.ProjectDir = E:\B - SFA\K5 Memory Maps\v2.2\K5E Memory Map\SFACore.Engine.Processes\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

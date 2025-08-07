@@ -7,6 +7,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>ball2.ico</ApplicationIcon>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -18,9 +19,34 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="ball.ico" />
+    <None Remove="Images\IMCave.png" />
+    <None Remove="IMCave.png" />
+    <None Remove="Small_Basket.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ball2.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.Msagl" Version="1.1.6" />
     <PackageReference Include="Microsoft.Msagl.Drawing" Version="1.1.6" />
     <PackageReference Include="Microsoft.Msagl.GraphViewerGDI" Version="1.1.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SFACore.Engine.Memory\SFACore.Engine.Memory.csproj" />
+    <ProjectReference Include="..\SFACore.Engine.Processes\SFACore.Engine.Processes.csproj" />
+    <ProjectReference Include="..\SFACore.Engine.Scanning\SFACore.Engine.Scanning.csproj" />
+    <ProjectReference Include="..\SFACore.Engine.Utils\SFACore.Engine.Common.csproj" />
+    <ProjectReference Include="..\SFACore.Engine\SFACore.Engine.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ball.ico" />
+    <Resource Include="Images\IMCave.png" />
+    <Resource Include="Small_Basket.ico" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,110 @@
+C:\Users\Goal\Desktop\SFA Core\v0\SFACore\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.deps.json
+C:\Users\Goal\Desktop\SFA Core\v0\SFACore\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.dll
+C:\Users\Goal\Desktop\SFA Core\v0\SFACore\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.pdb
+C:\Users\Goal\Desktop\SFA Core\v0\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.csproj.AssemblyReference.cache
+C:\Users\Goal\Desktop\SFA Core\v0\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Goal\Desktop\SFA Core\v0\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.AssemblyInfoInputs.cache
+C:\Users\Goal\Desktop\SFA Core\v0\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.AssemblyInfo.cs
+C:\Users\Goal\Desktop\SFA Core\v0\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.csproj.CoreCompileInputs.cache
+C:\Users\Goal\Desktop\SFA Core\v0\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.dll
+C:\Users\Goal\Desktop\SFA Core\v0\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.pdb
+C:\Users\Goal\Desktop\SFA Core\v1\SFACore\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.dll
+C:\Users\Goal\Desktop\SFA Core\v1\SFACore\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.deps.json
+C:\Users\Goal\Desktop\SFA Core\v1\SFACore\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.pdb
+C:\Users\Goal\Desktop\SFA Core\v1\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.csproj.AssemblyReference.cache
+C:\Users\Goal\Desktop\SFA Core\v1\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Goal\Desktop\SFA Core\v1\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.AssemblyInfoInputs.cache
+C:\Users\Goal\Desktop\SFA Core\v1\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.AssemblyInfo.cs
+C:\Users\Goal\Desktop\SFA Core\v1\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.csproj.CoreCompileInputs.cache
+C:\Users\Goal\Desktop\SFA Core\v1\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.dll
+C:\Users\Goal\Desktop\SFA Core\v1\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.pdb
+C:\Users\Goal\Desktop\SFA Core\Core v0\SFACore\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.deps.json
+C:\Users\Goal\Desktop\SFA Core\Core v0\SFACore\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.dll
+C:\Users\Goal\Desktop\SFA Core\Core v0\SFACore\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.pdb
+C:\Users\Goal\Desktop\SFA Core\Core v0\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.csproj.AssemblyReference.cache
+C:\Users\Goal\Desktop\SFA Core\Core v0\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Goal\Desktop\SFA Core\Core v0\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.AssemblyInfoInputs.cache
+C:\Users\Goal\Desktop\SFA Core\Core v0\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.AssemblyInfo.cs
+C:\Users\Goal\Desktop\SFA Core\Core v0\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.csproj.CoreCompileInputs.cache
+C:\Users\Goal\Desktop\SFA Core\Core v0\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.dll
+C:\Users\Goal\Desktop\SFA Core\Core v0\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.pdb
+C:\Users\Goal\Desktop\SFA Core\Hash v0\SFACore\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.deps.json
+C:\Users\Goal\Desktop\SFA Core\Hash v0\SFACore\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.dll
+C:\Users\Goal\Desktop\SFA Core\Hash v0\SFACore\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.pdb
+C:\Users\Goal\Desktop\SFA Core\Hash v0\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.csproj.AssemblyReference.cache
+C:\Users\Goal\Desktop\SFA Core\Hash v0\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Goal\Desktop\SFA Core\Hash v0\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.AssemblyInfoInputs.cache
+C:\Users\Goal\Desktop\SFA Core\Hash v0\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.AssemblyInfo.cs
+C:\Users\Goal\Desktop\SFA Core\Hash v0\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.csproj.CoreCompileInputs.cache
+C:\Users\Goal\Desktop\SFA Core\Hash v0\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.dll
+C:\Users\Goal\Desktop\SFA Core\Hash v0\SFACore\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.pdb
+E:\B - SFA\K5 Memory Maps\v2.0\K5E Memory Map\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.deps.json
+E:\B - SFA\K5 Memory Maps\v2.0\K5E Memory Map\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.dll
+E:\B - SFA\K5 Memory Maps\v2.0\K5E Memory Map\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.pdb
+E:\B - SFA\K5 Memory Maps\v2.0\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.csproj.AssemblyReference.cache
+E:\B - SFA\K5 Memory Maps\v2.0\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\B - SFA\K5 Memory Maps\v2.0\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.AssemblyInfoInputs.cache
+E:\B - SFA\K5 Memory Maps\v2.0\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.AssemblyInfo.cs
+E:\B - SFA\K5 Memory Maps\v2.0\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.csproj.CoreCompileInputs.cache
+E:\B - SFA\K5 Memory Maps\v2.0\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.dll
+E:\B - SFA\K5 Memory Maps\v2.0\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.pdb
+E:\B - SFA\K5 Memory Maps\v2.1\K5E Memory Map\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.deps.json
+E:\B - SFA\K5 Memory Maps\v2.1\K5E Memory Map\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.dll
+E:\B - SFA\K5 Memory Maps\v2.1\K5E Memory Map\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.pdb
+E:\B - SFA\K5 Memory Maps\v2.1\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.csproj.AssemblyReference.cache
+E:\B - SFA\K5 Memory Maps\v2.1\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\B - SFA\K5 Memory Maps\v2.1\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.AssemblyInfoInputs.cache
+E:\B - SFA\K5 Memory Maps\v2.1\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.AssemblyInfo.cs
+E:\B - SFA\K5 Memory Maps\v2.1\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.csproj.CoreCompileInputs.cache
+E:\B - SFA\K5 Memory Maps\v2.1\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.dll
+E:\B - SFA\K5 Memory Maps\v2.1\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.pdb
+E:\B - SFA\K5 Memory Maps\v2.2\K5E Memory Map\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.deps.json
+E:\B - SFA\K5 Memory Maps\v2.2\K5E Memory Map\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.dll
+E:\B - SFA\K5 Memory Maps\v2.2\K5E Memory Map\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.pdb
+E:\B - SFA\K5 Memory Maps\v2.2\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.csproj.AssemblyReference.cache
+E:\B - SFA\K5 Memory Maps\v2.2\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\B - SFA\K5 Memory Maps\v2.2\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.AssemblyInfoInputs.cache
+E:\B - SFA\K5 Memory Maps\v2.2\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.AssemblyInfo.cs
+E:\B - SFA\K5 Memory Maps\v2.2\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.csproj.CoreCompileInputs.cache
+E:\B - SFA\K5 Memory Maps\v2.2\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.dll
+E:\B - SFA\K5 Memory Maps\v2.2\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.pdb
+E:\B - SFA\K5 Memory Maps\v2.3\K5E Memory Map\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.deps.json
+E:\B - SFA\K5 Memory Maps\v2.3\K5E Memory Map\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.dll
+E:\B - SFA\K5 Memory Maps\v2.3\K5E Memory Map\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.pdb
+E:\B - SFA\K5 Memory Maps\v2.3\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.csproj.AssemblyReference.cache
+E:\B - SFA\K5 Memory Maps\v2.3\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\B - SFA\K5 Memory Maps\v2.3\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.AssemblyInfoInputs.cache
+E:\B - SFA\K5 Memory Maps\v2.3\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.AssemblyInfo.cs
+E:\B - SFA\K5 Memory Maps\v2.3\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.csproj.CoreCompileInputs.cache
+E:\B - SFA\K5 Memory Maps\v2.3\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.dll
+E:\B - SFA\K5 Memory Maps\v2.3\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.pdb
+E:\B - SFA\K5 Memory Maps\v2.4\K5E Memory Map\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.deps.json
+E:\B - SFA\K5 Memory Maps\v2.4\K5E Memory Map\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.dll
+E:\B - SFA\K5 Memory Maps\v2.4\K5E Memory Map\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.pdb
+E:\B - SFA\K5 Memory Maps\v2.4\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.csproj.AssemblyReference.cache
+E:\B - SFA\K5 Memory Maps\v2.4\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\B - SFA\K5 Memory Maps\v2.4\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.AssemblyInfoInputs.cache
+E:\B - SFA\K5 Memory Maps\v2.4\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.AssemblyInfo.cs
+E:\B - SFA\K5 Memory Maps\v2.4\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.csproj.CoreCompileInputs.cache
+E:\B - SFA\K5 Memory Maps\v2.4\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.dll
+E:\B - SFA\K5 Memory Maps\v2.4\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.pdb
+E:\B - SFA\K5 Memory Maps\v2.6\K5E Memory Map\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.deps.json
+E:\B - SFA\K5 Memory Maps\v2.6\K5E Memory Map\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.dll
+E:\B - SFA\K5 Memory Maps\v2.6\K5E Memory Map\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.pdb
+E:\B - SFA\K5 Memory Maps\v2.6\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.csproj.AssemblyReference.cache
+E:\B - SFA\K5 Memory Maps\v2.6\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\B - SFA\K5 Memory Maps\v2.6\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.AssemblyInfoInputs.cache
+E:\B - SFA\K5 Memory Maps\v2.6\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.AssemblyInfo.cs
+E:\B - SFA\K5 Memory Maps\v2.6\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.csproj.CoreCompileInputs.cache
+E:\B - SFA\K5 Memory Maps\v2.6\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.dll
+E:\B - SFA\K5 Memory Maps\v2.6\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.pdb
+E:\B - SFA\K5 Memory Maps\v2.5\K5E Memory Map\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.deps.json
+E:\B - SFA\K5 Memory Maps\v2.5\K5E Memory Map\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.dll
+E:\B - SFA\K5 Memory Maps\v2.5\K5E Memory Map\SFACore.Engine.Utils\bin\Debug\netstandard2.1\SFACore.Engine.Common.pdb
+E:\B - SFA\K5 Memory Maps\v2.5\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.csproj.AssemblyReference.cache
+E:\B - SFA\K5 Memory Maps\v2.5\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\B - SFA\K5 Memory Maps\v2.5\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.AssemblyInfoInputs.cache
+E:\B - SFA\K5 Memory Maps\v2.5\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.AssemblyInfo.cs
+E:\B - SFA\K5 Memory Maps\v2.5\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.csproj.CoreCompileInputs.cache
+E:\B - SFA\K5 Memory Maps\v2.5\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.dll
+E:\B - SFA\K5 Memory Maps\v2.5\K5E Memory Map\SFACore.Engine.Utils\obj\Debug\netstandard2.1\SFACore.Engine.Common.pdb

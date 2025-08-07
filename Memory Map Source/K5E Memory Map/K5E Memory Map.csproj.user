@@ -16,6 +16,9 @@
     <Compile Update="UIModule\FullGraph.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="UIModule\Help.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="UIModule\MainMenu.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -23,6 +26,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UIModule\Merge.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UIModule\MountMap.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="UIModule\Node.xaml.cs">

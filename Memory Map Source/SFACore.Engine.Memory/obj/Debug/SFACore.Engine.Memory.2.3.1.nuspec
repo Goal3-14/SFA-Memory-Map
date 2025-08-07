@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SFACore.Engine.Memory</id>
+    <version>2.3.1</version>
+    <authors>SFACore.Engine.Memory</authors>
+    <description>SFACore engine component for memory APIs. This includes, reading, writing, and querying memory for 32 and 64 bit processes.</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="SFACore.Engine.Processes" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="SFACore.Engine.Common" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="MvvmLightStd10" version="5.4.1.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\B - SFA\K5 Memory Maps\v2.5\K5E Memory Map\SFACore.Engine.Memory\bin\Debug\netstandard2.1\SFACore.Engine.Memory.dll" target="lib\netstandard2.1\SFACore.Engine.Memory.dll" />
+  </files>
+</package>

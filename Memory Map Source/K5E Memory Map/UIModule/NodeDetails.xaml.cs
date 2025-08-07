@@ -229,7 +229,43 @@ namespace K5E_Memory_Map.UIModule
 
         private void LoadState(string MemVal)
         {
+            string StateDirectory = System.IO.Path.GetFullPath(System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @".."));
+            string fileExtension = "*.txt";
+            try
+            {
+                string[] files = Directory.GetFiles(StateDirectory, fileExtension);
+                DolFolder = System.IO.File.ReadAllText(files[0]);
+            }
+            catch (Exception ex)
+            {
 
+            }
+
+
+
+            string StartFile = "GSAE01.s10";
+            string NewFile = MemVal + ".sav";
+            string NewFolder = System.IO.Path.GetFullPath(System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..", "SaveStates"));
+
+            string destinationFilePath = System.IO.Path.Combine(DolFolder, StartFile);
+            string sourceFilePath = System.IO.Path.Combine(NewFolder, NewFile);
+
+            try
+            {
+                // Check if the source file exists
+                if (true)
+                {
+                    // Copy the file from Folder A to Folder B
+                    File.Copy(sourceFilePath, destinationFilePath, overwrite: true);
+
+                    Debug.WriteLine($"File copied from {sourceFilePath} to {destinationFilePath} successfully.");
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
 
         private void WaitResult(object sender, RoutedEventArgs e)

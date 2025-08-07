@@ -1,0 +1,55 @@
+﻿<UserControl x:Class="K5E_Memory_Map.UIModule.Help"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:K5E_Memory_Map.UIModule"
+             mc:Ignorable="d" 
+             d:DesignHeight="374" d:DesignWidth="1467"
+             Background="Gray">
+    <Grid>
+        <TextBlock Text="Help" FontSize="30" Margin="23,18,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBlock xml:space="preserve" TextWrapping="Wrap" Margin="-16,30,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" >
+            <![CDATA[
+            See GitHub for overview of program functions and information.
+            
+            
+            Common Problems:
+            
+            Memory isn't tracking:
+            Make sure you are connected to Dolphin and aren't paused. If it says "Searching" then your current memory value isn't a part of the map. 
+            
+            Hook with Dolphin:
+            Above the minimap of the cave, click "Connect Dolphin" until the box below turns green. Make sure the game is already running. 
+            
+            Tagging Memory Values:
+            Left Click tags the node that is currently been selected by clicking on it, or the currently active node if none selected. Right click always tags the currently active node. 
+            
+            Save states not saving/loading:
+            On the Save/Load menu make sure to set the Dolphin Save state folder. You can find the path for the folder by opening dolphin, go to file, Open User Folder, StateSaves
+            
+            Program crashing on using "Delete Below":
+            This means some nodes have been incorecctly connected to earlier nodes most likely when loading a savestate, in the Analysis menu is a button to check for these cycles. 
+            In theory this should no longer happen with the updated mapper, but its probably worth using the analysis menu before using "delete below".
+            
+            
+            
+            
+            All button Actions:
+            SaveState: Stores a copy of the savestate in the 10th slot to the current memory hash value to be loaded later. 
+            Add Under: Add the memory value you currently have to below the value you have clicked on.
+            Load Last: Loads the closest previous savestate to your current memory value to the 10th savestate slot.
+            Wait Result: Stops tracking memory values until you click it again, tag a node or load a savestate (This is intended to be used before shooting fireblast shots to only keep the memory value immediatly before shooting)
+            
+            Del Edge: To remove an edge between nodes, click one of the nodes, click Del Edge, click the other node, then click Del Edge again.
+            Load State: Click a node with a save state saved to it (have an extra darker rectangle behind them), Load State then loads the save state into the 10th save slot.
+            Add Under: Adds the currently clicked on node below the memory value you currently have.
+            Delete Below: Deletes the clicked on node and all nodes below it.
+            Delete: Deletes the currently clicked on node.
+            
+            New Root: Adds your current memory value to the already existing graph, but disconnected to it.
+            New Tree: Starts a completely new graph with your current hash value as the start.
+            ]]>
+        </TextBlock>
+    </Grid>
+</UserControl>

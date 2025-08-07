@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Jack\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Jack\\.nuget\\packages"
+      "C:\\Users\\Goal\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Goal\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,

@@ -5,10 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:K5E_Memory_Map" xmlns:userControls="clr-namespace:K5E_Memory_Map.UIModule"
         mc:Ignorable="d"
-        Title="SFA Memory Map" Height="700" Width="1017"
+        Title="SFA Memory Map" Height="1020" Width="1517"
         WindowState="Normal"
         SizeToContent="Manual"
-        Name="MMainWindow">
+        Name="MMainWindow"
+        Icon="/ball.ico"
+        Background="LightGray">
     <Grid>
 
 
@@ -47,16 +49,21 @@
             </Grid>
         </Grid>
 
+
+        <userControls:MountMap x:Name="MMountMap" Panel.ZIndex ="10" Height="250" Width="250" Padding="0,-100,0,0" VerticalAlignment="Bottom"/>
+        
         <!-- Top Left  -->
         <Grid Grid.Row="0" Grid.Column="0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*"/>
                 <ColumnDefinition Width="3*"/>
             </Grid.ColumnDefinitions>
+            
             <userControls:MainMenu x:Name="MMainMenu"/>
             <userControls:DisplayMenu x:Name ="DDisplayMenu" Grid.Column="1"/>
             <Border BorderBrush ="Black" BorderThickness="0.5" Padding="0"/>
             <Border Grid.Column ="2" BorderBrush ="Black" BorderThickness="0.5" Padding="0"/>
+
             
         </Grid>
 
@@ -69,13 +76,14 @@
             <userControls:Analysis x:Name="AAnalysis" Visibility="Hidden"/>
             <userControls:Practice x:Name="PPractice" Visibility="Hidden"/>
             <userControls:Merge x:Name="MMerge" Visibility="Hidden"/>
-            
+            <userControls:Help x:Name="HHelp" Visibility="Hidden"/>
+
         </Grid>
 
         <!-- Bottom Left  -->
         <Grid Grid.Row="1" Grid.Column="0">
             <Grid.RowDefinitions>
-                <RowDefinition Height="2*"/>
+                <RowDefinition Height="70"/>
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
@@ -83,18 +91,18 @@
             <userControls:MemDisplay x:Name="MMemDisplay" />
             <Border BorderBrush ="Black" BorderThickness="0.5" Padding="0"/>
             <Border Grid.Row ="1" BorderBrush ="Black" BorderThickness="0.5" Padding="0"/>
-            <TextBlock Name ="TB_Hash" Grid.Row="1" Text="{Binding Hash, StringFormat = 'Heap: {0}'}" Padding="0,2,0,0"/>
-            <TextBlock Name ="TB_Frame" Grid.Row="1" Text="{Binding Frame, StringFormat = 'Frame: {0}'}" Padding="0,19,0,0"/>
+            <TextBlock Name ="TB_Hash" Grid.Row="1" Text="{Binding Hash, StringFormat = 'Heap: {0}'}" Padding="1,4,0,0"/>
+            <TextBlock Name ="TB_Frame" Grid.Row="1" Text="{Binding Frame, StringFormat = 'Frame: {0}'}" Padding="1,21,0,0"/>
             <Border Grid.Row ="2" BorderBrush ="Black" BorderThickness="0.5" Padding="0"/>
             
-            <Button Name ="PauseButton" Height="40" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width ="40" Margin="0,0,0,0" Grid.Row="2" Panel.ZIndex="1" Click="PauseToggle" >
+            <Button Name ="PauseButton" Height="50" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width ="40" Margin="0,0,0,0" Grid.Row="2" Panel.ZIndex="1" Click="PauseToggle" >
                 <Grid>
                     <Rectangle HorizontalAlignment="Right" Width ="8" Height="20" Margin="-13,0,0,0" Grid.Row="2" Panel.ZIndex="2" Fill="DarkGray"/>
                     <Rectangle HorizontalAlignment="Right" Width ="8" Height="20" Margin="0,0,13,0" Grid.Row="2" Panel.ZIndex="2" Fill="DarkGray"/>
                 </Grid>
             </Button>
 
-            <Button Name ="PlayButton" Height="40" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width ="40" Margin="0,0,0,0" Grid.Row="2" Panel.ZIndex="1" Click="PauseToggle" Visibility="Hidden">
+            <Button Name ="PlayButton" Height="50" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width ="40" Margin="0,0,0,0" Grid.Row="2" Panel.ZIndex="1" Click="PauseToggle" Visibility="Hidden">
                 <Grid>
                     <!-- Play symbol as a triangle -->
                     <Path Data="M12,10 L28,20 L12,30 Z" Fill="Black" Margin ="-8,-8,0,0" HorizontalAlignment="Center" VerticalAlignment="Center"/>

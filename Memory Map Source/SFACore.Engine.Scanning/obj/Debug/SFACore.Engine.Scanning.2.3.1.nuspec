@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SFACore.Engine.Scanning</id>
+    <version>2.3.1</version>
+    <authors>SFACore.Engine.Scanning</authors>
+    <description>K5E engine component for performant memory scanning. K5E achieves fast memory scanning (often faster than Cheat Engine) by leveraging multi-threaded parallelism along with single core parallelism via SIMD instructions.
+
+Scanners are JIT compiled into SSE, AVX, or AVX-512 instructions via RyuJIT through the System.Numerics.Vectors library.</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="SFACore.Engine.Memory" version="2.3.1" exclude="Build,Analyzers" />
+        <dependency id="MvvmLightStd10" version="5.4.1.2" exclude="Build,Analyzers" />
+        <dependency id="System.Memory" version="4.5.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\B - SFA\K5 Memory Maps\v2.5\K5E Memory Map\SFACore.Engine.Scanning\bin\Debug\netstandard2.1\SFACore.Engine.Scanning.dll" target="lib\netstandard2.1\SFACore.Engine.Scanning.dll" />
+  </files>
+</package>

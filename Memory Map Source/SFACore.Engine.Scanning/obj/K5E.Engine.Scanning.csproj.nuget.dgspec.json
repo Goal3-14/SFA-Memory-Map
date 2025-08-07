@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Goal\\Desktop\\SFA Core\\v0\\SFACore\\SFACore.Engine.Scanning\\K5E.Engine.Scanning.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Goal\\Desktop\\SFA Core\\v0\\SFACore\\SFACore.Engine.Scanning\\K5E.Engine.Scanning.csproj": {
+      "version": "2.3.1",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Goal\\Desktop\\SFA Core\\v0\\SFACore\\SFACore.Engine.Scanning\\K5E.Engine.Scanning.csproj",
+        "projectName": "K5E.Engine.Scanning",
+        "projectPath": "C:\\Users\\Goal\\Desktop\\SFA Core\\v0\\SFACore\\SFACore.Engine.Scanning\\K5E.Engine.Scanning.csproj",
+        "packagesPath": "C:\\Users\\Goal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Goal\\Desktop\\SFA Core\\v0\\SFACore\\SFACore.Engine.Scanning\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Goal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Goal\\Desktop\\SFA Core\\v0\\SFACore\\K5E.Engine.Memory\\K5E.Engine.Memory.csproj": {
+                "projectPath": "C:\\Users\\Goal\\Desktop\\SFA Core\\v0\\SFACore\\K5E.Engine.Memory\\K5E.Engine.Memory.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "MvvmLightStd10": {
+              "target": "Package",
+              "version": "[5.4.1.2, )"
+            },
+            "System.Memory": {
+              "target": "Package",
+              "version": "[4.5.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

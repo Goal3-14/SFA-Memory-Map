@@ -1,0 +1,13 @@
+C:\Users\Goal\Desktop\K5 Map\K5 Mem Map\K5E v2\K5E.Engine.Processes\bin\Release\netstandard2.1\K5E.Engine.Processes.deps.json
+C:\Users\Goal\Desktop\K5 Map\K5 Mem Map\K5E v2\K5E.Engine.Processes\bin\Release\netstandard2.1\K5E.Engine.Processes.dll
+C:\Users\Goal\Desktop\K5 Map\K5 Mem Map\K5E v2\K5E.Engine.Processes\bin\Release\netstandard2.1\K5E.Engine.Processes.pdb
+C:\Users\Goal\Desktop\K5 Map\K5 Mem Map\K5E v2\K5E.Engine.Processes\bin\Release\netstandard2.1\K5E.Engine.Common.dll
+C:\Users\Goal\Desktop\K5 Map\K5 Mem Map\K5E v2\K5E.Engine.Processes\bin\Release\netstandard2.1\K5E.Engine.Common.pdb
+C:\Users\Goal\Desktop\K5 Map\K5 Mem Map\K5E v2\K5E.Engine.Processes\obj\Release\netstandard2.1\K5E.Engine.Processes.csproj.AssemblyReference.cache
+C:\Users\Goal\Desktop\K5 Map\K5 Mem Map\K5E v2\K5E.Engine.Processes\obj\Release\netstandard2.1\K5E.Engine.Processes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Goal\Desktop\K5 Map\K5 Mem Map\K5E v2\K5E.Engine.Processes\obj\Release\netstandard2.1\K5E.Engine.Processes.AssemblyInfoInputs.cache
+C:\Users\Goal\Desktop\K5 Map\K5 Mem Map\K5E v2\K5E.Engine.Processes\obj\Release\netstandard2.1\K5E.Engine.Processes.AssemblyInfo.cs
+C:\Users\Goal\Desktop\K5 Map\K5 Mem Map\K5E v2\K5E.Engine.Processes\obj\Release\netstandard2.1\K5E.Engine.Processes.csproj.CoreCompileInputs.cache
+C:\Users\Goal\Desktop\K5 Map\K5 Mem Map\K5E v2\K5E.Engine.Processes\obj\Release\netstandard2.1\K5E.Engi.91C0E650.Up2Date
+C:\Users\Goal\Desktop\K5 Map\K5 Mem Map\K5E v2\K5E.Engine.Processes\obj\Release\netstandard2.1\K5E.Engine.Processes.dll
+C:\Users\Goal\Desktop\K5 Map\K5 Mem Map\K5E v2\K5E.Engine.Processes\obj\Release\netstandard2.1\K5E.Engine.Processes.pdb

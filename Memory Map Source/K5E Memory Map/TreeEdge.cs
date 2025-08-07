@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 
 namespace K5E_Memory_Map
 {
@@ -25,6 +26,15 @@ namespace K5E_Memory_Map
 
         }
 
+        public TreeNode par()
+        {
+            return this.Parent;
+        }
+
+        public TreeNode chi()
+        {
+            return this.Child;
+        }
 
 
         public void DelEdge(int? tag)

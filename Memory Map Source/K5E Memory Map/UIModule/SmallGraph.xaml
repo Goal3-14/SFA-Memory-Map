@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:K5E_Memory_Map.UIModule"
              mc:Ignorable="d" 
              d:DesignHeight="374" d:DesignWidth="667">
-    <Grid Name ="Grid" Background="Transparent">
+    <Grid Name ="Grid" Background="Gray">
         <WindowsFormsHost Name="WindowsHost" Visibility="Hidden" Panel.ZIndex="0" AllowDrop="False"/>
 
         <!--Height="374" Width="667"-->

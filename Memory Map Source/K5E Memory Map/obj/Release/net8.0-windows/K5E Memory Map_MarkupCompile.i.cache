@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\B - SFA\K5 Memory Maps\v1.3\Memory Map Source\K5E Memory Map\obj\Release\net8.0-windows\
+E:\B - SFA\K5 Memory Maps\v2.2\K5E Memory Map\K5E Memory Map\obj\Release\net8.0-windows\
 K5E_Memory_Map
 none
 false
-TRACE;RELEASE;NET;NET8_0;NETCOREAPP
-E:\B - SFA\K5 Memory Maps\v1.3\Memory Map Source\K5E Memory Map\App.xaml
+TRACE;RELEASE;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+E:\B - SFA\K5 Memory Maps\v2.2\K5E Memory Map\K5E Memory Map\App.xaml
 15-1795305447
 
-26-533696281
-2101056148869
+31551886659
+216-239361617
 MainWindow.xaml;UIModule\Analysis.xaml;UIModule\DisplayMenu.xaml;UIModule\FullGraph.xaml;UIModule\MainMenu.xaml;UIModule\MemDisplay.xaml;UIModule\Merge.xaml;UIModule\Node.xaml;UIModule\NodeDetails.xaml;UIModule\Practice.xaml;UIModule\ProcessingState.xaml;UIModule\SaveMenu.xaml;UIModule\SelectedDetails.xaml;UIModule\SmallGraph.xaml;UIModule\TagButtons.xaml;
 
-True
+False
 

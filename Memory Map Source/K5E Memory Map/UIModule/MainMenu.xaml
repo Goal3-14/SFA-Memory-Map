@@ -5,16 +5,22 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:K5E_Memory_Map.UIModule"
              mc:Ignorable="d" 
-             d:DesignHeight="374" d:DesignWidth="100">
+             d:DesignHeight="424" d:DesignWidth="100">
     <Grid Background="LightGray">
-        <TextBlock Width="100" Height="30" Text="SFA Memory Map" VerticalAlignment="Top" Margin="3,0,0,0"/>
-        <TextBlock Width="100" Height="30" Text="V1.3" VerticalAlignment="Top" Margin="38,15,0,0"/>
-        
-        <Button Name ="MMain" Width="100" Height ="40" Content="Main" FontSize="16" VerticalAlignment="Top" Margin="0,30,0,0" Click="MenuButton" Tag ="0"/>
-        <Button Name ="FFull" Width="100" Height ="40" Content="Full Graph" FontSize="16" VerticalAlignment="Top" Margin="0,70,0,0" Click="MenuButton" Tag ="1"/>
-        <Button Name ="SSave" Width="100" Height ="40" Content="Save/Load" FontSize="16" VerticalAlignment="Top" Margin="0,110,0,0" Click="MenuButton" Tag ="2" Background="DarkGray"/>
-        <Button Name ="AAnalysis" Width="100" Height ="40" Content="Analysis" FontSize="16" VerticalAlignment="Top" Margin="0,150,0,0" Click="MenuButton" Tag ="3"/>
-        <Button Name ="PPractice" Width="100" Height ="40" Content="Practice" FontSize="16" VerticalAlignment="Top" Margin="0,190,0,0" Click="MenuButton" Tag ="4"/>
-        <Button Name ="MMerge" Width="100" Height ="40" Content="Merge" FontSize="16" VerticalAlignment="Top" Margin="0,230,0,0" Click="MenuButton" Tag ="5"/>
+        <TextBlock Width="100" Height="30" Text="SFA Memory Map" VerticalAlignment="Top" Margin="3,0,0,0" />
+        <TextBlock Width="100" Height="30" VerticalAlignment="Top" Margin="38,15,0,0"><Run Text="V2.5" /></TextBlock>
+
+        <Button Name ="MMain" Width="100" Height ="40" Content="Small Graph" FontSize="16" VerticalAlignment="Top" Margin="0,30,0,0" Click="MenuButton" Tag ="0" />
+        <Button Name ="FFull" Width="100" Height ="40" Content="Full Graph" FontSize="16" VerticalAlignment="Top" Margin="0,70,0,0" Click="MenuButton" Tag ="1" />
+        <Button Name ="SSave" Width="100" Height ="40" Content="Save/Load" FontSize="16" VerticalAlignment="Top" Margin="0,110,0,0" Click="MenuButton" Tag ="2" />
+        <Button Name ="AAnalysis" Width="100" Height ="40" Content="Analysis" FontSize="16" VerticalAlignment="Top" Margin="0,150,0,0" Click="MenuButton" Tag ="3" />
+        <Button Name ="PPractice" Width="100" Height ="40" Content="Practice" FontSize="16" VerticalAlignment="Top" Margin="0,190,0,0" Click="MenuButton" Tag ="4" />
+        <Button Name ="MMerge" Width="100" Height ="40" Content="Merge" FontSize="16" VerticalAlignment="Top" Margin="0,230,0,0" Click="MenuButton" Tag ="5" />
+        <Button Name ="HHelp" Width="100" Height ="40" Content="Help" FontSize="16" VerticalAlignment="Top" Margin="0,270,0,0" Click="MenuButton" Tag ="6" />
+
+        <Button Name ="AAttach" Width="100" Height ="40" Content="Connect Dolphin" FontSize="11" VerticalAlignment="Top" Margin="0,340,0,0" Click="Attach" />
+        <TextBlock Name ="TAttach" Width="100" Height="30" Text="       Conected" Background="LightBlue" VerticalAlignment="Top" Margin="0,380,0,0"  Visibility="Hidden"/>
+        <TextBlock Name ="RRegion" Width="100" Height="20" Background="LightBlue" VerticalAlignment="Top" Margin="0,410,0,0" Visibility="Hidden"/>
+        <TextBlock Name ="FAttach" Width="100" Height="50" Text="     disconected" Background="Red" VerticalAlignment="Top" Margin="0,380,0,0"/>
     </Grid>
 </UserControl>

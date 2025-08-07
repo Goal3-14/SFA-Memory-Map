@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = SFACore.Engine.Common
+build_property.ProjectDir = C:\Users\Jack\Documents\GitHub\SFA-Memory-Map\Memory Map Source\SFACore.Engine.Utils\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

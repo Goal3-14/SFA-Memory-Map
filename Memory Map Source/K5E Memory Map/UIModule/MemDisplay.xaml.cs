@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics.Eventing.Reader;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -166,42 +167,65 @@ namespace K5E_Memory_Map.UIModule
         {
             InitializeComponent();
             DataContext = this;
+
+        }
+
+        public MainWindow _mainwindow;
+        public MountMap _mountmap;
+
+        public void ForcePause()
+        {
+            _mainwindow.Paused = true;
+            _mainwindow.PlayButton.Visibility = Visibility.Visible;
+            _mainwindow.PauseButton.Visibility = Visibility.Collapsed;
+            _mainwindow.Process = "3";
+            _mainwindow.Attatched = false;
         }
 
         public void UpdateLoop()
         {
-            if (FoxCoords != null)
+            try
             {
-                Buffer = FoxCoords.Split(' ');
-                FoxX = BitConverter.ToSingle(BitConverter.GetBytes(Convert.ToInt32(Buffer[0])), 0).ToString();
-                FoxY = BitConverter.ToSingle(BitConverter.GetBytes(Convert.ToInt32(Buffer[1])), 0).ToString(); ;
-                FoxZ = BitConverter.ToSingle(BitConverter.GetBytes(Convert.ToInt32(Buffer[2])), 0).ToString(); ;
+                if (FoxCoords != null)
+                {
+                    Buffer = FoxCoords.Split(' ');
+                    FoxX = BitConverter.ToSingle(BitConverter.GetBytes(Convert.ToInt32(Buffer[0])), 0).ToString();
+                    FoxY = BitConverter.ToSingle(BitConverter.GetBytes(Convert.ToInt32(Buffer[1])), 0).ToString(); ;
+                    FoxZ = BitConverter.ToSingle(BitConverter.GetBytes(Convert.ToInt32(Buffer[2])), 0).ToString(); ;
+                }
+                if (MountESWCoords != null)
+                {
+                    Buffer = MountESWCoords.Split(" ");
+
+                    MountX = BitConverter.ToSingle(BitConverter.GetBytes(Convert.ToInt32(Buffer[0])), 0).ToString();
+                    MountY = BitConverter.ToSingle(BitConverter.GetBytes(Convert.ToInt32(Buffer[1])), 0).ToString();
+                    MountZ = BitConverter.ToSingle(BitConverter.GetBytes(Convert.ToInt32(Buffer[2])), 0).ToString();
+                    _mountmap.MountX = float.Parse(MountX, CultureInfo.InvariantCulture.NumberFormat);
+                    //_mountmap.MountY = float.Parse(MountY, CultureInfo.InvariantCulture.NumberFormat);
+                    _mountmap.MountZ = float.Parse(MountZ, CultureInfo.InvariantCulture.NumberFormat);
+                    _mountmap.Update();
+
+                    if (Buffer[3] != "0")
+                    {
+                        ESWX = BitConverter.ToSingle(BitConverter.GetBytes(Convert.ToInt32(Buffer[3])), 0).ToString();
+                        ESWY = BitConverter.ToSingle(BitConverter.GetBytes(Convert.ToInt32(Buffer[4])), 0).ToString();
+                        ESWZ = BitConverter.ToSingle(BitConverter.GetBytes(Convert.ToInt32(Buffer[5])), 0).ToString();
+                        ESWIndicator.Visibility = Visibility.Visible;
+                    }
+                    else
+                    {
+
+                        ESWX = "---";
+                        ESWY = "---";
+                        ESWZ = "---";
+                        ESWIndicator.Visibility = Visibility.Hidden;
+                    }
+
+                }
             }
-            if (MountESWCoords != null)
+            catch
             {
-                Buffer = MountESWCoords.Split(" ");
-                
-                MountX = BitConverter.ToSingle(BitConverter.GetBytes(Convert.ToInt32(Buffer[0])), 0).ToString();
-                MountY = BitConverter.ToSingle(BitConverter.GetBytes(Convert.ToInt32(Buffer[1])), 0).ToString();
-                MountZ = BitConverter.ToSingle(BitConverter.GetBytes(Convert.ToInt32(Buffer[2])), 0).ToString();
-                
 
-                if (Buffer[3] != "0")
-                {
-                    ESWX = BitConverter.ToSingle(BitConverter.GetBytes(Convert.ToInt32(Buffer[3])), 0).ToString();
-                    ESWY = BitConverter.ToSingle(BitConverter.GetBytes(Convert.ToInt32(Buffer[4])), 0).ToString();
-                    ESWZ = BitConverter.ToSingle(BitConverter.GetBytes(Convert.ToInt32(Buffer[5])), 0).ToString();
-                    ESWIndicator.Visibility = Visibility.Visible;
-                }
-                else
-                {
-
-                    ESWX = "---";
-                    ESWY = "---";
-                    ESWZ = "---";
-                    ESWIndicator.Visibility = Visibility.Hidden;
-                }
-                
             }
         }
     }

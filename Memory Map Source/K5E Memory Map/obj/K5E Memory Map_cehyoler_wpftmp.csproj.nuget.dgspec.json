@@ -10,11 +10,11 @@
         "projectUniqueName": "E:\\B - SFA\\K5 Memory Maps\\v4\\K5E Memory Map\\K5E Memory Map\\K5E Memory Map.csproj",
         "projectName": "K5E Memory Map",
         "projectPath": "E:\\B - SFA\\K5 Memory Maps\\v4\\K5E Memory Map\\K5E Memory Map\\K5E Memory Map.csproj",
-        "packagesPath": "C:\\Users\\Jack\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Goal\\.nuget\\packages\\",
         "outputPath": "E:\\B - SFA\\K5 Memory Maps\\v4\\K5E Memory Map\\K5E Memory Map\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jack\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Goal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

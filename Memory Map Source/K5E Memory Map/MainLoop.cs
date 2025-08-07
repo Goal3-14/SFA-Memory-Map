@@ -15,6 +15,7 @@ using System.Windows.Markup;
 using System.Diagnostics.Eventing.Reader;
 using K5E_Memory_Map.UIModule;
 using System.Windows.Threading;
+using System.Collections.Concurrent;
 namespace K5E_Memory_Map
 {
     
@@ -50,12 +51,18 @@ namespace K5E_Memory_Map
         string mapName = "MySharedMemory";
 
 
-        public MainLoop(MainWindow mainWindow)
+        private readonly ConcurrentQueue<(int,string)> queue;
+
+
+
+        public MainLoop(MainWindow mainWindow, ConcurrentQueue<(int, string)> _queue)
         {
 
             _MainWindow = mainWindow;
             _MainWindow.SSaveMenu._mainLoop = this;
             _cancellationTokenSource = new CancellationTokenSource();
+
+            queue = _queue;
             
 
         }
@@ -71,76 +78,20 @@ namespace K5E_Memory_Map
         {
             while (true)
             {
-                string? M = GetMem();
-                int? F = GetFrame();
-                if ((M != null) && (F != null))
+                if (queue.TryDequeue(out var item))
                 {
-                    return (M, (int)F);
-                }
-                Thread.Sleep(1);
-            }
+                    int? F = item.Item1;
+                    string? M = item.Item2;
 
-        }
-
-        private string? GetMem() 
-        {
-            
-            try
-            {
-                using (var mmf = MemoryMappedFile.OpenExisting(mapName))
-                {
-                    using (var accessor = mmf.CreateViewAccessor(0, 1024, MemoryMappedFileAccess.Read)) // Adjust size as necessary
+                    if ((M != null) && (F != null))
                     {
-                        byte[] buffer = new byte[1024]; // Buffer size must match what you wrote
-                        accessor.ReadArray(0, buffer, 0, buffer.Length);
-                        string memText = Encoding.UTF8.GetString(buffer).Trim('\0'); // Convert to string and trim null characters
-                        if (memText == "")
-                        {
-                            return null;
-                        }
-                        return memText;
+                        return (M, (int)F);
                     }
+                    Thread.Sleep(1);
                 }
             }
-            catch (IOException ex)
-            {   
-                //Console.WriteLine("Could not open memory-mapped file for MemText: " + ex.Message);
-                return null;
-            }
-            
-            
-        }
 
-        private int? GetFrame()
-        {
-            
-            try
-            {
-                using (var mmfFrame = MemoryMappedFile.OpenExisting(FmapName))
-                {
-                    using (var accessor = mmfFrame.CreateViewAccessor(0, 1024, MemoryMappedFileAccess.Read)) // Adjust size as necessary
-                    {
-                        byte[] buffer = new byte[1024]; // Buffer size must match what you wrote
-                        accessor.ReadArray(0, buffer, 0, buffer.Length);
-                        string frame = Encoding.UTF8.GetString(buffer).Trim('\0'); // Convert to string and trim null characters
-                        try
-                        {
-                            return Convert.ToInt32(frame);
-                        }
-                        catch (FormatException)
-                        {
-                            return null;
-                        }
-                    }
-                }
-            }
-            catch (IOException ex)
-            {
-                //Console.WriteLine("Could not open memory-mapped file for frame: " + ex.Message);
-                return null;
-            }
         }
-
 
 
 
@@ -185,47 +136,33 @@ namespace K5E_Memory_Map
 
 
 
-
+        
 
 
 
         public void Run(Dictionary<string, TreeNode>? LoadNodeHash)
         {
             Debug.WriteLine("Thread Start");
+            var token = _cancellationTokenSource.Token;
+
+
             
+
+
+
+
+
+
             NodeHash = new Dictionary<string, TreeNode>();
             //TreeNode root = new TreeNode("95C99029EE2F5684DADC658F79FF51BA", NodeHash, null);
 
-            MemoryMappedFile mmfB;
-
-            try
-            {
-                mmfB = MemoryMappedFile.OpenExisting(mapName);
-            }
-            catch (IOException)
-            {
-                mmfB = MemoryMappedFile.CreateNew(mapName, 32);
-            }
-
-            try
-            {
-                mmfB = MemoryMappedFile.OpenExisting(FmapName);
-            }
-            catch (IOException)
-            {
-                mmfB = MemoryMappedFile.CreateNew(FmapName, 8);
-            }
-
-
             _MainWindow.Process = "2";
             (StartFrame, StartMem, CurrentNode) = Reset(NodeHash);
-            (StartMemS, StartMemE) = SubText(StartMem);
             Debug.WriteLine("BEGIN");
             Debug.WriteLine(StartFrame);
 
 
-            // Get the cancellation token
-            var token = _cancellationTokenSource.Token;
+            
             _MainWindow.Process = "1";
 
 
@@ -245,7 +182,7 @@ namespace K5E_Memory_Map
                 {
 
                 }
-                else if ((_MainWindow.Paused == true) || (Loading == true))
+                else if (Loading == true)
                 {
                     
                 }
@@ -254,8 +191,8 @@ namespace K5E_Memory_Map
                     
 
                     (MemText, Frame) = GetValues();
-                    _MainWindow.Hash = MemText;
-                    _MainWindow.Frame = Frame;
+                    //_MainWindow.Hash = MemText;
+                    //_MainWindow.Frame = Frame;
 
 
 
@@ -267,15 +204,20 @@ namespace K5E_Memory_Map
 
 
 
-                        if ((MemText.Substring(0, 4) != StartMemS) && (MemText.Substring(28) != StartMemE)) //Check memory is different and check havent read Address mid read and gotten half new value half old
+                        if (true) //Check memory is different and check havent read Address mid read and gotten half new value half old
                         {
 
                             if (NodeHash.TryGetValue(MemText, out TreeNode foundObject))
                             {
                                 //Node exists
                                 BufferNode = foundObject;
-                                CurrentNode.AddChild(BufferNode);
-                                BufferNode.AddParent(CurrentNode);
+
+                                if (!CurrentNode.Parents.Contains(BufferNode))
+                                {
+                                    CurrentNode.AddChild(BufferNode);
+                                    BufferNode.AddParent(CurrentNode);
+                                }
+
                                 CurrentNode = BufferNode;
 
                             }
@@ -289,14 +231,7 @@ namespace K5E_Memory_Map
                             //CurrentNode = BufferNode;
                             StartFrame = (int)Frame;
                             StartMem = MemText;
-                            (StartMemS, StartMemE) = SubText(StartMem);
                         }
-                        else
-                        {
-                            StartFrame = (int)Frame;
-                        }
-
-
 
 
                     }
@@ -304,7 +239,8 @@ namespace K5E_Memory_Map
                     {
                         //Debug.WriteLine(StartFrame);
                         //Debug.WriteLine(Frame);
-                        Thread.Sleep(300);
+
+                        //Thread.Sleep(300);
                         //Sometimes when loading a state the frame count changes and the memory doesnt update until a read later
                         //so if state loaded it waits briefly before getting memory
                         //to ensure it uses memory after state not before as it will cause loops in the tree
@@ -319,15 +255,13 @@ namespace K5E_Memory_Map
                             CurrentNode = foundObject;
                             StartFrame = (int)Frame;
                             StartMem = MemText;
-                            (StartMemS, StartMemE) = SubText(StartMem);
 
                         }
                         else //Keep trying to find Memory in tree 
                         {
                             _MainWindow.Process = "2";
-                            Thread.Sleep(10);
+                            //Thread.Sleep(10);
                             (StartFrame, StartMem, CurrentNode) = Reset(NodeHash);
-                            (StartMemS, StartMemE) = SubText(StartMem);
                             _MainWindow.Process = "1";
                         }
 
@@ -340,7 +274,7 @@ namespace K5E_Memory_Map
 
 
                 
-                if (Cycle == 100)
+                if (Cycle == 30)
                     {
                     _MainWindow.Dispatcher.Invoke(() =>
                     {
@@ -365,7 +299,7 @@ namespace K5E_Memory_Map
                 if (stopwatch.Elapsed.TotalSeconds >= 1)
                 {
                     elapsedSeconds = stopwatch.Elapsed.TotalSeconds;
-                    Debug.WriteLine($"Iterations per second: {iterations / elapsedSeconds:F2}");
+                    //Debug.WriteLine($"Iterations per second: {iterations / elapsedSeconds:F2}");
                     iterations = 0;
                     stopwatch.Restart();
                 }
